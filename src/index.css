@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 26% 93%;
+    --foreground: 0 0% 6%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 6%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 6%;
+    --primary: 14 79% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 16 100% 95%;
+    --secondary-foreground: 179 48% 19%;
+    --muted: 40 18% 88%;
+    --muted-foreground: 30 5% 51%;
+    --accent: 179 48% 19%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 10% 82%;
+    --input: 30 10% 82%;
+    --ring: 14 79% 57%;
+    --radius: 0.875rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground antialiased;
+    background-color: #f3eee5;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, sans-serif;
+  }
+  ::selection {
+    background: #e85a3c;
+    color: #fff;
+  }
+}
+
+.font-display {
+  font-family: "DM Serif Display", "Noto Serif SC", "Songti SC", "SimSun", serif;
+}
+.font-hand {
+  font-family: "Long Cang", "Noto Serif SC", cursive;
+}
+
+/* 纸感纹理背景 */
+.paper-bg {
+  background-color: #f3eee5;
+  background-image: radial-gradient(rgba(16, 16, 16, 0.055) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* 手绘波浪下划线 */
+.wavy-underline {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='8' viewBox='0 0 40 8'%3E%3Cpath d='M0 4 Q 5 0 10 4 T 20 4 T 30 4 T 40 4' fill='none' stroke='%23E85A3C' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-size: 40px 8px;
+  padding-bottom: 10px;
+}
+
+/* 图片胶片感 */
+.photo-frame {
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(16,16,16,.08), 0 12px 32px -12px rgba(16,16,16,.28);
+}
+
+/* 滚动显现动画 */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity .7s cubic-bezier(.22,1,.36,1), transform .7s cubic-bezier(.22,1,.36,1);
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero 漂浮图片 */
+@keyframes floaty {
+  0%, 100% { transform: translateY(0) rotate(var(--tilt, 0deg)); }
+  50% { transform: translateY(-14px) rotate(var(--tilt, 0deg)); }
+}
+.floaty {
+  animation: floaty 7s ease-in-out infinite;
+}
+.floaty-slow {
+  animation: floaty 10s ease-in-out infinite;
+}
+
+/* 时间线 */
+.timeline-line::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  bottom: 0;
+  width: 2px;
+  background-image: linear-gradient(to bottom, #e85a3c 55%, transparent 45%);
+  background-size: 2px 12px;
+  opacity: .55;
+}
+
+/* 卡片悬浮 */
+.lift {
+  transition: transform .45s cubic-bezier(.22,1,.36,1), box-shadow .45s cubic-bezier(.22,1,.36,1);
+}
+.lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -16px rgba(26, 74, 72, .25);
+}
+
+/* 隐藏滚动条 */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* 跑马灯 */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 28s linear infinite;
+}
