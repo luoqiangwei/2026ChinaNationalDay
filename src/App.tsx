@@ -99,10 +99,10 @@ export default function App() {
             </p>
           </div>
           <div className="text-sm">
-            <p className="uppercase tracking-[0.25em] text-[#F4A8A8] text-xs mb-4">Routes · 19 条</p>
+            <p className="uppercase tracking-[0.25em] text-[#F4A8A8] text-xs mb-4">Routes · 29 条</p>
             <ul className="space-y-2 text-[#F3EEE5]/80">
-              <li>国内 · 大理 / 九寨沟 / 西安 / 青岛威海 / 青甘环线 / 北疆喀纳斯 / 川西稻城 / 桂林阳朔 / 厦门泉州 / 山西古建 / 额济纳胡杨 / 张家界凤凰 / 滇西北梅里</li>
-              <li>海外 · 京都大阪 / 清迈 / 济州岛 / 日本樱花纵贯 / 西马兰卡威 / 沙巴仙本那</li>
+              <li>国内 · 大理 / 九寨沟 / 西安 / 青岛威海 / 青甘环线 / 北疆喀纳斯 / 川西稻城 / 桂林阳朔 / 厦门泉州 / 山西古建 / 额济纳胡杨 / 张家界凤凰 / 滇西北梅里 / 南疆帕米尔 / 呼伦贝尔 / 贵州苗寨 / 甘南扎尕那 / 长白山 / 婺源晒秋</li>
+              <li>海外 · 京都大阪 / 清迈 / 济州岛 / 日本樱花纵贯 / 西马兰卡威 / 沙巴仙本那 / 越南岘港 / 尼泊尔 / 海参崴 / 土耳其</li>
             </ul>
           </div>
           <div className="text-sm">
@@ -113,7 +113,7 @@ export default function App() {
           </div>
         </div>
         <div className="border-t border-white/10 py-5 text-center text-xs text-[#F3EEE5]/50 tracking-widest">
-          2026 国庆中秋 · 19 条路线 · 拼假最多 13 天 · 两个人刚刚好
+          2026 国庆中秋 · 29 条路线 · 拼假最多 13 天 · 两个人刚刚好
         </div>
       </footer>
     </div>

@@ -79,13 +79,13 @@ export default function Home({ onOpen, onGuide }: { onOpen: (id: string) => void
               <h1 className="mt-5 font-display font-bold text-[42px] md:text-[58px] leading-[1.12] text-[#101010]">
                 7 天假期，
                 <br />
-                <span className="text-[#E85A3C] wavy-underline inline-block">19 条路线</span>
+                <span className="text-[#E85A3C] wavy-underline inline-block">29 条路线</span>
                 任选一条去爱
               </h1>
             </Reveal>
             <Reveal delay={160}>
               <p className="mt-5 text-[#5A564E] leading-relaxed max-w-md">
-                从北京出发，国内 13 条 + 海外 6 条。每条路线按天规划、逐日配图，
+                从北京出发，国内 19 条 + 海外 10 条。每条路线按天规划、逐日配图，
                 含手绘路线图、出片机位与 10 月当地天气——已按 2026 年最新放假安排校准。
               </p>
             </Reveal>
