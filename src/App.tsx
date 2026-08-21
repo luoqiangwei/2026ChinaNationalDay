@@ -99,9 +99,9 @@ export default function App() {
             </p>
           </div>
           <div className="text-sm">
-            <p className="uppercase tracking-[0.25em] text-[#F4A8A8] text-xs mb-4">Routes · 16 条</p>
+            <p className="uppercase tracking-[0.25em] text-[#F4A8A8] text-xs mb-4">Routes · 17 条</p>
             <ul className="space-y-2 text-[#F3EEE5]/80">
-              <li>国内 · 大理 / 九寨沟 / 西安 / 青岛威海 / 青甘环线 / 北疆喀纳斯 / 川西稻城 / 桂林阳朔 / 厦门泉州 / 山西古建 / 额济纳胡杨 / 张家界凤凰</li>
+              <li>国内 · 大理 / 九寨沟 / 西安 / 青岛威海 / 青甘环线 / 北疆喀纳斯 / 川西稻城 / 桂林阳朔 / 厦门泉州 / 山西古建 / 额济纳胡杨 / 张家界凤凰 / 滇西北梅里</li>
               <li>海外 · 京都大阪 / 清迈 / 济州岛</li>
             </ul>
           </div>
@@ -113,7 +113,7 @@ export default function App() {
           </div>
         </div>
         <div className="border-t border-white/10 py-5 text-center text-xs text-[#F3EEE5]/50 tracking-widest">
-          2026 国庆中秋 · 16 条路线 · 拼假最多 13 天 · 两个人刚刚好
+          2026 国庆中秋 · 17 条路线 · 拼假最多 13 天 · 两个人刚刚好
         </div>
       </footer>
     </div>

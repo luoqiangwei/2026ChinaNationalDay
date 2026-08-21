@@ -1,5 +1,5 @@
 // ============================================================
-// 路线数据聚合入口（16 条 · 2026 国庆情侣攻略 + 清明樱花季）
+// 路线数据聚合入口（17 条 · 2026 国庆情侣攻略 + 清明樱花季）
 // 每条路线的完整数据见 ./routes/<id>.ts
 // ============================================================
 
@@ -20,6 +20,7 @@ import { shanxi } from "./routes/shanxi";
 import { ejina } from "./routes/ejina";
 import { zhangjiajie } from "./routes/zhangjiajie";
 import { sakura } from "./routes/sakura";
+import { meili } from "./routes/meili";
 
 export type { RouteData, RouteStop, RouteLeg, DayPlan, DayEvent } from "./types";
 
@@ -40,6 +41,7 @@ export const routes: RouteData[] = [
   ejina,
   zhangjiajie,
   sakura,
+  meili,
 ];
 
 export const getRoute = (id: string) => routes.find((r) => r.id === id);
