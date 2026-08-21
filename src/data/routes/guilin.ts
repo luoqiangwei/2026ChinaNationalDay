@@ -14,9 +14,9 @@ export const guilin: RouteData = {
   region: "广西 · 桂林",
   tags: ["国内", "山水", "梯田"],
   days: 4,
-  budget: "¥5,000–6,000 / 两人",
+  budget: "¥7,000–8,500 / 两人",
   budgetNote:
-    "北京⇌桂林往返约 ¥1,300–2,000/人；阳朔民宿 ¥300–600/晚；龙脊门票 80 元",
+    "北京⇌桂林往返国庆约 ¥2,000–3,000/人；阳朔民宿 ¥420–840/晚；龙脊门票 80 元",
   temp: "18–27°C",
   humidity: "约 75%",
   seasonNote:
@@ -27,8 +27,8 @@ export const guilin: RouteData = {
   heroCaption: "喀斯特峰林 · 山水甲天下",
   drive: "桂林→阳朔约 1.5h；龙脊梯田距桂林 2h（盘山路多弯）；市区打车/电动车即可",
   costs: [
-    { label: "往返大交通", amount: 2700, note: "北京⇌桂林直飞往返 ¥1,350/人" },
-    { label: "住宿 3 晚", amount: 900, note: "¥300/晚 遇龙河沿岸优先" },
+    { label: "往返大交通", amount: 4800, note: "北京⇌桂林直飞往返国庆 ¥2,400/人" },
+    { label: "住宿 3 晚", amount: 1260, note: "¥420/晚 遇龙河沿岸优先" },
     { label: "餐饮", amount: 700, note: "¥175/天 米粉啤酒鱼" },
     { label: "门票体验", amount: 1100, note: "龙脊 80/人 竹筏游船占大头" },
     { label: "当地交通", amount: 500, note: "桂林⇌阳朔⇌龙脊 专线+打车" },
@@ -38,7 +38,7 @@ export const guilin: RouteData = {
       type: "flight",
       direction: "去程 · 10月1日",
       detail: "北京 → 桂林两江 直飞约 3 小时",
-      price: "¥650–1,000/人",
+      price: "¥1,000–1,500/人",
       tip: "早班机上午落地，多玩半天",
     },
     {
@@ -52,7 +52,7 @@ export const guilin: RouteData = {
       type: "flight",
       direction: "回程 · 10月4日",
       detail: "桂林两江 → 北京 晚班机约 3 小时",
-      price: "¥650–1,000/人",
+      price: "¥1,000–1,500/人",
       tip: "兴坪→机场约 2h，午后航班留足余量",
     },
   ],
@@ -62,9 +62,9 @@ export const guilin: RouteData = {
     "10/4 返程机票比 10/6–7 便宜，时间也更从容",
   ],
   hotels: [
-    { name: "两江四湖景观酒店", area: "桂林 秀峰区", price: "¥350–550/晚", reason: "夜游码头步行可达，楼下就是米粉店", tag: "逛吃核心" },
-    { name: "遇龙河畔民宿", area: "阳朔 遇龙河沿岸", price: "¥300–600/晚", reason: "比西街安静，推窗见喀斯特峰林", tag: "河畔安静" },
-    { name: "梯田吊脚楼客栈", area: "龙胜 金坑大寨", price: "¥300–500/晚", reason: "拍星空守日出的备选，条件从简", tag: "梯田日出" },
+    { name: "两江四湖景观酒店", area: "桂林 秀峰区", price: "¥490–770/晚", reason: "夜游码头步行可达，楼下就是米粉店", tag: "逛吃核心" },
+    { name: "遇龙河畔民宿", area: "阳朔 遇龙河沿岸", price: "¥420–840/晚", reason: "比西街安静，推窗见喀斯特峰林", tag: "河畔安静" },
+    { name: "梯田吊脚楼客栈", area: "龙胜 金坑大寨", price: "¥420–700/晚", reason: "拍星空守日出的备选，条件从简", tag: "梯田日出" },
   ],
   stops: [
     { name: "桂林市区", x: 55, y: 78, type: "start" },
@@ -172,7 +172,7 @@ export const guilin: RouteData = {
         {
           time: "08:00",
           title: "桂林 → 阳朔",
-          desc: "约 1.5h 到阳朔，先去民宿放行李。阳朔民宿国庆 ¥300–600/晚，选遇龙河沿岸比西街安静。",
+          desc: "约 1.5h 到阳朔，先去民宿放行李。阳朔民宿国庆 ¥420–840/晚，选遇龙河沿岸比西街安静。",
         },
         {
           time: "09:30",

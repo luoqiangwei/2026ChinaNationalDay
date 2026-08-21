@@ -14,9 +14,9 @@ export const xiamen: RouteData = {
   region: "福建 · 厦门/泉州",
   tags: ["国内", "海滨", "文艺", "官方精品线路"],
   days: 4,
-  budget: "¥6,000–7,000 / 两人",
+  budget: "¥8,000–9,500 / 两人",
   budgetNote:
-    "北京⇌厦门往返约 ¥1,500–2,200/人；鼓浪屿船票 35 元往返（游客航线），旺季务必提前订",
+    "北京⇌厦门往返约 ¥2,200–3,200/人；鼓浪屿船票 35 元往返（游客航线），旺季务必提前订",
   temp: "21–28°C",
   humidity: "约 75%",
   seasonNote:
@@ -29,8 +29,8 @@ export const xiamen: RouteData = {
   drive:
     "市内地铁+BRT+打车足够；去泉州可乘高铁 20min；不建议自驾上岛（岛上无机动车）",
   costs: [
-    { label: "往返机票", amount: 3400, note: "直飞国庆约 ¥1,700/人" },
-    { label: "住宿 3 晚", amount: 1500, note: "中山路+环岛路 ¥500/晚" },
+    { label: "往返机票", amount: 5000, note: "直飞国庆往返约 ¥2,500/人" },
+    { label: "住宿 3 晚", amount: 2400, note: "中山路+环岛路 ¥800/晚" },
     { label: "餐饮", amount: 1200, note: "八市海鲜+小吃 ¥300/天" },
     { label: "门票体验", amount: 300, note: "船票35+日光岩+簪花围等" },
     { label: "当地交通", amount: 400, note: "地铁/BRT/打车+泉州高铁" },
@@ -40,7 +40,7 @@ export const xiamen: RouteData = {
       type: "flight",
       direction: "去程 · 10月1日",
       detail: "北京 → 厦门高崎 直飞约 3h",
-      price: "¥800–1,200/人",
+      price: "¥1,200–1,700/人",
       tip: "早班机落地赶 10:50 前到厦鼓码头，船票提前订好",
     },
     {
@@ -54,7 +54,7 @@ export const xiamen: RouteData = {
       type: "flight",
       direction: "回程 · 10月4日",
       detail: "厦门高崎 → 北京 直飞约 3h",
-      price: "¥700–1,000/人",
+      price: "¥1,000–1,500/人",
       tip: "泉州返厦门后赴机场，选 20 点后航班留足缓冲",
     },
   ],
@@ -67,21 +67,21 @@ export const xiamen: RouteData = {
     {
       name: "鼓浪屿老别墅民宿",
       area: "鼓浪屿 · 龙头路/内厝澳",
-      price: "¥600–900/晚",
+      price: "¥800–1,200/晚",
       reason: "红砖老别墅改造，清晨独享无人小巷与琴声",
       tag: "岛上慢游",
     },
     {
       name: "中山路骑楼精品酒店",
       area: "思明区 · 中山路步行街",
-      price: "¥500–750/晚",
+      price: "¥700–1,000/晚",
       reason: "楼下就是局口街小吃，夜间航线回岛步行可达",
       tag: "逛吃核心",
     },
     {
       name: "曾厝垵海景民宿",
       area: "思明区 · 环岛路曾厝垵",
-      price: "¥450–700/晚",
+      price: "¥600–900/晚",
       reason: "步行去黄厝沙滩看日出，环岛路骑行起点",
       tag: "看海首选",
     },

@@ -11,7 +11,7 @@ export const xian: RouteData = {
   region: "陕西 · 西安",
   tags: ["国内", "古都", "美食"],
   days: 4,
-  budget: "¥5,500–6,500 / 两人",
+  budget: "¥6,500–7,500 / 两人",
   budgetNote: "北京⇌西安高铁往返约 ¥1,100/人（4.5–6h）；兵马俑门票 120 元，需预约",
   temp: "10–20°C",
   humidity: "约 55%",
@@ -24,7 +24,7 @@ export const xian: RouteData = {
   drive: "市区景点地铁全覆盖（兵马俑乘地铁 9 号线至华清池站转车）；不建议市内自驾",
   costs: [
     { label: "往返大交通", amount: 2200, note: "北京⇌西安高铁往返 ¥1,100/人" },
-    { label: "住宿 3 晚", amount: 1100, note: "¥370/晚 城墙根民宿" },
+    { label: "住宿 3 晚", amount: 1650, note: "¥550/晚 城墙根民宿" },
     { label: "餐饮", amount: 1000, note: "¥250/天 泡馍水盆轮流" },
     { label: "门票体验", amount: 1400, note: "兵马俑 120+《长恨歌》中区 ¥300/人" },
     { label: "当地交通", amount: 500, note: "地铁全覆盖+临潼打车" },
@@ -51,9 +51,9 @@ export const xian: RouteData = {
     "《长恨歌》中区票提前订，10 月夜场冷备厚外套",
   ],
   hotels: [
-    { name: "城墙根民宿", area: "西安 碑林区永宁门", price: "¥350–550/晚", reason: "晚上散步就能摸到城墙砖", tag: "逛吃核心" },
-    { name: "钟楼商圈酒店", area: "西安 莲湖区钟楼", price: "¥400–650/晚", reason: "地铁 2 号线枢纽，大皮院步行可达", tag: "地铁枢纽" },
-    { name: "大雁塔景观酒店", area: "西安 雁塔区大雁塔南广场", price: "¥500–800/晚", reason: "推窗看塔，夜游大唐不夜城方便", tag: "夜景窗景" },
+    { name: "城墙根民宿", area: "西安 碑林区永宁门", price: "¥550–850/晚", reason: "晚上散步就能摸到城墙砖", tag: "逛吃核心" },
+    { name: "钟楼商圈酒店", area: "西安 莲湖区钟楼", price: "¥600–950/晚", reason: "地铁 2 号线枢纽，大皮院步行可达", tag: "地铁枢纽" },
+    { name: "大雁塔景观酒店", area: "西安 雁塔区大雁塔南广场", price: "¥750–1,200/晚", reason: "推窗看塔，夜游大唐不夜城方便", tag: "夜景窗景" },
   ],
   stops: [
     { name: "西安北站", x: 30, y: 12, type: "start" },

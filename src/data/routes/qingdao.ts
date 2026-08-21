@@ -14,8 +14,8 @@ export const qingdao: RouteData = {
   region: "山东 · 青岛/威海",
   tags: ["国内", "海滨", "自驾"],
   days: 5,
-  budget: "¥6,000–7,500 / 两人",
-  budgetNote: "北京⇌青岛高铁往返约 ¥700/人（3–4.5h）；海景房旺季 ¥600–1,000/晚",
+  budget: "¥7,000–8,500 / 两人",
+  budgetNote: "北京⇌青岛高铁往返约 ¥700/人（3–4.5h）；海景房国庆 ¥800–1,400/晚",
   temp: "13–20°C",
   humidity: "约 70%",
   seasonNote: "10 月海水已凉不宜下水，但游客回落、海鲜正肥；海风大，体感比市区低 3–5°C",
@@ -27,10 +27,10 @@ export const qingdao: RouteData = {
   drive: "青岛→威海自驾约 3h（280km，国庆高速免费）；威海环海路/千里山海自驾公路适合慢开",
   costs: [
     { label: "往返大交通", amount: 1500, note: "去程抵青岛 回程威海返京" },
-    { label: "住宿 4 晚", amount: 2400, note: "¥600/晚 海景房+老城搭配" },
+    { label: "住宿 4 晚", amount: 3600, note: "¥900/晚 海景房+老城搭配" },
     { label: "餐饮", amount: 1500, note: "海鲜正肥 人均 60–120/餐" },
     { label: "门票体验", amount: 400, note: "仰口门票+索道 ¥150/人" },
-    { label: "当地交通", amount: 1000, note: "租车 2 天+油费 高速免费" },
+    { label: "当地交通", amount: 1300, note: "租车 2 天+油费 高速免费" },
   ],
   transport: [
     {
@@ -44,7 +44,7 @@ export const qingdao: RouteData = {
       type: "car",
       direction: "自驾 · 10月4日",
       detail: "青岛 → 威海 G228/威青高速约 3h · 280km",
-      price: "租车 ¥250–350/天",
+      price: "租车 ¥300–450/天",
       tip: "10/1–10/7 高速免费，8:30 前出城避高峰",
     },
     {
@@ -61,9 +61,9 @@ export const qingdao: RouteData = {
     "国庆高速 10/1–10/7 免费，正好覆盖全程自驾段",
   ],
   hotels: [
-    { name: "老城红瓦民宿", area: "青岛 市南区信号山", price: "¥400–600/晚", reason: "栈桥、天主教堂步行可达", tag: "逛吃核心" },
-    { name: "奥帆海景酒店", area: "青岛 市南区奥帆中心", price: "¥600–1,000/晚", reason: "情人坝灯塔夜景，小麦岛看日落顺路", tag: "海景夜色" },
-    { name: "环海路海景酒店", area: "威海 环翠区国际海水浴场", price: "¥500–800/晚", reason: "推窗见海，环海路自驾起点", tag: "一线海景" },
+    { name: "老城红瓦民宿", area: "青岛 市南区信号山", price: "¥550–850/晚", reason: "栈桥、天主教堂步行可达", tag: "逛吃核心" },
+    { name: "奥帆海景酒店", area: "青岛 市南区奥帆中心", price: "¥800–1,400/晚", reason: "情人坝灯塔夜景，小麦岛看日落顺路", tag: "海景夜色" },
+    { name: "环海路海景酒店", area: "威海 环翠区国际海水浴场", price: "¥800–1,200/晚", reason: "推窗见海，环海路自驾起点", tag: "一线海景" },
   ],
   stops: [
     { name: "青岛站", x: 15, y: 60, type: "start" },

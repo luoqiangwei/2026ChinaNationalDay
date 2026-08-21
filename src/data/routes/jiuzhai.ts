@@ -11,8 +11,8 @@ export const jiuzhai: RouteData = {
   region: "四川 · 成都/阿坝",
   tags: ["国内", "彩林", "世界遗产"],
   days: 6,
-  budget: "¥9,000–11,000 / 两人",
-  budgetNote: "北京⇌成都往返约 ¥1,200–2,000/人；九寨沟门票 169 元+观光车 90 元（旺季，需实名预约）",
+  budget: "¥11,000–13,000 / 两人",
+  budgetNote: "北京⇌成都往返国庆约 ¥2,200–2,800/人；九寨沟门票 169 元+观光车 90 元（旺季，需实名预约）",
   temp: "沟内 4–15°C · 成都 15–22°C",
   humidity: "沟内约 60%",
   seasonNote: "10 月降水少、晴天率高；国庆前半段彩林初染 3–5 成，10 月中下旬才是巅峰；沟内早晚接近 0°C",
@@ -22,8 +22,8 @@ export const jiuzhai: RouteData = {
   heroCaption: "彩林环抱的高山海子",
   drive: "成都⇌九寨沟：高铁至黄龙九寨站约 2h，再换景区直通车约 1.5h；自驾约 7–8h",
   costs: [
-    { label: "往返大交通", amount: 3200, note: "北京⇌成都往返 ¥1,600/人" },
-    { label: "住宿 5 晚", amount: 2500, note: "¥500/晚 成都+沟口搭配" },
+    { label: "往返大交通", amount: 5000, note: "北京⇌成都往返国庆约 ¥2,500/人" },
+    { label: "住宿 5 晚", amount: 3500, note: "¥700/晚 成都+沟口搭配" },
     { label: "餐饮", amount: 1500, note: "¥250/天 串串火锅藏餐" },
     { label: "门票体验", amount: 1650, note: "九寨二进 169+90×2 黄龙 170+80" },
     { label: "当地交通", amount: 1150, note: "动车往返黄龙九寨站+直通车" },
@@ -33,7 +33,7 @@ export const jiuzhai: RouteData = {
       type: "flight",
       direction: "去程 · 10月1日",
       detail: "北京首都/大兴 → 成都天府 约 3 小时",
-      price: "¥600–1,000/人",
+      price: "¥1,100–1,400/人",
       tip: "天府机场地铁 18 号线进城约 1h",
     },
     {
@@ -54,7 +54,7 @@ export const jiuzhai: RouteData = {
       type: "flight",
       direction: "回程 · 10月6日",
       detail: "成都天府 → 北京 约 3 小时",
-      price: "¥600–1,000/人",
+      price: "¥1,100–1,400/人",
       tip: "午后航班回京，预留 1h 以上到机场",
     },
   ],
@@ -64,9 +64,9 @@ export const jiuzhai: RouteData = {
     "回程选 10/6 午后航班，错开 10/7 返程最高峰",
   ],
   hotels: [
-    { name: "太古里商圈酒店", area: "成都 锦江区春熙路", price: "¥450–700/晚", reason: "地铁 2/3 号线交汇，夜宵全靠步行", tag: "逛吃核心" },
-    { name: "沟口藏式酒店", area: "阿坝 漳扎镇", price: "¥500–800/晚", reason: "步行 10 分钟到景区大门，比县城省 1.5h", tag: "进沟方便" },
-    { name: "松潘古城客栈", area: "阿坝 松潘县", price: "¥300–500/晚", reason: "2,850m 过渡一晚，进沟前适应海拔", tag: "高原过渡" },
+    { name: "太古里商圈酒店", area: "成都 锦江区春熙路", price: "¥700–1,100/晚", reason: "地铁 2/3 号线交汇，夜宵全靠步行", tag: "逛吃核心" },
+    { name: "沟口藏式酒店", area: "阿坝 漳扎镇", price: "¥600–1,000/晚", reason: "步行 10 分钟到景区大门，比县城省 1.5h", tag: "进沟方便" },
+    { name: "松潘古城客栈", area: "阿坝 松潘县", price: "¥450–700/晚", reason: "2,850m 过渡一晚，进沟前适应海拔", tag: "高原过渡" },
   ],
   stops: [
     { name: "成都", x: 15, y: 75, type: "start" },
@@ -97,7 +97,7 @@ export const jiuzhai: RouteData = {
         {
           time: "09:30",
           title: "北京 → 成都",
-          desc: "早班机约 3h 到天府/双流机场，国庆往返约 ¥1,200–2,000/人；天府机场进城地铁 18 号线约 1h。",
+          desc: "早班机约 3h 到天府/双流机场，国庆往返约 ¥2,200–2,800/人；天府机场进城地铁 18 号线约 1h。",
         },
         {
           time: "14:00",
