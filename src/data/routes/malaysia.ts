@@ -239,7 +239,7 @@ export const malaysia: RouteData = {
       day: "D4",
       title: "飞越大半个半岛 · 乔治市壁画巡礼",
       subtitle: "从马六甲的红，到槟城的旧",
-      summary: "早班机飞槟城，壁画街+姓氏桥+汕头街夜市",
+      summary: "早班机飞槟城，白咖喱面+壁画街+姓氏桥+汕头街夜市",
       events: [
         {
           time: "08:00",
@@ -250,6 +250,11 @@ export const malaysia: RouteData = {
           time: "12:00",
           title: "飞槟城",
           desc: "亚航/马印约 1h，国庆单程 ¥150–300/人；槟城机场 Grab 到乔治市约 RM25–35，30 分钟。",
+        },
+        {
+          time: "14:00",
+          title: "落地第一碗：白咖喱面",
+          desc: "槟城招牌白咖喱面（White Curry Mee）：奶白椰浆汤底看着清淡，灵魂是桌上那勺叁峇辣酱，搅开瞬间变红，香辣带椰香，RM7–9 一碗；老字号 Hot Bowl（Jalan Rangoon）下午常提前售罄，下飞机就冲。",
         },
         {
           time: "15:00",
