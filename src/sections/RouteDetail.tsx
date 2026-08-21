@@ -100,7 +100,7 @@ export default function RouteDetail({
         <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-[#5A564E]">
           <span><b className="text-[#1A4A48]">{route.days}</b> 天</span>
           <span>两人预算 <b className="text-[#E85A3C]">{route.budget.split("/")[0].trim()}</b></span>
-          <span>10月 {route.temp}</span>
+          <span>{route.temp}</span>
           <span>湿度 {route.humidity}</span>
           <span>拥挤 {route.crowd}</span>
           <span className="inline-flex items-center gap-1 text-[#88837C]"><MapPin className="w-3.5 h-3.5" />{route.region}</span>

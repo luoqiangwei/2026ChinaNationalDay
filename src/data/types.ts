@@ -63,7 +63,7 @@ export interface RouteData {
   days: number;
   budget: string;
   budgetNote: string;
-  temp: string; // 10 月上旬参考
+  temp: string; // 含出行月份与参考气温，如 "10月 11–22°C"、"4月初 5–18°C"
   humidity: string;
   seasonNote: string; // 季节/天气一句话（低调展示）
   clothing: string;

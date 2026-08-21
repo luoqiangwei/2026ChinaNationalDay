@@ -16,7 +16,7 @@ export const qingdao: RouteData = {
   days: 5,
   budget: "¥7,000–8,500 / 两人",
   budgetNote: "北京⇌青岛高铁往返约 ¥700/人（3–4.5h）；海景房国庆 ¥800–1,400/晚",
-  temp: "13–20°C",
+  temp: "10月 13–20°C",
   humidity: "约 70%",
   seasonNote: "10 月海水已凉不宜下水，但游客回落、海鲜正肥；海风大，体感比市区低 3–5°C",
   clothing: "长袖+防风外套，海边早晚加薄羽绒/抓绒",

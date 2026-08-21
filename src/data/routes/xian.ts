@@ -13,7 +13,7 @@ export const xian: RouteData = {
   days: 4,
   budget: "¥6,500–7,500 / 两人",
   budgetNote: "北京⇌西安高铁往返约 ¥1,100/人（4.5–6h）；兵马俑门票 120 元，需预约",
-  temp: "10–20°C",
+  temp: "10月 10–20°C",
   humidity: "约 55%",
   seasonNote: "秋高气爽全年最舒适，偏干注意补水；银杏 10 月底才黄，国庆主打古城夜色+博物馆",
   clothing: "长袖+薄风衣，爬城墙骑车备手套",

@@ -12,7 +12,7 @@ export const jeju: RouteData = {
   days: 4,
   budget: "¥10,000–12,000 / 两人",
   budgetNote: "北京⇌济州直飞往返约 ¥3,000–4,200/人；中国护照直飞济州免签停留 30 天（出行前再核实）",
-  temp: "13–21°C",
+  temp: "10月 13–21°C",
   humidity: "约 65%",
   seasonNote: "10 月秋高、多晴；紫芒草进入观赏期，橘子园开摘；海边风大体感凉",
   clothing: "长袖+防风夹克；爬汉拿山备登山鞋",
