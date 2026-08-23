@@ -1,7 +1,6 @@
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const kanas: RouteData = {
   id: "kanas",
@@ -157,7 +156,7 @@ export const kanas: RouteData = {
       ],
       img: img("photo-1447752875215-b2761acb3c5d", 1200),
       imgCaption: "禾木的白桦林 · 阳光穿过金黄",
-      gallery: [img("photo-1419242902214-272b3f66ee7a", 800), "https://images.pexels.com/photos/29090361/pexels-photo-29090361.jpeg?auto=compress&cs=tinysrgb&w=800"],
+      gallery: [img("photo-1419242902214-272b3f66ee7a", 800), "images/p-29090361.jpg"],
       photoSpot: "哈登观景台 · 禾木全景（次日 7:00 拍晨雾）",
     },
     {
@@ -298,9 +297,9 @@ export const kanas: RouteData = {
           desc: "10/7 整天留作缓冲：航班延误或封路都可顺延，这也是机票买可退改的原因。",
         },
       ],
-      img: "https://images.pexels.com/photos/34733268/pexels-photo-34733268.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-34733268.jpg",
       imgCaption: "北疆公路 · 一路金黄相伴（图为金秋公路氛围参考）",
-      gallery: ["https://images.pexels.com/photos/34950817/pexels-photo-34950817.jpeg?auto=compress&cs=tinysrgb&w=800"],
+      gallery: ["images/p-34950817.jpg"],
     },
   ],
   highlights: ["禾木晨雾炊烟", "喀纳斯三湾", "观鱼台全景", "白哈巴边境村落"],

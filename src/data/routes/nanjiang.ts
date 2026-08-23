@@ -1,6 +1,5 @@
 // 南疆 · 喀什与帕米尔（2026 国庆 10/1–10/8 拼 1 天假 · 北京出发情侣两人）
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 import type { RouteData } from "../types";
 
@@ -247,10 +246,10 @@ export const nanjiang: RouteData = {
           desc: "10 月日落约 19:50，草滩被染成金色、远处雪山泛红；石头城与金草滩之间栈道步行 15min。",
         },
       ],
-      img: "https://images.pexels.com/photos/30463261/pexels-photo-30463261.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-30463261.jpg",
       imgCaption: "盘龙古道 · 今日走过了所有的弯路（航拍）",
       gallery: [
-        "https://images.pexels.com/photos/28293280/pexels-photo-28293280.jpeg?auto=compress&cs=tinysrgb&w=800", // 山谷里的发卡弯（航拍）
+        "images/p-28293280.jpg", // 山谷里的发卡弯（航拍）
         img("photo-1445112098124-3e76dd67983c", 800), // 班迪尔蓝湖 · 山谷湖泊（图为氛围参考）
       ],
       photoSpot: "盘龙古道路牌观景台 · 金草滩日落栈道",
@@ -330,7 +329,7 @@ export const nanjiang: RouteData = {
       img: img("photo-1524492412937-b28074a5d7da", 1200),
       imgCaption: "伊斯兰宫殿式建筑（图为氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/5910196/pexels-photo-5910196.jpeg?auto=compress&cs=tinysrgb&w=800", // 去莎车的山岭公路
+        "images/p-5910196.jpg", // 去莎车的山岭公路
         img("photo-1512058564366-18510be2db19", 800), // 手抓饭（图为美食氛围参考）
       ],
       photoSpot: "叶尔羌汗王宫蓝金穹顶 · 莎车老街巷口",

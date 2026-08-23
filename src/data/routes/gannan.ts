@@ -1,6 +1,5 @@
 // 甘南藏地线 · 扎尕那与拉卜楞寺（2026 国庆 10/1–10/7 · 北京出发情侣两人）
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 import type { RouteData } from "../types";
 
@@ -158,8 +157,8 @@ export const gannan: RouteData = {
       img: img("photo-1573398643956-2b9e6ade3456", 1200),
       imgCaption: "山坡上的藏传佛寺（图为藏地寺院氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/8608907/pexels-photo-8608907.jpeg?auto=compress&cs=tinysrgb&w=800", // 僧人在壁画前祈祷（藏区人文实拍）
-        "https://images.pexels.com/photos/32110108/pexels-photo-32110108.jpeg?auto=compress&cs=tinysrgb&w=800", // 经幡特写（藏区实拍）
+        "images/p-8608907.jpg", // 僧人在壁画前祈祷（藏区人文实拍）
+        "images/p-32110108.jpg", // 经幡特写（藏区实拍）
       ],
       photoSpot: "贡唐宝塔顶层 · 拉卜楞寺金顶全景",
     },
@@ -200,10 +199,10 @@ export const gannan: RouteData = {
           desc: "镇上川味小馆或藏餐，人均 ¥40；夜里温度直逼 0°C，回客栈把明早的厚衣服备好。",
         },
       ],
-      img: "https://images.pexels.com/photos/37804558/pexels-photo-37804558.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-37804558.jpg",
       imgCaption: "桑科草原 · 牦牛与高原湖泊（图为藏地草原实拍）",
       gallery: [
-        "https://images.pexels.com/photos/38875044/pexels-photo-38875044.jpeg?auto=compress&cs=tinysrgb&w=800", // 山顶经幡阵（藏区实拍）
+        "images/p-38875044.jpg", // 山顶经幡阵（藏区实拍）
         img("photo-1493962853295-0fd70327578a", 800), // 牧场牦牛（图为高原牧场氛围参考）
       ],
       photoSpot: "赛赤寺后山 · 郎木寺镇全景与红石崖",
@@ -245,7 +244,7 @@ export const gannan: RouteData = {
           desc: "夜里晴好记得出门看银河，村里光污染几乎为零；明早 6 点起床等晨雾。",
         },
       ],
-      img: "https://images.pexels.com/photos/37769788/pexels-photo-37769788.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-37769788.jpg",
       imgCaption: "扎尕那 · 石峰下的藏寨、白塔与经幡（图为藏地村落实拍）",
       gallery: [
         img("photo-1523741543316-beb7fc7023d8", 800), // 仙女滩田园（图为田园氛围参考）
@@ -320,7 +319,7 @@ export const gannan: RouteData = {
           desc: "落地回家；扎尕那晨雾那张照片，值得洗出来挂墙上。",
         },
       ],
-      img: "https://images.pexels.com/photos/13672808/pexels-photo-13672808.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-13672808.jpg",
       imgCaption: "云雾缭绕的山谷公路（图为盘山公路航拍参考）",
       gallery: [
         img("photo-1517400508447-f8dd518b86db", 800), // 机场看航班屏（图为机场氛围参考）

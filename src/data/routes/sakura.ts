@@ -5,8 +5,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const sakura: RouteData = {
   id: "sakura",
@@ -206,7 +205,7 @@ export const sakura: RouteData = {
       img: img("photo-1573455494060-c5595004fb6c", 1200),
       imgCaption: "函馆夜巷 · 大门横丁的灯笼次第亮起",
       gallery: [
-        "https://images.pexels.com/photos/36053253/pexels-photo-36053253.jpeg?auto=compress&cs=tinysrgb&w=800", // 函馆山夜景（函馆实拍）
+        "images/p-36053253.jpg", // 函馆山夜景（函馆实拍）
       ],
       photoSpot: "函馆山展望台 · 双海湾夹一城的灯火",
     },
@@ -336,7 +335,7 @@ export const sakura: RouteData = {
       img: img("photo-1542051841857-5f90071e7989", 1200),
       imgCaption: "涩谷 · 全向十字路口的霓虹海",
       gallery: [
-        "https://images.pexels.com/photos/31293892/pexels-photo-31293892.jpeg?auto=compress&cs=tinysrgb&w=800", // 东京塔夜景（东京实拍）
+        "images/p-31293892.jpg", // 东京塔夜景（东京实拍）
       ],
       photoSpot: "涩谷SKY · 229m 露天展望台夜景",
     },

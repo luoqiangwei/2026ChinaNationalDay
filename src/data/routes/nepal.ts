@@ -4,8 +4,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const nepal: RouteData = {
   id: "nepal",
@@ -178,7 +177,7 @@ export const nepal: RouteData = {
           desc: "Lakeside 主街西餐尼餐都有，人均 ¥50；明早 8 点出发，今晚把登山杖调好、头灯试亮。",
         },
       ],
-      img: "https://images.pexels.com/photos/37496141/pexels-photo-37496141.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-37496141.jpg",
       imgCaption: "湖面泛舟 · 费瓦湖的午后就是这个节奏（图为湖泊氛围参考）",
       photoSpot: "费瓦湖南岸 · 鱼尾峰湖面倒影",
     },
@@ -250,7 +249,7 @@ export const nepal: RouteData = {
           desc: "围炉吃饭，和各国徒步者交换路况；明早 4:30 起床，头灯放枕边，今晚 8 点前睡。",
         },
       ],
-      img: img("photo-1471180625745-944903837c5f", 1200),
+      img: img("photo-1542273917363-3b1817f69a2d", 1200),
       imgCaption: "林间光斑 · 杜鹃林段的清晨（图为森林氛围参考）",
       photoSpot: "Ghorepani 村口 · 雪山与客栈屋顶同框",
     },

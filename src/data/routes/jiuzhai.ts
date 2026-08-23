@@ -1,6 +1,5 @@
 // 成都 · 九寨沟彩林季（2026 国庆 10/1–10/6 · 北京出发情侣两人）
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 import type { RouteData } from "../types";
 
@@ -120,7 +119,7 @@ export const jiuzhai: RouteData = {
           desc: "沿府南河散步看廊桥夜景，酒吧街小坐一杯；明天早起看熊猫，别喝多，为高原行程蓄力。",
         },
       ],
-      img: "https://images.pexels.com/photos/30836778/pexels-photo-30836778.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-30836778.jpg",
       imgCaption: "成都街头 · 慢下来的第一天（图为成都廊桥实拍）",
       gallery: [
         img("photo-1476224203421-9ac39bcb3327", 800), // 川味餐桌（图为美食氛围参考）
@@ -163,7 +162,7 @@ export const jiuzhai: RouteData = {
       img: img("photo-1441974231531-c6227db76b6e", 1200),
       imgCaption: "熊猫基地竹林深处 · 滚滚就藏在绿意里",
       gallery: [
-        "https://images.pexels.com/photos/35446184/pexels-photo-35446184.jpeg?auto=compress&cs=tinysrgb&w=800", // 大熊猫吃竹子（实拍）
+        "images/p-35446184.jpg", // 大熊猫吃竹子（实拍）
         img("photo-1518495973542-4542c06a5843", 800), // 竹林深处的阳光（图为森林氛围参考）
       ],
       photoSpot: "幼年园别墅 · 熊猫爬树瞬间连拍",
@@ -250,7 +249,7 @@ export const jiuzhai: RouteData = {
           desc: "傍晚出沟，漳扎镇吃藏餐：酥油茶、青稞饼、牦牛肉；明天上黄龙，今晚别喝酒。",
         },
       ],
-      img: "https://images.pexels.com/photos/38261902/pexels-photo-38261902.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-38261902.jpg",
       imgCaption: "瀑布与溪流 · 诺日朗秋水正丰（图为九寨沟湖泊实拍）",
       gallery: [
         img("photo-1499346030926-9a72daac6c63", 800), // 镜海晨雾（图为云海氛围参考）

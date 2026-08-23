@@ -4,8 +4,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const guilin: RouteData = {
   id: "guilin",
@@ -23,7 +22,7 @@ export const guilin: RouteData = {
     "10 月满城桂花香；龙脊梯田稻谷金黄，10 月中下旬陆续收割，国庆是最佳观赏窗口；偶有阵雨",
   clothing: "短袖+薄外套，遇龙河竹筏备凉鞋/防水袋",
   crowd: "★★★★☆",
-  hero: "https://images.pexels.com/photos/24246270/pexels-photo-24246270.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  hero: "images/p-24246270.jpg",
   heroCaption: "喀斯特峰林 · 山水甲天下",
   drive: "桂林→阳朔约 1.5h；龙脊梯田距桂林 2h（盘山路多弯）；市区打车/电动车即可",
   costs: [
@@ -206,7 +205,7 @@ export const guilin: RouteData = {
           desc: "张艺谋导演的漓江山水实景演出，国庆场次紧张提前网购。露天江边看台，带驱蚊水和薄外套（江风凉）。",
         },
       ],
-      img: "https://images.pexels.com/photos/24246271/pexels-photo-24246271.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-24246271.jpg",
       imgCaption: "遇龙河 · 竹筏划过峰林倒影（图为漓江喀斯特实拍）",
       photoSpot: "水坝落差处 · 竹筏过坝抓拍",
     },
@@ -247,7 +246,7 @@ export const guilin: RouteData = {
           desc: "晚班机约 3h 落地北京，四天看遍梯田、江雾与峰林，圆满收官。",
         },
       ],
-      img: "https://images.pexels.com/photos/36304652/pexels-photo-36304652.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-36304652.jpg",
       imgCaption: "相公山 · 漓江大拐弯的云海日出（图为漓江航拍实拍）",
       photoSpot: "相公山巅 · 漓江大拐弯；兴坪黄布倒影",
     },

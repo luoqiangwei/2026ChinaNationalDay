@@ -5,8 +5,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const ejina: RouteData = {
   id: "ejina",
@@ -287,7 +286,7 @@ export const ejina: RouteData = {
           desc: "订 17:00 之后的航班最稳妥；要是不想太赶，也可在银川多住一晚次日回。",
         },
       ],
-      img: "https://images.pexels.com/photos/25430752/pexels-photo-25430752.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-25430752.jpg",
       imgCaption: "G7 京新高速 · 戈壁无人区里的直线（图为戈壁公路氛围参考）",
       photoSpot: "G7 沿线观景停车带 · 戈壁公路照（注意来车）",
     },

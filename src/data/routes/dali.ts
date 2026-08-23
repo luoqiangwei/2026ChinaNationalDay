@@ -1,6 +1,5 @@
 // 大理 · 洱海西线慢生活（2026 国庆 10/1–10/5 · 北京出发情侣两人）
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 import type { RouteData } from "../types";
 
@@ -147,7 +146,7 @@ export const dali: RouteData = {
           desc: "骑车原路返回约 1h，晚饭吃白族酸辣鱼配烤乳扇；高原紫外线强，今天晒了一天记得补水敷面膜。",
         },
       ],
-      img: "https://images.pexels.com/photos/36535786/pexels-photo-36535786.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-36535786.jpg",
       imgCaption: "清晨的洱海湖面，海西廊道骑行道贴着水走（洱海实拍）",
       photoSpot: "磻溪村 S 湾日出机位（7:00 前到）· 喜洲稻田转角楼",
     },

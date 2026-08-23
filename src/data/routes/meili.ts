@@ -1,6 +1,5 @@
 // 滇西北 · 梅里雪山（2026 国庆 10/1–10/7 · 北京出发情侣两人）
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 import type { RouteData } from "../types";
 
@@ -113,11 +112,11 @@ export const meili: RouteData = {
           desc: "古城内老店吃酸辣鱼配烤乳扇，人均 ¥60–80；今晚不喝酒，为后面 3,300m 的香格里拉留状态。",
         },
       ],
-      img: "https://images.pexels.com/photos/35410604/pexels-photo-35410604.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-35410604.jpg",
       imgCaption: "洱海与湖畔小镇同框 · 抵达大理的第一眼（航拍实拍）",
       gallery: [
         img("photo-1495616811223-4d98c6e9c869", 800), // 洱海日落（图为湖泊日落氛围参考）
-        "https://images.pexels.com/photos/29855648/pexels-photo-29855648.jpeg?auto=compress&cs=tinysrgb&w=800", // 洱海岸边的水中树（实拍）
+        "images/p-29855648.jpg", // 洱海岸边的水中树（实拍）
       ],
       photoSpot: "五华楼顶层 · 古城青瓦与苍山同框",
     },
@@ -251,7 +250,7 @@ export const meili: RouteData = {
       img: img("photo-1473580044384-7ba9967e16a0", 1200),
       imgCaption: "山间的平流晨雾，松赞林寺的清晨就是这个氛围（图为氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/36966995/pexels-photo-36966995.jpeg?auto=compress&cs=tinysrgb&w=800", // 松赞林寺 · 藏传寺庙与经幡
+        "images/p-36966995.jpg", // 松赞林寺 · 藏传寺庙与经幡
         img("photo-1486870591958-9b9d0d1dda99", 800), // 纳帕海 · 金黄草甸与雪山（图为草甸氛围参考）
       ],
       photoSpot: "拉姆央措湖 · 松赞林寺倒影；金沙江大拐弯观景台",

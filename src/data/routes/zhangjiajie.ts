@@ -5,8 +5,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const zhangjiajie: RouteData = {
   id: "zhangjiajie",
@@ -146,7 +145,7 @@ export const zhangjiajie: RouteData = {
       imgCaption: "天门山 · 大索道穿过云层上山",
       gallery: [
         img("photo-1508233620467-f79f1e317a05", 800), // 天门山盘山公路 99 道弯（航拍，图为盘山路氛围参考）
-        "https://images.pexels.com/photos/39009844/pexels-photo-39009844.jpeg?auto=compress&cs=tinysrgb&w=800", // 天门山石峰（张家界实拍）
+        "images/p-39009844.jpg", // 天门山石峰（张家界实拍）
       ],
       photoSpot: "玻璃栈道俯拍峡谷 · 天门洞广场仰拍 999 级天梯",
     },
@@ -187,7 +186,7 @@ export const zhangjiajie: RouteData = {
           desc: "天子山索道单程约 72 元。晚上逛溪布街，可选看《魅力湘西》演出（约 ¥228/人，旺季需提前订）。",
         },
       ],
-      img: "https://images.pexels.com/photos/39014277/pexels-photo-39014277.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-39014277.jpg",
       imgCaption: "袁家界峰林 · 云雾里的乾坤柱（张家界实拍）",
       gallery: [
         img("photo-1501555088652-021faa106b9b", 800), // 峰林间徒步（图为徒步氛围参考）
@@ -231,7 +230,7 @@ export const zhangjiajie: RouteData = {
           desc: "溪布街唐师傅土菜馆或老灶台，人均 ¥70，今天步数 2 万+，好好吃一顿。",
         },
       ],
-      img: "https://images.pexels.com/photos/34683494/pexels-photo-34683494.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-34683494.jpg",
       imgCaption: "金鞭溪 · 7.5km 溪谷栈道全是平路（图为峰林氛围参考）",
       gallery: [
         img("photo-1476231682828-37e571bc172f", 800), // 溪谷森林（图为森林氛围参考）
@@ -275,7 +274,7 @@ export const zhangjiajie: RouteData = {
           desc: "跳岩附近的清吧听民谣刚刚好，虹桥下拉客的吵闹酒吧别去，酒单刺客多。",
         },
       ],
-      img: "https://images.pexels.com/photos/33665245/pexels-photo-33665245.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-33665245.jpg",
       imgCaption: "沱江夜色 · 吊脚楼的灯笼倒影（凤凰古城实拍）",
       photoSpot: "虹桥二层拍万名塔 · 北门跳岩逆光人像",
     },
@@ -311,7 +310,7 @@ export const zhangjiajie: RouteData = {
           desc: "高铁至长沙南转京广高铁回京（全程约 8h），或铜仁凤凰机场直飞；国庆末段票紧，提前锁定。",
         },
       ],
-      img: "https://images.pexels.com/photos/38733386/pexels-photo-38733386.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-38733386.jpg",
       imgCaption: "清晨的沱江 · 雾里的万名塔（凤凰古城实拍）",
       gallery: [
         img("photo-1483982258113-b72862e6cff6", 800), // 古城晨雾（图为林间晨雾氛围参考）

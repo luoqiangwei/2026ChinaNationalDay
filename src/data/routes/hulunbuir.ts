@@ -1,7 +1,6 @@
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const hulunbuir: RouteData = {
   id: "hulunbuir",
@@ -333,7 +332,7 @@ export const hulunbuir: RouteData = {
       imgCaption: "河谷晨雾 · 不冻河清晨的样子（图为氛围参考）",
       gallery: [
         img("photo-1502581827181-9cf3c3ee0106", 800), // 雪原星空（图为星空氛围参考）
-        img("photo-1520877745935-616158ebdcc9", 800), // 返程候机（图为机场氛围参考）
+        img("photo-1520437358207-323b43b50729", 800), // 返程候机（图为机场氛围参考）
       ],
       photoSpot: "不冻河栈道 · 晨雾与霜花同框",
     },

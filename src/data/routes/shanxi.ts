@@ -5,8 +5,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const shanxi: RouteData = {
   id: "shanxi",
@@ -144,7 +143,7 @@ export const shanxi: RouteData = {
           desc: "老柴家削面或凯鸽酒楼：刀削面+过油肉，人均 ¥50，山西的面随便点不踩雷。",
         },
       ],
-      img: "https://images.pexels.com/photos/8508726/pexels-photo-8508726.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-8508726.jpg",
       imgCaption: "云冈第 20 窟露天大佛 · 北魏的微笑（图为石窟大佛实拍）",
       gallery: [
         img("photo-1526318896980-cf78c088247c", 800), // 大同刀削面（图为面食氛围参考）
@@ -184,7 +183,7 @@ export const shanxi: RouteData = {
           desc: "车程约 1.5h，正好补觉。晚上体力尚存可看华严寺（门票约 65 元），薄伽教藏殿的辽代彩塑是国宝级。",
         },
       ],
-      img: "https://images.pexels.com/photos/30326825/pexels-photo-30326825.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-30326825.jpg",
       imgCaption: "悬空寺 · 挂在恒山金龙峡峭壁上的三教合一寺（实拍）",
       gallery: [
         img("photo-1440342359743-84fcb8c21f21", 800), // 恒山步道林荫（图为林间氛围参考）

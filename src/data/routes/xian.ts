@@ -1,6 +1,5 @@
 // 西安 · 长安十二时辰（2026 国庆 10/1–10/4 · 北京出发情侣两人）
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 import type { RouteData } from "../types";
 
@@ -152,7 +151,7 @@ export const xian: RouteData = {
           desc: "以骊山为幕的水上实景剧，中区票 ¥300–400 需提前订；10 月夜间山里冷，门口可租军大衣，或自带厚外套。",
         },
       ],
-      img: "https://images.pexels.com/photos/28844763/pexels-photo-28844763.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-28844763.jpg",
       imgCaption: "两千年前的军阵 · 一号坑（兵马俑实拍）",
       gallery: [
         img("photo-1512003867696-6d5ce6835040", 800), // 临潼砂锅晚餐（图为美食氛围参考）

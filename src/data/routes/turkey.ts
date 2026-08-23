@@ -4,8 +4,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const turkey: RouteData = {
   id: "turkey",
@@ -200,7 +199,7 @@ export const turkey: RouteData = {
       img: img("photo-1527838832700-5059252407fa", 1200),
       imgCaption: "伊斯坦布尔 · 穹顶与宣礼塔的晚霞（图为氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/38210077/pexels-photo-38210077.jpeg?auto=compress&cs=tinysrgb&w=800", // 加拉塔桥与海鸥（伊斯坦布尔实拍）
+        "images/p-38210077.jpg", // 加拉塔桥与海鸥（伊斯坦布尔实拍）
         img("photo-1535140728325-a4d3707eee61", 800), // 土耳其早餐（图为早餐氛围参考）
       ],
       photoSpot: "游船左舷 · 少女塔与欧洲岸同框",
@@ -240,7 +239,7 @@ export const turkey: RouteData = {
       img: img("photo-1500530855697-b586d89ba3ee", 1200),
       imgCaption: "红线途中 · 赭红色岩谷公路（图为氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/19228322/pexels-photo-19228322.jpeg?auto=compress&cs=tinysrgb&w=800", // 仙人烟囱与热气球（卡帕多奇亚实拍）
+        "images/p-19228322.jpg", // 仙人烟囱与热气球（卡帕多奇亚实拍）
         img("photo-1580654712603-eb43273aff33", 800), // 红线徒步（图为山野徒步氛围参考）
       ],
       photoSpot: "Sunset Point · 玫瑰谷全景",
@@ -285,7 +284,7 @@ export const turkey: RouteData = {
       img: img("photo-1530789253388-582c481c54b0", 1200),
       imgCaption: "格雷梅 · 热气球日出与仙人烟囱（图为氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/5320383/pexels-photo-5320383.jpeg?auto=compress&cs=tinysrgb&w=800", // 格雷梅热气球群（卡帕多奇亚实拍）
+        "images/p-5320383.jpg", // 格雷梅热气球群（卡帕多奇亚实拍）
         img("photo-1502086223501-7ea6ecd79368", 800), // 热气球掠过原野（图为热气球氛围参考）
       ],
       photoSpot: "热气球篮内 · 日出逆光剪影",
@@ -325,7 +324,7 @@ export const turkey: RouteData = {
       img: img("photo-1476900543704-4312b78632f8", 1200),
       imgCaption: "舷窗之外 · 从安纳托利亚飞向地中海（图为舷窗氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/33337077/pexels-photo-33337077.jpeg?auto=compress&cs=tinysrgb&w=800", // 舷窗机翼日落（实拍）
+        "images/p-33337077.jpg", // 舷窗机翼日落（实拍）
         img("photo-1556388158-158ea5ccacbd", 800), // 降落（图为机场氛围参考）
       ],
     },
@@ -366,10 +365,10 @@ export const turkey: RouteData = {
           desc: "沙滩餐厅看日落，人均 ¥100–150；明天飞回伊斯坦布尔，今晚把海鲜吃够。",
         },
       ],
-      img: "https://images.pexels.com/photos/38225845/pexels-photo-38225845.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-38225845.jpg",
       imgCaption: "绿松石色的海岸线 · 费特希耶蓝礁湖（航拍实拍）",
       gallery: [
-        "https://images.pexels.com/photos/35520161/pexels-photo-35520161.jpeg?auto=compress&cs=tinysrgb&w=800", // 滑翔伞掠过蓝礁湖（实拍）
+        "images/p-35520161.jpg", // 滑翔伞掠过蓝礁湖（实拍）
         img("photo-1506953823976-52e1fdc0149a", 800), // 海滩椰影（图为海滩氛围参考）
       ],
       photoSpot: "滑翔伞上 · 俯瞰蓝湖弧线",
@@ -409,7 +408,7 @@ export const turkey: RouteData = {
       img: img("photo-1524231757912-21f4fe3a7200", 1200),
       imgCaption: "加拉塔塔 · 金角湾上空的海鸥",
       gallery: [
-        "https://images.pexels.com/photos/37395604/pexels-photo-37395604.jpeg?auto=compress&cs=tinysrgb&w=800", // 加拉塔塔与博斯普鲁斯（伊斯坦布尔实拍）
+        "images/p-37395604.jpg", // 加拉塔塔与博斯普鲁斯（伊斯坦布尔实拍）
         img("photo-1515825838458-f2a94b20105a", 800), // 独立大街夜色（图为城市夜景氛围参考）
       ],
       photoSpot: "加拉塔塔巷口仰拍 · 塔尖与鸽群",

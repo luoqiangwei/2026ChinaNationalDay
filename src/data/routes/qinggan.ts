@@ -1,7 +1,6 @@
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const qinggan: RouteData = {
   id: "qinggan",
@@ -235,7 +234,7 @@ export const qinggan: RouteData = {
           desc: "驴肉黄面+杏皮水+烤串三件套；葡萄干、锁阳等伴手货先问价再买，货比三家。",
         },
       ],
-      img: "https://images.pexels.com/photos/18779056/pexels-photo-18779056.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-18779056.jpg",
       imgCaption: "G315 · 直通天际的戈壁公路（航拍）",
       gallery: [
         img("photo-1516690561799-46d8f74f9abf", 800), // 水上雅丹的绿松石水面（图为水上雅丹氛围参考）
@@ -278,7 +277,7 @@ export const qinggan: RouteData = {
       img: img("photo-1542401886-65d6c61db217", 1200),
       imgCaption: "鸣沙山 · 日落前 1 小时光影最佳（图为沙漠氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/33412586/pexels-photo-33412586.jpeg?auto=compress&cs=tinysrgb&w=800", // 月牙泉与鸣沙山（敦煌实拍）
+        "images/p-33412586.jpg", // 月牙泉与鸣沙山（敦煌实拍）
       ],
       photoSpot: "主峰 · 月牙泉全景；驼队剪影",
     },
@@ -314,7 +313,7 @@ export const qinggan: RouteData = {
           desc: "日落后出园，住张掖市区；晚餐卷子鸡/搓鱼子，慰劳今天 600km 的自己和副驾。",
         },
       ],
-      img: "https://images.pexels.com/photos/38762889/pexels-photo-38762889.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-38762889.jpg",
       imgCaption: "七彩丹霞 · 日落时像打翻的调色盘（张掖实拍）",
       gallery: [
         img("photo-1502224562085-639556652f33", 800), // 黑河湿地日落（图为湿地氛围参考）

@@ -1,7 +1,6 @@
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const vladivostok: RouteData = {
   id: "vladivostok",
@@ -205,7 +204,7 @@ export const vladivostok: RouteData = {
       img: img("photo-1449824913935-59a10b8d2000", 1200),
       imgCaption: "老城街道 · 电车轨与欧式立面（图为氛围参考）",
       gallery: [
-        "https://images.pexels.com/photos/11161343/pexels-photo-11161343.jpeg?auto=compress&cs=tinysrgb&w=800", // 帝王蟹腿大餐（实拍）
+        "images/p-11161343.jpg", // 帝王蟹腿大餐（实拍）
       ],
       photoSpot: "阿尔巴特街头回望海湾 · 火车站 9288 里程碑",
     },

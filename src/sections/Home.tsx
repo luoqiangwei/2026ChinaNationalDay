@@ -3,10 +3,10 @@ import Reveal from "@/components/Reveal";
 import { ArrowRight, Camera, Car, Heart, MapPin, Plane } from "lucide-react";
 
 const heroPhotos = [
-  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=70", cap: "九寨沟 · 彩林", tilt: "-6deg" },
-  { src: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=600&q=70", cap: "京都 · 古寺", tilt: "4deg" },
-  { src: "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?auto=format&fit=crop&w=600&q=70", cap: "喀纳斯 · 金秋", tilt: "-3deg" },
-  { src: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=600&q=70", cap: "敦煌 · 大漠", tilt: "5deg" },
+  { src: "images/u-photo-1501785888041-af3ef285b470-600.jpg", cap: "九寨沟 · 彩林", tilt: "-6deg" },
+  { src: "images/u-photo-1545569341-9eb8b30979d9-600.jpg", cap: "京都 · 古寺", tilt: "4deg" },
+  { src: "images/u-photo-1477414348463-c0eb7f1359b6-600.jpg", cap: "喀纳斯 · 金秋", tilt: "-3deg" },
+  { src: "images/u-photo-1509316785289-025f5b846b35-600.jpg", cap: "敦煌 · 大漠", tilt: "5deg" },
 ];
 
 function RouteCard({ route, onOpen, index }: { route: RouteData; onOpen: (id: string) => void; index: number }) {

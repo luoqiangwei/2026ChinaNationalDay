@@ -4,8 +4,7 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
 
 export const xiamen: RouteData = {
   id: "xiamen",
@@ -146,7 +145,7 @@ export const xiamen: RouteData = {
       img: img("photo-1516483638261-f4dbaf036963", 1200),
       imgCaption: "鼓浪屿 · 红砖老别墅爬满三角梅",
       gallery: [
-        "https://images.pexels.com/photos/37714926/pexels-photo-37714926.jpeg?auto=compress&cs=tinysrgb&w=800", // 鼓浪屿海岸线航拍（厦门实拍）
+        "images/p-37714926.jpg", // 鼓浪屿海岸线航拍（厦门实拍）
       ],
       photoSpot: "日光岩顶 · 红屋顶与鹭江同框；最美转角",
     },
@@ -187,7 +186,7 @@ export const xiamen: RouteData = {
           desc: "桥上看夕阳沉入海沧方向，天黑后拎回八市的海鲜加工开吃，加工费按做法论价，白灼清蒸最划算。",
         },
       ],
-      img: "https://images.pexels.com/photos/37079888/pexels-photo-37079888.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-37079888.jpg",
       imgCaption: "沙坡尾避风坞 · 老渔船与双子塔同框（图为厦门街头艺术氛围参考）",
       photoSpot: "避风坞栈道 · 新旧同框",
     },
@@ -269,7 +268,7 @@ export const xiamen: RouteData = {
           desc: "高铁 20min 回厦门，赴高崎机场搭晚班机（约 3h）回北京，海风味的假期收官。",
         },
       ],
-      img: "https://images.pexels.com/photos/35157085/pexels-photo-35157085.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "images/p-35157085.jpg",
       imgCaption: "开元寺 · 东西塔与紫云屏，半城烟火半城仙（图为闽南老街氛围参考）",
       photoSpot: "紫云屏前 · 东西塔框景；蟳埔簪花人像",
     },
