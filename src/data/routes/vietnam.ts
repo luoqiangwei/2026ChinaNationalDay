@@ -132,8 +132,8 @@ export const vietnam: RouteData = {
           desc: "海滩沿线的 Bé Mặn 等排档，龙虾、皮皮虾、蒜蓉扇贝现挑现做，两人放开吃约 80–120 万盾；先问价再点单。",
         },
       ],
-      img: img("photo-1507525428034-b723cf961d3e", 1200),
-      imgCaption: "海滩日落 · 抵达日的仪式感（图为海滩日落氛围参考）",
+      img: img("photo-1505118380757-91f5f5632de0", 1200),
+      imgCaption: "碧海白沙 · 美溪海岸的第一眼（图为海滩航拍氛围参考）",
       photoSpot: "美溪海滩 · 以山茶半岛为背景的日落剪影",
     },
     {
@@ -175,6 +175,9 @@ export const vietnam: RouteData = {
       ],
       img: img("photo-1540979388789-6cee28a1cdc9", 1200),
       imgCaption: "高山云海 · 缆车穿云而上的清晨（图为山间云海氛围参考）",
+      gallery: [
+        img("photo-1564596823821-79b97151055e", 800), // 巴拿山金桥（岘港实拍）
+      ],
       photoSpot: "金桥 · 巨手与云海同框，9 点前人流最少",
     },
     {

@@ -18,8 +18,8 @@ export const nanjiang: RouteData = {
   seasonNote: "10 月初南疆秋高气爽、瓜果正甜；帕米尔已入冬前模式，塔县夜里可跌破 0°C，雪山能见度全年最佳",
   clothing: "喀什白天长袖+薄外套；塔县抓绒+冲锋衣+薄羽绒，防晒帽墨镜润唇膏必备",
   crowd: "★★★☆☆",
-  hero: img("photo-1506905925346-21bda4d32df4"),
-  heroCaption: "帕米尔高原的雪山群峰（图为氛围参考）",
+  hero: img("photo-1470770903676-69b98201ea1c"),
+  heroCaption: "帕米尔高原 · 雪山下的湖泊与栈道（图为氛围参考）",
   official: "丝路秘境（G314 中巴友谊公路）辐射 · 帕米尔风情环线辐射",
   drive: "喀什→塔县必须走 G314 国道（中巴友谊公路），建议包车含司机；盘龙古道弯急海拔高，不建议新手自驾",
   costs: [
@@ -119,6 +119,10 @@ export const nanjiang: RouteData = {
       ],
       img: img("photo-1512632578888-169bbbc64f33", 1200),
       imgCaption: "老城巷弄与集市的灯火（图为氛围参考）",
+      gallery: [
+        img("photo-1564769625905-50e93615e769", 800), // 清真寺门扉与人群（图为西域人文氛围参考）
+        img("photo-1569718212165-3a8278d5f624", 800), // 古城里的热汤面（图为美食氛围参考）
+      ],
       photoSpot: "古城东门开城仪式 · 阿热亚路花门巷",
     },
     {
@@ -158,8 +162,12 @@ export const nanjiang: RouteData = {
           desc: "夜里古城亮灯后更有味道，吃缸子肉+烤包子；明天上高原，早点休息、别喝酒。",
         },
       ],
-      img: img("photo-1541432901042-2d8bd64b4a9b", 1200),
+      img: img("photo-1519817650390-64a93db51149", 1200),
       imgCaption: "清真寺穹顶与宣礼塔（图为氛围参考）",
+      gallery: [
+        img("photo-1533900298318-6b8da08a523e", 800), // 巴扎市集（图为市集氛围参考）
+        img("photo-1585032226651-759b368d7246", 800), // 新疆炒面（图为美食氛围参考）
+      ],
       photoSpot: "艾提尕尔广场晨景 · 百年老茶馆二楼阳台",
     },
     {
@@ -199,8 +207,12 @@ export const nanjiang: RouteData = {
           desc: "塔县吃塔吉克风味牦牛肉火锅，人均 ¥80 暖身；饭后抬头就是银河，县城光污染极少。",
         },
       ],
-      img: img("photo-1501785888041-af3ef285b470", 1200),
-      imgCaption: "高原湖泊与雪山倒影（图为氛围参考）",
+      img: img("photo-1520962922320-2038eebab146", 1200),
+      imgCaption: "帕米尔高原的雪山与森林（图为氛围参考）",
+      gallery: [
+        img("photo-1547235001-d703406d3f17", 800), // G314 戈壁滩（图为戈壁氛围参考）
+        img("photo-1518098268026-4e89f1a2cd8e", 800), // 高原公路日落（图为公路氛围参考）
+      ],
       photoSpot: "喀拉库勒湖畔 · 慕士塔格倒影；白沙湖观景台",
     },
     {
@@ -235,8 +247,12 @@ export const nanjiang: RouteData = {
           desc: "10 月日落约 19:50，草滩被染成金色、远处雪山泛红；石头城与金草滩之间栈道步行 15min。",
         },
       ],
-      img: img("photo-1476514525535-07fb3b4ae5f1", 1200),
-      imgCaption: "高原绿松石色湖泊（图为氛围参考）",
+      img: "https://images.pexels.com/photos/30463261/pexels-photo-30463261.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "盘龙古道 · 今日走过了所有的弯路（航拍）",
+      gallery: [
+        "https://images.pexels.com/photos/28293280/pexels-photo-28293280.jpeg?auto=compress&cs=tinysrgb&w=800", // 山谷里的发卡弯（航拍）
+        img("photo-1445112098124-3e76dd67983c", 800), // 班迪尔蓝湖 · 山谷湖泊（图为氛围参考）
+      ],
       photoSpot: "盘龙古道路牌观景台 · 金草滩日落栈道",
     },
     {
@@ -271,8 +287,12 @@ export const nanjiang: RouteData = {
           desc: "补吃第一天没吃到的烤全羊切片和石榴汁，10 月正是石榴季，现榨一杯约 ¥15。",
         },
       ],
-      img: img("photo-1469854523086-cc02fe5d8800", 1200),
-      imgCaption: "高原公路返程路（图为公路氛围参考）",
+      img: img("photo-1605649487212-47bdab064df7", 1200),
+      imgCaption: "帕米尔群山 · 返程路上的山与林（图为氛围参考）",
+      gallery: [
+        img("photo-1498855926480-d98e83099315", 800), // 山溪与森林（图为氛围参考）
+        img("photo-1491555103944-7c647fd857e6", 800), // 远眺雪山（图为氛围参考）
+      ],
       photoSpot: "盖孜峡谷副驾机位 · 白沙湖晨景顺光",
     },
     {
@@ -309,6 +329,10 @@ export const nanjiang: RouteData = {
       ],
       img: img("photo-1524492412937-b28074a5d7da", 1200),
       imgCaption: "伊斯兰宫殿式建筑（图为氛围参考）",
+      gallery: [
+        "https://images.pexels.com/photos/5910196/pexels-photo-5910196.jpeg?auto=compress&cs=tinysrgb&w=800", // 去莎车的山岭公路
+        img("photo-1512058564366-18510be2db19", 800), // 手抓饭（图为美食氛围参考）
+      ],
       photoSpot: "叶尔羌汗王宫蓝金穹顶 · 莎车老街巷口",
     },
     {
@@ -343,8 +367,12 @@ export const nanjiang: RouteData = {
           desc: "最后一晚吃架子肉+烤南瓜，配卡瓦斯；收拾行李，明天早班机回北京。",
         },
       ],
-      img: img("photo-1524231757912-21f4fe3a7200", 1200),
-      imgCaption: "老街巷弄与巴扎风情（图为氛围参考）",
+      img: img("photo-1473625247510-8ceb1760943f", 1200),
+      imgCaption: "古城旅拍 · 把西域的光穿在身上（图为旅拍氛围参考）",
+      gallery: [
+        img("photo-1522708323590-d24dbb6b0267", 800), // 古城民宿（图为民宿氛围参考）
+        img("photo-1555126634-323283e090fa", 800), // 夜市拌面（图为美食氛围参考）
+      ],
       photoSpot: "古城花帽巷旅拍 · 职人巴扎铜器铺",
     },
     {
@@ -369,8 +397,12 @@ export const nanjiang: RouteData = {
           desc: "落地北京时间傍晚，时差感约 2h，当晚早点休息，把照片慢慢整理。",
         },
       ],
-      img: img("photo-1519681393784-d120267933ba", 1200),
-      imgCaption: "帕米尔高原的雪山与星空（图为氛围参考）",
+      img: img("photo-1569154941061-e231b4725ef1", 1200),
+      imgCaption: "喀什机场返程（图为机场氛围参考）",
+      gallery: [
+        img("photo-1485470733090-0aae1788d5af", 800), // 舷窗外的群山（图为氛围参考）
+        img("photo-1438786657495-640937046d18", 800), // 南疆绿洲山谷（图为氛围参考）
+      ],
       photoSpot: "机舱右侧靠窗 · 天山与戈壁航拍",
     },
   ],

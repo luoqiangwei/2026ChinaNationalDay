@@ -160,6 +160,10 @@ export const sakura: RouteData = {
       ],
       img: img("photo-1554797589-7241bb691973", 1200),
       imgCaption: "札幌夜巷 · 灯笼亮了，春天还在路上",
+      gallery: [
+        img("photo-1567696911980-2eed69a46042", 800), // 札幌啤酒的一杯（图为啤酒氛围参考）
+        img("photo-1535958636474-b021ee887b13", 800), // 精酿小馆（图为酒吧氛围参考）
+      ],
       photoSpot: "札幌电视塔展望台 · 大通公园夜景",
     },
     {
@@ -201,6 +205,9 @@ export const sakura: RouteData = {
       ],
       img: img("photo-1573455494060-c5595004fb6c", 1200),
       imgCaption: "函馆夜巷 · 大门横丁的灯笼次第亮起",
+      gallery: [
+        "https://images.pexels.com/photos/36053253/pexels-photo-36053253.jpeg?auto=compress&cs=tinysrgb&w=800", // 函馆山夜景（函馆实拍）
+      ],
       photoSpot: "函馆山展望台 · 双海湾夹一城的灯火",
     },
     {
@@ -242,6 +249,10 @@ export const sakura: RouteData = {
       ],
       img: img("photo-1557409518-691ebcd96038", 1200),
       imgCaption: "弘前公园 · 护城河樱花季（满开要等 4 月下旬）",
+      gallery: [
+        img("photo-1522748906645-95d8adfd52c7", 800), // 樱花枝（图为樱花氛围参考）
+        img("photo-1542931287-023b922fa89b", 800), // 樱花季的小镇街道（图为日本街巷氛围参考）
+      ],
       photoSpot: "弘前城天守 × 护城河樱花",
     },
     {
@@ -324,6 +335,9 @@ export const sakura: RouteData = {
       ],
       img: img("photo-1542051841857-5f90071e7989", 1200),
       imgCaption: "涩谷 · 全向十字路口的霓虹海",
+      gallery: [
+        "https://images.pexels.com/photos/31293892/pexels-photo-31293892.jpeg?auto=compress&cs=tinysrgb&w=800", // 东京塔夜景（东京实拍）
+      ],
       photoSpot: "涩谷SKY · 229m 露天展望台夜景",
     },
     {
@@ -365,6 +379,10 @@ export const sakura: RouteData = {
       ],
       img: img("photo-1528164344705-47542687000d", 1200),
       imgCaption: "新仓山浅间公园 · 五重塔与富士山同框",
+      gallery: [
+        img("photo-1589308078059-be1415eab4c3", 800), // 富士山（图为富士山氛围参考）
+        img("photo-1537884944318-390069bb8665", 800), // 河口湖远眺富士（图为富士山氛围参考）
+      ],
       photoSpot: "新仓山浅间神社展望台 · 五重塔×富士山×樱花",
     },
     {
@@ -404,8 +422,12 @@ export const sakura: RouteData = {
           desc: "21:13–23:13；JR 东海段 PASS 不含，SmartEX 提前购票约 8,000+ 日元/人。宿名古屋站前R&B酒店（名駅南1-19-19）。",
         },
       ],
-      img: img("photo-1507525428034-b723cf961d3e", 1200),
-      imgCaption: "伊豆白滨 · 4 月的海已经亮了",
+      img: img("photo-1559827260-dc66d52bef19", 1200),
+      imgCaption: "伊豆白滨 · 4 月的海已经亮了（图为海浪氛围参考）",
+      gallery: [
+        img("photo-1517699418036-fb5d179fef0c", 800), // 白滨海滩（图为海滩氛围参考）
+        img("photo-1540541338287-41700207dee6", 800), // 温泉旅馆的泳池（图为度假氛围参考）
+      ],
       photoSpot: "白滨神社 · 海岸鸟居与白色沙滩",
     },
     {
@@ -522,8 +544,8 @@ export const sakura: RouteData = {
           desc: "23:30（北京时间）落地，宿机场旁酒店；次日 G6712 正定机场站 06:46 → 北京丰台 08:14，回家直接上班。",
         },
       ],
-      img: img("photo-1522383225653-ed111181a951", 1200),
-      imgCaption: "奈良公园 · 樱花树下的小鹿",
+      img: img("photo-1516205651411-aef33a44f7c2", 1200),
+      imgCaption: "奈良公园 · 樱花树下的小鹿（图为樱花氛围参考）",
       photoSpot: "奈良公园 · 鹿群与樱花",
     },
   ],

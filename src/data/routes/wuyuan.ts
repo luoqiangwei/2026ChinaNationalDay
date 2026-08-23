@@ -190,6 +190,9 @@ export const wuyuan: RouteData = {
       ],
       img: img("photo-1493106641515-6b5631de4bb9", 1200),
       imgCaption: "拉坯的手 · 千年瓷都的日常（图为陶艺氛围参考）",
+      gallery: [
+        img("photo-1610701596007-11502861dcfa", 800), // 陶器器物（图为陶瓷氛围参考）
+      ],
       photoSpot: "陶阳里 · 御窑博物馆红砖拱廊",
     },
     {

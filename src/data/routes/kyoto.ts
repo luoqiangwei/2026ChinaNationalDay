@@ -143,6 +143,10 @@ export const kyoto: RouteData = {
       ],
       img: img("photo-1493976040374-85c8e12f0c0e", 1200),
       imgCaption: "京都老街 · 石板路与町屋的灯次第亮起",
+      gallery: [
+        img("photo-1514933651103-005eec06c04b", 800), // 居酒屋小酌（图为居酒屋氛围参考）
+        img("photo-1567620905732-2d1ec7ab7445", 800), // 町屋咖啡馆的下午茶（图为氛围参考）
+      ],
       photoSpot: "鸭川四条段 · 纳凉床灯火倒映",
     },
     {
@@ -177,8 +181,8 @@ export const kyoto: RouteData = {
           desc: "神社 24 小时开放，入夜后舞殿上百盏灯笼点亮，免费又出片；晚餐在祇园吃京豆腐料理收尾。",
         },
       ],
-      img: img("photo-1512100356356-de1b84283e18", 1200),
-      imgCaption: "清水寺方向 · 晨雾未散的古寺",
+      img: img("photo-1526481280693-3bfa7568e0f3", 1200),
+      imgCaption: "清水寺方向 · 晨雾未散的古寺（图为五重塔氛围参考）",
       photoSpot: "清水舞台晨光 · 八坂塔（法观寺）巷口经典机位",
     },
     {
@@ -215,6 +219,9 @@ export const kyoto: RouteData = {
       ],
       img: img("photo-1528360983277-13d401cdc186", 1200),
       imgCaption: "千本鸟居 · 一路向上的橘红隧道",
+      gallery: [
+        img("photo-1492571350019-22de08371fd3", 800), // 水中大鸟居（图为鸟居氛围参考）
+      ],
       photoSpot: "千本鸟居半山腰回廊 · 竹林小径仰拍",
     },
     {
@@ -256,6 +263,9 @@ export const kyoto: RouteData = {
       ],
       img: img("photo-1522383225653-ed111181a951", 1200),
       imgCaption: "奈良公园 · 树荫下常有小鹿打盹",
+      gallery: [
+        img("photo-1473603477862-9d352d4615e1", 800), // 奈良小鹿（图为小鹿氛围参考）
+      ],
       photoSpot: "若草山顶 · 鹿群与奈良盆地全景",
     },
     {
@@ -290,8 +300,12 @@ export const kyoto: RouteData = {
           desc: "戎桥格力高跑男招牌下合完影，蟹道乐本店需提前多日预约，吃不上就章鱼烧+金龙拉面+大阪烧轮着来，现金备好。",
         },
       ],
-      img: img("photo-1519501025264-65ba15a82390", 1200),
+      img: img("photo-1590559899731-a382839e5549", 1200),
       imgCaption: "道顿堀 · 霓虹与烟火气",
+      gallery: [
+        img("photo-1540959733332-eab4deabeeaf", 800), // 都市霓虹夜（图为夜景氛围参考）
+        img("photo-1559742811-822873691df8", 800), // 蟹道乐的海鲜（图为海鲜氛围参考）
+      ],
       photoSpot: "戎桥 · 格力高跑男霓虹",
     },
     {
@@ -321,8 +335,8 @@ export const kyoto: RouteData = {
           desc: "机场免税店补白色恋人和薯条三兄弟，伴手礼一站购齐。关西双城 6 天，秋天该来第二次。",
         },
       ],
-      img: img("photo-1508807526345-15e9b5f4eaff", 1200),
-      imgCaption: "大阪城 · 护城河绕天守",
+      img: img("photo-1514565131-fce0801e5785", 1200),
+      imgCaption: "大阪城 · 护城河绕天守（图为城市夜景氛围参考）",
     },
   ],
   highlights: ["清水舞台晨光", "千本鸟居", "岚山竹径", "奈良小鹿", "道顿堀夜色"],

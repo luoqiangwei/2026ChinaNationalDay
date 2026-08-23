@@ -147,8 +147,8 @@ export const dali: RouteData = {
           desc: "骑车原路返回约 1h，晚饭吃白族酸辣鱼配烤乳扇；高原紫外线强，今天晒了一天记得补水敷面膜。",
         },
       ],
-      img: img("photo-1507608616759-54f48f0af0ee", 1200),
-      imgCaption: "清晨的洱海湖面，海西廊道骑行道贴着水走",
+      img: "https://images.pexels.com/photos/36535786/pexels-photo-36535786.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "清晨的洱海湖面，海西廊道骑行道贴着水走（洱海实拍）",
       photoSpot: "磻溪村 S 湾日出机位（7:00 前到）· 喜洲稻田转角楼",
     },
     {
@@ -226,6 +226,10 @@ export const dali: RouteData = {
       ],
       img: img("photo-1471922694854-ff1b63b20054", 1200),
       imgCaption: "双廊方向的洱海日落，湖面被染成金色",
+      gallery: [
+        img("photo-1623855244183-52fd8d3ce2f7", 800), // 理想邦白色建筑群（图为白色建筑群氛围参考）
+        img("photo-1584132967334-10e028bd69f7", 800), // 海景民宿露台（图为海景度假氛围参考）
+      ],
       photoSpot: "双廊玉几岛栈道 · 日落剪影；理想邦白色阶梯",
     },
     {

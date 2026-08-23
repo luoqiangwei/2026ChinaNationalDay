@@ -109,6 +109,10 @@ export const xian: RouteData = {
       ],
       img: img("photo-1508807526345-15e9b5f4eaff", 1200),
       imgCaption: "西安城墙 · 两个人一圈 13.7km（图为古城垣氛围参考）",
+      gallery: [
+        img("photo-1541625602330-2277a4c46182", 800), // 城墙骑行（图为骑行氛围参考）
+        img("photo-1493770348161-369560ae357d", 800), // 永兴坊的一桌小吃（图为美食氛围参考）
+      ],
       photoSpot: "永宁门瓮城 · 夕阳顺光拍城楼",
     },
     {
@@ -148,8 +152,12 @@ export const xian: RouteData = {
           desc: "以骊山为幕的水上实景剧，中区票 ¥300–400 需提前订；10 月夜间山里冷，门口可租军大衣，或自带厚外套。",
         },
       ],
-      img: img("photo-1508804185872-d7badad00f7d", 1200),
-      imgCaption: "两千年前的军阵 · 一号坑东端的氛围参考",
+      img: "https://images.pexels.com/photos/28844763/pexels-photo-28844763.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "两千年前的军阵 · 一号坑（兵马俑实拍）",
+      gallery: [
+        img("photo-1512003867696-6d5ce6835040", 800), // 临潼砂锅晚餐（图为美食氛围参考）
+        img("photo-1533230408708-8f9f91d1235a", 800), // 长恨歌实景演出（图为夜景灯光氛围参考）
+      ],
       photoSpot: "1 号坑东端长廊 · 低角度拍军阵纵深",
     },
     {
@@ -186,6 +194,10 @@ export const xian: RouteData = {
       ],
       img: img("photo-1599571234909-29ed5d1321d6", 1200),
       imgCaption: "大唐不夜城 · 灯火如昼（图为古建夜景氛围参考）",
+      gallery: [
+        img("photo-1565193566173-7a0ee3dbe261", 800), // 陕历博的陶俑文物（图为文物氛围参考）
+        img("photo-1596401057633-54a8fe8ef647", 800), // 不夜城的灯笼海（图为灯笼氛围参考）
+      ],
       photoSpot: "大雁塔南广场玄奘像前 · 塔身灯光倒映",
     },
     {
@@ -217,6 +229,9 @@ export const xian: RouteData = {
       ],
       img: img("photo-1488085061387-422e29b40080", 1200),
       imgCaption: "书院门 · 淘一张手写书签带走（图为旅行街巷氛围参考）",
+      gallery: [
+        img("photo-1517248135467-4c7edcad34c4", 800), // 水盆羊肉老店（图为餐馆氛围参考）
+      ],
       photoSpot: "书院门牌坊 · 碑林石台孝经拓片特写",
     },
   ],

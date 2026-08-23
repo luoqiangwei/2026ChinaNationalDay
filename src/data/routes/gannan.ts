@@ -117,6 +117,10 @@ export const gannan: RouteData = {
       ],
       img: img("photo-1477959858617-67f85cf4f1df", 1200),
       imgCaption: "入夜后的城市天际线（图为城市夜景氛围参考）",
+      gallery: [
+        img("photo-1617093727343-374698b1b08d", 800), // 兰州牛肉面（图为面食氛围参考）
+        img("photo-1547592166-23ac45744acd", 800), // 正宁路牛奶鸡蛋醪糟（图为热汤氛围参考）
+      ],
       photoSpot: "白塔山公园 · 黄河铁桥与城市灯火同框",
     },
     {
@@ -153,6 +157,10 @@ export const gannan: RouteData = {
       ],
       img: img("photo-1573398643956-2b9e6ade3456", 1200),
       imgCaption: "山坡上的藏传佛寺（图为藏地寺院氛围参考）",
+      gallery: [
+        "https://images.pexels.com/photos/8608907/pexels-photo-8608907.jpeg?auto=compress&cs=tinysrgb&w=800", // 僧人在壁画前祈祷（藏区人文实拍）
+        "https://images.pexels.com/photos/32110108/pexels-photo-32110108.jpeg?auto=compress&cs=tinysrgb&w=800", // 经幡特写（藏区实拍）
+      ],
       photoSpot: "贡唐宝塔顶层 · 拉卜楞寺金顶全景",
     },
     {
@@ -192,8 +200,12 @@ export const gannan: RouteData = {
           desc: "镇上川味小馆或藏餐，人均 ¥40；夜里温度直逼 0°C，回客栈把明早的厚衣服备好。",
         },
       ],
-      img: img("photo-1472214103451-9374bd1c798e", 1200),
-      imgCaption: "日落时分的草原（图为草原氛围参考）",
+      img: "https://images.pexels.com/photos/37804558/pexels-photo-37804558.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "桑科草原 · 牦牛与高原湖泊（图为藏地草原实拍）",
+      gallery: [
+        "https://images.pexels.com/photos/38875044/pexels-photo-38875044.jpeg?auto=compress&cs=tinysrgb&w=800", // 山顶经幡阵（藏区实拍）
+        img("photo-1493962853295-0fd70327578a", 800), // 牧场牦牛（图为高原牧场氛围参考）
+      ],
       photoSpot: "赛赤寺后山 · 郎木寺镇全景与红石崖",
     },
     {
@@ -233,8 +245,12 @@ export const gannan: RouteData = {
           desc: "夜里晴好记得出门看银河，村里光污染几乎为零；明早 6 点起床等晨雾。",
         },
       ],
-      img: img("photo-1469474968028-56623f02e42e", 1200),
-      imgCaption: "石峰与高山草甸，扎尕那的石城就是这个气质（图为氛围参考）",
+      img: "https://images.pexels.com/photos/37769788/pexels-photo-37769788.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "扎尕那 · 石峰下的藏寨、白塔与经幡（图为藏地村落实拍）",
+      gallery: [
+        img("photo-1523741543316-beb7fc7023d8", 800), // 仙女滩田园（图为田园氛围参考）
+        img("photo-1426604966848-d7adac402bff", 800), // 石峰下的草甸（图为山谷草甸氛围参考）
+      ],
       photoSpot: "洛克观景台 · 石峰群与藏寨炊烟同框",
     },
     {
@@ -269,8 +285,12 @@ export const gannan: RouteData = {
           desc: "甘南州府条件最好的一晚，吃蕨麻米饭配牦牛酸奶，人均 ¥50；今晚可以踏实洗个热水澡。",
         },
       ],
-      img: img("photo-1493246507139-91e8fad9978e", 1200),
+      img: img("photo-1503614472-8c93d56e92ce", 1200),
       imgCaption: "高原湖泊的雪山倒影（图为湖泊氛围参考）",
+      gallery: [
+        img("photo-1501621965065-c6e1cf6b53e2", 800), // 合作市集的烟火气（图为市集氛围参考）
+        img("photo-1478827536114-da961b7f86d2", 800), // 尕海边露营（图为露营氛围参考）
+      ],
       photoSpot: "达日观景台 · 晨雾漫过东哇村（日出前 40 分钟占位）",
     },
     {
@@ -300,8 +320,12 @@ export const gannan: RouteData = {
           desc: "落地回家；扎尕那晨雾那张照片，值得洗出来挂墙上。",
         },
       ],
-      img: img("photo-1470071459604-3b5ec3a7fe05", 1200),
-      imgCaption: "云雾缭绕的山谷公路（图为返程山路氛围参考）",
+      img: "https://images.pexels.com/photos/13672808/pexels-photo-13672808.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "云雾缭绕的山谷公路（图为盘山公路航拍参考）",
+      gallery: [
+        img("photo-1517400508447-f8dd518b86db", 800), // 机场看航班屏（图为机场氛围参考）
+        img("photo-1531642765602-5cae8bbbf285", 800), // 起飞返京（图为飞行氛围参考）
+      ],
       photoSpot: "返程高速 · 云雾山谷与盘山公路",
     },
   ],

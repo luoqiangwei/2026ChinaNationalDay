@@ -23,7 +23,7 @@ export const shanxi: RouteData = {
   seasonNote: "秋凉干燥、晴天率高，是看古建的好季节；早晚只有几度，日出日落时段冷",
   clothing: "卫衣+风衣/薄羽绒，早晚加围巾；好走的鞋，古建台阶多",
   crowd: "★★★★☆",
-  hero: img("photo-1508804185872-d7badad00f7d"),
+  hero: img("photo-1547981609-4b6bfe67ca0b"),
   heroCaption: "飞檐斗拱 · 凝固了千年的时光",
   official: "黄河文化 / 长城文化线路辐射",
   drive: "大同/太原/平遥高铁串联；云冈、悬空寺、应县一线公共交通绕，建议包车一日",
@@ -144,8 +144,12 @@ export const shanxi: RouteData = {
           desc: "老柴家削面或凯鸽酒楼：刀削面+过油肉，人均 ¥50，山西的面随便点不踩雷。",
         },
       ],
-      img: img("photo-1590559899731-a382839e5549", 1200),
-      imgCaption: "云冈第 20 窟露天大佛 · 北魏的微笑",
+      img: "https://images.pexels.com/photos/8508726/pexels-photo-8508726.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "云冈第 20 窟露天大佛 · 北魏的微笑（图为石窟大佛实拍）",
+      gallery: [
+        img("photo-1526318896980-cf78c088247c", 800), // 大同刀削面（图为面食氛围参考）
+        img("photo-1514924013411-cbf25faa35bb", 800), // 大同古城街市（图为古城氛围参考）
+      ],
       photoSpot: "第 20 窟大佛正前方低机位 · 上午顺光更柔和",
     },
     {
@@ -180,8 +184,12 @@ export const shanxi: RouteData = {
           desc: "车程约 1.5h，正好补觉。晚上体力尚存可看华严寺（门票约 65 元），薄伽教藏殿的辽代彩塑是国宝级。",
         },
       ],
-      img: img("photo-1519681393784-d120267933ba", 1200),
-      imgCaption: "悬空寺 · 挂在恒山金龙峡峭壁上的三教合一寺",
+      img: "https://images.pexels.com/photos/30326825/pexels-photo-30326825.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "悬空寺 · 挂在恒山金龙峡峭壁上的三教合一寺（实拍）",
+      gallery: [
+        img("photo-1440342359743-84fcb8c21f21", 800), // 恒山步道林荫（图为林间氛围参考）
+        img("photo-1521017432531-fbd92d768814", 800), // 下山后的茶馆歇脚（图为氛围参考）
+      ],
       photoSpot: "悬空寺对岸观景台拍全貌 · 木塔一层仰拍斗拱",
     },
     {
@@ -216,8 +224,12 @@ export const shanxi: RouteData = {
           desc: "迎泽桥段夜景消食，10 月晚风已凉，把薄羽绒翻出来。",
         },
       ],
-      img: img("photo-1508807526345-15e9b5f4eaff", 1200),
-      imgCaption: "晋祠圣母殿 · 北宋木构与鱼沼飞梁",
+      img: img("photo-1510001618818-4b4e3d86bf0f", 1200),
+      imgCaption: "晋祠圣母殿 · 北宋木构与鱼沼飞梁（图为古镇水榭氛围参考）",
+      gallery: [
+        img("photo-1509316975850-ff9c5deb0cd9", 800), // 晋祠古柏林荫（图为林间氛围参考）
+        img("photo-1585320806297-9794b3e4eeae", 800), // 园林小径（图为园林氛围参考）
+      ],
       photoSpot: "鱼沼飞梁十字桥上拍圣母殿 · 难老泉亭",
     },
     {
@@ -252,8 +264,12 @@ export const shanxi: RouteData = {
           desc: "大红灯笼全亮时的南大街最像穿越。晚饭天元奎饭店：平遥牛肉+栲栳栳，人均 ¥80。",
         },
       ],
-      img: img("photo-1519501025264-65ba15a82390", 1200),
-      imgCaption: "平遥明清街 · 灯笼亮起时最像穿越",
+      img: img("photo-1535139262971-c51845709a48", 1200),
+      imgCaption: "平遥明清街 · 灯笼亮起时最像穿越（图为古城灯笼氛围参考）",
+      gallery: [
+        img("photo-1518182170546-07661fd94144", 800), // 古城夜巷（图为古城夜色氛围参考）
+        img("photo-1519671482749-fd09be7ccebf", 800), // 古城晚餐小酌（图为晚餐氛围参考）
+      ],
       photoSpot: "南大街市楼夜景 · 日昇昌票号庭院",
     },
     {
@@ -285,6 +301,10 @@ export const shanxi: RouteData = {
       ],
       img: img("photo-1508898578281-774ac4893c0c", 1200),
       imgCaption: "平遥古城墙 · 一圈走完是 6.4km 的明清",
+      gallery: [
+        img("photo-1474487548417-781cb71495f3", 800), // 火车返程（图为火车氛围参考）
+        img("photo-1502134249126-9f3755a50d78", 800), // 古城上空的星（图为星空氛围参考）
+      ],
       photoSpot: "城墙东南角楼俯拍全城 · 市楼仰拍",
     },
   ],

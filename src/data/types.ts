@@ -29,6 +29,7 @@ export interface DayPlan {
   events: DayEvent[]; // 当天时间轴，4–6 个时段
   img: string; // 当天配图 URL
   imgCaption: string; // 图注（拍摄点/画面说明）
+  gallery?: string[]; // 当天补充图（2 张缩略图，展示在主图下方）
   photoSpot?: string; // 出片机位
 }
 

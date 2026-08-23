@@ -123,6 +123,10 @@ export const qinggan: RouteData = {
       ],
       img: img("photo-1476610182048-b716b8518aae", 1200),
       imgCaption: "青海湖 · 10 月草甸金黄、湖面湛蓝",
+      gallery: [
+        img("photo-1518837695005-2083093ee35b", 800), // 湖浪拍岸（图为湖岸氛围参考）
+        img("photo-1548032885-b5e38734688a", 800), // 湖面俯拍（图为湖面氛围参考）
+      ],
       photoSpot: "环湖西路 · 以湖为背景的公路照",
     },
     {
@@ -159,6 +163,10 @@ export const qinggan: RouteData = {
       ],
       img: img("photo-1476514525535-07fb3b4ae5f1", 1200),
       imgCaption: "茶卡盐湖 · 傍晚无风时湖面如镜",
+      gallery: [
+        img("photo-1471115853179-bb1d604434e0", 800), // 湛蓝湖面（图为盐湖氛围参考）
+        img("photo-1495954484750-af469f2f9be5", 800), // 湖边栈道（图为栈道氛围参考）
+      ],
       photoSpot: "铁轨尽头 · 低机位拍倒影对称",
     },
     {
@@ -188,8 +196,11 @@ export const qinggan: RouteData = {
           desc: "海拔约 3,200m，夜间寒冷，订房确认暖气；镇上川菜馆和炕锅都不少，好好吃一顿。",
         },
       ],
-      img: img("photo-1469474968028-56623f02e42e", 1200),
-      imgCaption: "柴达木盆地 · 阳光洒满戈壁",
+      img: img("photo-1547234935-80c7145ec969", 1200),
+      imgCaption: "柴达木盆地 · 阳光洒满戈壁（图为雅丹氛围参考）",
+      gallery: [
+        img("photo-1519003722824-194d4455a60c", 800), // 戈壁公路（图为公路氛围参考）
+      ],
       photoSpot: "翡翠湖心栈道 · 俯拍盐池色块",
     },
     {
@@ -224,8 +235,12 @@ export const qinggan: RouteData = {
           desc: "驴肉黄面+杏皮水+烤串三件套；葡萄干、锁阳等伴手货先问价再买，货比三家。",
         },
       ],
-      img: img("photo-1473580044384-7ba9967e16a0", 1200),
-      imgCaption: "G315 · 直通天际的戈壁公路",
+      img: "https://images.pexels.com/photos/18779056/pexels-photo-18779056.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "G315 · 直通天际的戈壁公路（航拍）",
+      gallery: [
+        img("photo-1516690561799-46d8f74f9abf", 800), // 水上雅丹的绿松石水面（图为水上雅丹氛围参考）
+        img("photo-1518623489648-a173ef7824f3", 800), // 戈壁中的湖泊（图为航拍湖泊氛围参考）
+      ],
       photoSpot: "780 号路碑附近 · 长焦压缩公路曲线",
     },
     {
@@ -260,8 +275,11 @@ export const qinggan: RouteData = {
           desc: "天黑透后银河清晰可见，躺在还温热的沙子上看星星；出园打车回市区约 10min。",
         },
       ],
-      img: img("photo-1547234935-80c7145ec969", 1200),
-      imgCaption: "鸣沙山 · 日落前 1 小时光影最佳",
+      img: img("photo-1542401886-65d6c61db217", 1200),
+      imgCaption: "鸣沙山 · 日落前 1 小时光影最佳（图为沙漠氛围参考）",
+      gallery: [
+        "https://images.pexels.com/photos/33412586/pexels-photo-33412586.jpeg?auto=compress&cs=tinysrgb&w=800", // 月牙泉与鸣沙山（敦煌实拍）
+      ],
       photoSpot: "主峰 · 月牙泉全景；驼队剪影",
     },
     {
@@ -296,8 +314,12 @@ export const qinggan: RouteData = {
           desc: "日落后出园，住张掖市区；晚餐卷子鸡/搓鱼子，慰劳今天 600km 的自己和副驾。",
         },
       ],
-      img: img("photo-1513415277900-a62401e19be4", 1200),
-      imgCaption: "七彩丹霞 · 日落时像打翻的调色盘",
+      img: "https://images.pexels.com/photos/38762889/pexels-photo-38762889.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "七彩丹霞 · 日落时像打翻的调色盘（张掖实拍）",
+      gallery: [
+        img("photo-1502224562085-639556652f33", 800), // 黑河湿地日落（图为湿地氛围参考）
+        img("photo-1476820865390-c52aeebb9891", 800), // 秋日公路（图为公路氛围参考）
+      ],
       photoSpot: "4 号观景台 · 日落顺光拍彩色丘陵",
     },
     {
@@ -339,6 +361,9 @@ export const qinggan: RouteData = {
       ],
       img: img("photo-1508672019048-805c876b67e2", 1200),
       imgCaption: "祁连草原 · 雪山下的金色牧场",
+      gallery: [
+        img("photo-1444090542259-0af8fa96557e", 800), // 云海日落（图为高原氛围参考）
+      ],
     },
   ],
   highlights: ["茶卡天空之镜", "莫高窟壁画", "鸣沙山日落星空", "七彩丹霞", "G315 戈壁天路"],

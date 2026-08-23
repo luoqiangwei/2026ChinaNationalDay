@@ -113,8 +113,12 @@ export const meili: RouteData = {
           desc: "古城内老店吃酸辣鱼配烤乳扇，人均 ¥60–80；今晚不喝酒，为后面 3,300m 的香格里拉留状态。",
         },
       ],
-      img: img("photo-1519501025264-65ba15a82390", 1200),
-      imgCaption: "入夜后的大理古城灯火（图为氛围参考）",
+      img: "https://images.pexels.com/photos/35410604/pexels-photo-35410604.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "洱海与湖畔小镇同框 · 抵达大理的第一眼（航拍实拍）",
+      gallery: [
+        img("photo-1495616811223-4d98c6e9c869", 800), // 洱海日落（图为湖泊日落氛围参考）
+        "https://images.pexels.com/photos/29855648/pexels-photo-29855648.jpeg?auto=compress&cs=tinysrgb&w=800", // 洱海岸边的水中树（实拍）
+      ],
       photoSpot: "五华楼顶层 · 古城青瓦与苍山同框",
     },
     {
@@ -154,8 +158,12 @@ export const meili: RouteData = {
           desc: "寺登街吃农家菜，人均 ¥50 吃得很好；今晚住古镇里，夜里安静得能听见水声。",
         },
       ],
-      img: img("photo-1507608616759-54f48f0af0ee", 1200),
-      imgCaption: "清晨的洱海湖面，海西廊道贴着水走",
+      img: img("photo-1533050487297-09b450131914", 1200),
+      imgCaption: "沙溪古镇寺登街 · 入夜的茶马古道（图为古镇街巷氛围参考）",
+      gallery: [
+        img("photo-1471506480208-91b3a4cc78be", 800), // 海西廊道骑行（图为骑行氛围参考）
+        img("photo-1470252649378-9c29740c9fa8", 800), // 喜洲稻田晨光（图为田野氛围参考）
+      ],
       photoSpot: "玉津桥头 · 古戏台与老槐树同框",
     },
     {
@@ -195,8 +203,12 @@ export const meili: RouteData = {
           desc: "爬龟山公园台阶放慢速度，世界最大转经筒要七八个人才推得动，转三圈祈福；看古城夜景正合适。",
         },
       ],
-      img: img("photo-1483728642387-6c3bdd6c93e5", 1200),
-      imgCaption: "虎跳峡一带的峡谷群山（图为峡谷氛围参考）",
+      img: img("photo-1547036967-23d11aacaee0", 1200),
+      imgCaption: "金沙江切开群山 · 虎跳峡的激流（图为峡谷氛围参考）",
+      gallery: [
+        img("photo-1506197603052-3cc9c3a201bd", 800), // 峡谷徒步道（图为峡谷氛围参考）
+        img("photo-1533850595620-7b1711221751", 800), // 抵达高原 · 远眺雪山（图为氛围参考）
+      ],
       photoSpot: "上虎跳栈道 · 金沙江激流与玉龙雪山对岸",
     },
     {
@@ -238,6 +250,10 @@ export const meili: RouteData = {
       ],
       img: img("photo-1473580044384-7ba9967e16a0", 1200),
       imgCaption: "山间的平流晨雾，松赞林寺的清晨就是这个氛围（图为氛围参考）",
+      gallery: [
+        "https://images.pexels.com/photos/36966995/pexels-photo-36966995.jpeg?auto=compress&cs=tinysrgb&w=800", // 松赞林寺 · 藏传寺庙与经幡
+        img("photo-1486870591958-9b9d0d1dda99", 800), // 纳帕海 · 金黄草甸与雪山（图为草甸氛围参考）
+      ],
       photoSpot: "拉姆央措湖 · 松赞林寺倒影；金沙江大拐弯观景台",
     },
     {
@@ -277,8 +293,12 @@ export const meili: RouteData = {
           desc: "回到 3,300m 身体已适应，牦牛火锅配青稞饼好好吃一顿；今天可以洗澡了，别洗太久。",
         },
       ],
-      img: img("photo-1464822759023-fed622ff2c3b", 1200),
-      imgCaption: "雪山群峰 · 日照金山时刻的金色山尖（图为雪山氛围参考）",
+      img: img("photo-1483197452165-7abc4b248905", 1200),
+      imgCaption: "日照金山 · 卡瓦格博的金色时刻（图为雪山日出氛围参考）",
+      gallery: [
+        img("photo-1520208422220-d12a3c588e6c", 800), // 明永冰川徒步（图为冰川氛围参考）
+        img("photo-1418985991508-e47386d96a71", 800), // 冰川雪原（图为冰川氛围参考）
+      ],
       photoSpot: "飞来寺观景台 · 梅里十三峰全景（日出前 30 分钟占位）",
     },
     {
@@ -318,8 +338,12 @@ export const meili: RouteData = {
           desc: "独克宗古城找家藏餐厅，酥油茶配糌粑收尾；明早的航班，今晚早点回酒店收拾行李。",
         },
       ],
-      img: img("photo-1501785888041-af3ef285b470", 1200),
-      imgCaption: "高原湖泊与远山，普达措属都湖的秋日（图为湖泊氛围参考）",
+      img: img("photo-1470770841072-f978cf4d019e", 1200),
+      imgCaption: "属都湖畔 · 湖面倒影与湖边木屋（图为高原湖泊氛围参考）",
+      gallery: [
+        img("photo-1508264165352-258db2ebd59b", 800), // 普达措层林尽染（图为秋林氛围参考）
+        img("photo-1464226184884-fa280b87c399", 800), // 市集买手信（图为市集氛围参考）
+      ],
       photoSpot: "属都湖栈道 · 湖面倒影与秋色层林",
     },
     {
@@ -349,8 +373,12 @@ export const meili: RouteData = {
           desc: "落地回家；梅里雪山的照片慢慢整理，日照金山那张值得洗出来挂墙上。",
         },
       ],
-      img: img("photo-1469854523086-cc02fe5d8800", 1200),
-      imgCaption: "高原公路 · 滇西北环线返程路（图为公路氛围参考）",
+      img: img("photo-1533473359331-0135ef1b58bf", 1200),
+      imgCaption: "高原公路返程 · 开往丽江机场（图为公路氛围参考）",
+      gallery: [
+        img("photo-1524592714635-d77511a4834d", 800), // 登机（图为机场氛围参考）
+        img("photo-1501436513145-30f24e19fcc8", 800), // 机上云海（图为云海氛围参考）
+      ],
       photoSpot: "丽江机场起飞 · 左侧舷窗回望玉龙雪山",
     },
   ],

@@ -202,8 +202,8 @@ export const jeju: RouteData = {
           desc: "橘子麻糬、黑猪肉卷必吃；柑橘巧克力、火山岩护手霜先尝后买，为明天的伴手礼探路。",
         },
       ],
-      img: img("photo-1500382017468-9049fed747ef", 1200),
-      imgCaption: "山君不离 · 10 月齐腰的紫芒草浪已泛金黄",
+      img: "https://images.pexels.com/photos/13835530/pexels-photo-13835530.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "山君不离 · 10 月齐腰的紫芒草浪已泛金黄（图为秋日林道氛围参考）",
       photoSpot: "山君不离木栈道 · 紫芒拍人像（穿白/奶油色）",
     },
     {
@@ -238,8 +238,11 @@ export const jeju: RouteData = {
           desc: "10/4 晚落地北京，假期还剩 3 天，正好休整消化照片。",
         },
       ],
-      img: img("photo-1519046904884-53103b34b206", 1200),
-      imgCaption: "中文旅游区海岸 · 返程前再看一次海",
+      img: "https://images.pexels.com/photos/29134982/pexels-photo-29134982.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "中文旅游区海岸 · 返程前再看一次海（图为济州海岸实拍）",
+      gallery: [
+        "https://images.pexels.com/photos/30966636/pexels-photo-30966636.jpeg?auto=compress&cs=tinysrgb&w=800", // 城山日出峰（济州实拍）
+      ],
     },
   ],
   highlights: ["城山日出峰", "山君不离紫芒", "涉地可支灯塔", "海女海鲜锅"],

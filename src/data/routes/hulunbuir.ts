@@ -116,6 +116,10 @@ export const hulunbuir: RouteData = {
       ],
       img: img("photo-1500382017468-9049fed747ef", 1200),
       imgCaption: "草原秋日 · 落地海拉尔的第一眼金黄（图为氛围参考）",
+      gallery: [
+        img("photo-1553284965-83fd3e82fa5a", 800), // 草原上的马（图为草原氛围参考）
+        img("photo-1529193591184-b1d58069ecdd", 800), // 手把肉与烤羊腿（图为蒙餐氛围参考）
+      ],
       photoSpot: "成吉思汗广场 · 夕阳下的城市剪影",
     },
     {
@@ -157,6 +161,10 @@ export const hulunbuir: RouteData = {
       ],
       img: img("photo-1501854140801-50d01698950b", 1200),
       imgCaption: "丘陵湿地 · 曲水与草场的金色层次（图为氛围参考）",
+      gallery: [
+        img("photo-1502472584811-0a2f2feb8968", 800), // 丘陵日出（图为草原氛围参考）
+        img("photo-1500964757637-c85e8a162699", 800), // 层叠山峦日落（图为氛围参考）
+      ],
       photoSpot: "湿地观景台 · 根河 S 弯日落",
     },
     {
@@ -198,6 +206,10 @@ export const hulunbuir: RouteData = {
       ],
       img: img("photo-1502082553048-f009c37129b9", 1200),
       imgCaption: "白桦林 · 阳光穿过金黄叶片（图为氛围参考）",
+      gallery: [
+        img("photo-1473448912268-2022ce9509d8", 800), // 林间河谷（图为林区氛围参考）
+        img("photo-1470509037663-253afd7f0f51", 800), // 恩和田园风光（图为田园氛围参考）
+      ],
       photoSpot: "白桦林栈道 · 恩和村口木栅栏",
     },
     {
@@ -232,8 +244,12 @@ export const hulunbuir: RouteData = {
           desc: "温泉酒店国庆 ¥500–700/晚；晚餐后泡温泉解乏，小城夜景是欧式小楼+星空。",
         },
       ],
-      img: img("photo-1441974231531-c6227db76b6e", 1200),
+      img: img("photo-1516692935701-4f35bff8b9f6", 1200),
       imgCaption: "林区公路 · 穿越大兴安岭的金色隧道（图为氛围参考）",
+      gallery: [
+        img("photo-1501594907352-04cda38ebc29", 800), // 林区初雪（图为雪原氛围参考）
+        img("photo-1516687401797-25297ff1462c", 800), // 兴安岭山谷（图为山谷氛围参考）
+      ],
       photoSpot: "林区观景台 · 落叶松与远山层叠",
     },
     {
@@ -275,6 +291,10 @@ export const hulunbuir: RouteData = {
       ],
       img: img("photo-1500534314209-a25ddb2bd429", 1200),
       imgCaption: "火山湖 · 林海环抱的高山天池（图为氛围参考）",
+      gallery: [
+        img("photo-1434139240289-56c519f77cb0", 800), // 湖畔日落（图为湖泊氛围参考）
+        img("photo-1437482078695-73f5ca6c96e2", 800), // 三潭峡溪流（图为山涧氛围参考）
+      ],
       photoSpot: "驼峰岭天池观景台 · 不冻河晨雾机位",
     },
     {
@@ -309,8 +329,12 @@ export const hulunbuir: RouteData = {
           desc: "10/7 整天留作机动：初雪封路或航班延误都可顺延，机票买可退改正是为此。",
         },
       ],
-      img: img("photo-1470071459604-3b5ec3a7fe05", 1200),
+      img: img("photo-1533240332313-0db49b459ad6", 1200),
       imgCaption: "河谷晨雾 · 不冻河清晨的样子（图为氛围参考）",
+      gallery: [
+        img("photo-1502581827181-9cf3c3ee0106", 800), // 雪原星空（图为星空氛围参考）
+        img("photo-1520877745935-616158ebdcc9", 800), // 返程候机（图为机场氛围参考）
+      ],
       photoSpot: "不冻河栈道 · 晨雾与霜花同框",
     },
   ],

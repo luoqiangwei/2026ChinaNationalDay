@@ -187,12 +187,27 @@ export default function RouteDetail({
         <div className="rounded-3xl bg-white/85 border border-[#101010]/10 overflow-hidden">
           <div className="grid lg:grid-cols-5">
             {/* 当天图片 */}
-            <figure className="lg:col-span-2 relative min-h-[260px]">
-              <img key={day.day} src={day.img} alt={day.imgCaption} className="absolute inset-0 w-full h-full object-cover" />
-              <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-5 pt-10 pb-4 text-white text-sm flex items-start gap-2">
-                <Camera className="w-4 h-4 mt-0.5 shrink-0" /> {day.imgCaption}
-              </figcaption>
-            </figure>
+            <div className="lg:col-span-2 flex flex-col">
+              <figure className="relative flex-1 min-h-[260px]">
+                <img key={day.day} src={day.img} alt={day.imgCaption} className="absolute inset-0 w-full h-full object-cover" />
+                <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-5 pt-10 pb-4 text-white text-sm flex items-start gap-2">
+                  <Camera className="w-4 h-4 mt-0.5 shrink-0" /> {day.imgCaption}
+                </figcaption>
+              </figure>
+              {day.gallery && day.gallery.length > 0 && (
+                <div className="grid grid-cols-2 gap-1.5 p-1.5 bg-white/70">
+                  {day.gallery.map((g, i) => (
+                    <img
+                      key={i}
+                      src={g}
+                      alt={`${day.day} ${day.title} · 图 ${i + 1}`}
+                      loading="lazy"
+                      className="w-full h-28 md:h-32 object-cover rounded-lg"
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
 
             {/* 当天时间轴 */}
             <div className="lg:col-span-3 p-6 md:p-8">

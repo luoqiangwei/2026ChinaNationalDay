@@ -145,8 +145,9 @@ export const sabah: RouteData = {
           desc: "KLCC 公园喷泉湖畔 19:00 亮灯后是经典机位，20:00 有音乐喷泉。这条线的主角是沙巴，吉隆坡只留这一眼，21:30 前返程休息。",
         },
       ],
-      img: img("photo-1596422846543-75c6fc197f07", 1200),
+      img: img("photo-1508062878650-88b52897f298", 1200),
       imgCaption: "双子塔入夜 · 门户城市的一眼惊鸿",
+      gallery: [img("photo-1563245372-f21724e3856d", 800), img("photo-1464037866556-6812c9d1c72e", 800)],
       photoSpot: "KLCC 公园喷泉湖畔 · 仰拍双塔同框",
     },
     {
@@ -181,8 +182,9 @@ export const sabah: RouteData = {
           desc: "海滩旁的丹绒亚路夜市烤鸡翅、沙爹、三色奶茶人均 RM20；早点回酒店，明天跳岛。",
         },
       ],
-      img: img("photo-1507525428034-b723cf961d3e", 1200),
-      imgCaption: "丹绒亚路日落 · 世界三大日落之一的含金量",
+      img: img("photo-1476673160081-cf065607f449", 1200),
+      imgCaption: "丹绒亚路日落 · 世界三大日落之一的含金量（图为海边日落氛围参考）",
+      gallery: [img("photo-1552611052-33e04de081de", 800), img("photo-1555939594-58d7cb561ad1", 800)],
       photoSpot: "丹绒亚路第一海滩 · 日落前 30 分钟金光时刻",
     },
     {
@@ -219,6 +221,9 @@ export const sabah: RouteData = {
       ],
       img: img("photo-1682686581551-867e0b208bd1", 1200),
       imgCaption: "市区 15 分钟的海 · 一头扎进珊瑚花园",
+      gallery: [
+        img("photo-1499242611767-cf8b9be02854", 800), // 浮潜（图为浮潜氛围参考）
+      ],
       photoSpot: "沙比岛浅滩 · 浮潜面镜怼水面半水下构图",
     },
     {
@@ -255,6 +260,9 @@ export const sabah: RouteData = {
       ],
       img: img("photo-1559128010-7c1ad6e1b6a5", 1200),
       imgCaption: "驶向仙本那 · 海越来越像一块玻璃",
+      gallery: [
+        img("photo-1544550581-5f7ceaf7f992", 800), // 海上水屋栈道（图为水屋氛围参考）
+      ],
       photoSpot: "仙本那镇码头 · 傍晚渔船与落日同框",
     },
     {
@@ -291,6 +299,9 @@ export const sabah: RouteData = {
       ],
       img: img("photo-1570789210967-2cac24afeb00", 1200),
       imgCaption: "珍珠岛山顶 · 渐变色的潟湖在脚下铺开",
+      gallery: [
+        img("photo-1520250497591-112f2f40a3f4", 800), // 海岛度假（图为海岛度假氛围参考）
+      ],
       photoSpot: "Bohey Dulang 观景台 · 俯瞰潟湖全景",
     },
     {
@@ -327,6 +338,9 @@ export const sabah: RouteData = {
       ],
       img: img("photo-1437622368342-7a3d73a34c8f", 1200),
       imgCaption: "邦邦岛的海龟 · 它比你更像这里的主人",
+      gallery: [
+        img("photo-1590001155093-a3c66ab0c3ff", 800), // 环礁水屋（图为水屋氛围参考）
+      ],
       photoSpot: "马达京拖尾沙洲 · 退潮时走向海中央",
     },
     {

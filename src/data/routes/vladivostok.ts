@@ -130,8 +130,8 @@ export const vladivostok: RouteData = {
           desc: "本地人气餐厅，哈恰普里（奶酪饼）+烤串两人约 2,500–3,500 卢布；旺季排队，错峰或早去。",
         },
       ],
-      img: img("photo-1519501025264-65ba15a82390", 1200),
-      imgCaption: "山城夜色 · 等金角湾大桥亮灯（图为氛围参考）",
+      img: img("photo-1508189860359-777d945909ef", 1200),
+      imgCaption: "山城夜色 · 等金角湾大桥亮灯（图为海湾城市氛围参考）",
       photoSpot: "鹫巢瞭望台 · 大桥与海湾同框夜景",
     },
     {
@@ -204,6 +204,9 @@ export const vladivostok: RouteData = {
       ],
       img: img("photo-1449824913935-59a10b8d2000", 1200),
       imgCaption: "老城街道 · 电车轨与欧式立面（图为氛围参考）",
+      gallery: [
+        "https://images.pexels.com/photos/11161343/pexels-photo-11161343.jpeg?auto=compress&cs=tinysrgb&w=800", // 帝王蟹腿大餐（实拍）
+      ],
       photoSpot: "阿尔巴特街头回望海湾 · 火车站 9288 里程碑",
     },
     {
@@ -238,8 +241,8 @@ export const vladivostok: RouteData = {
           desc: "约 2.5h 落地北京，时差 -2h，假期还剩三天，正好休整。",
         },
       ],
-      img: img("photo-1507525428034-b723cf961d3e", 1200),
-      imgCaption: "乌苏里湾的海岸线（图为氛围参考）",
+      img: img("photo-1500375592092-40eb2168fd21", 1200),
+      imgCaption: "乌苏里湾的海岸线（图为海岸氛围参考）",
       photoSpot: "玻璃海滩低机位特写 · 彩色石滩与海浪",
     },
   ],

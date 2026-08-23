@@ -124,6 +124,10 @@ export const chiangmai: RouteData = {
       ],
       img: img("photo-1528181304800-259b08848526", 1200),
       imgCaption: "古城黄昏 · 寺塔剪影映着雨季尾声的云",
+      gallery: [
+        img("photo-1563492065599-3520f775eeed", 800), // 鎏金佛塔群（图为寺庙氛围参考）
+        img("photo-1559847844-5315695dadae", 800), // 泰式餐食（图为泰餐氛围参考）
+      ],
       photoSpot: "塔佩门红砖墙 · 鸽群起飞连拍",
     },
     {
@@ -235,8 +239,8 @@ export const chiangmai: RouteData = {
           desc: "烤香蕉、椰子冰淇淋、泰式炒河粉轮着来；逛累了路边摊 30 分钟足底按摩约 150 铢，完美收尾。",
         },
       ],
-      img: img("photo-1441974231531-c6227db76b6e", 1200),
-      imgCaption: "雨季尾声的山谷 · 绿得发亮，象群就住在里面",
+      img: img("photo-1557050543-4d5f4e07ef46", 1200),
+      imgCaption: "雨季尾声的山谷 · 绿得发亮，象群就住在里面（图为大象氛围参考）",
       photoSpot: "象群河谷戏水 · 长焦抓拍",
     },
     {

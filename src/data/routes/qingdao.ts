@@ -114,6 +114,9 @@ export const qingdao: RouteData = {
       ],
       img: img("photo-1563409236302-8442b5e644df", 1200),
       imgCaption: "信号山俯瞰 · 红瓦绿树的老城一直铺到海边",
+      gallery: [
+        img("photo-1571613316887-6f8d5cbf7ef7", 800), // 青岛啤酒的泡沫（图为啤酒氛围参考）
+      ],
       photoSpot: "信号山旋转观景台 · 老城全景与基督教堂同框",
     },
     {
@@ -153,7 +156,7 @@ export const qingdao: RouteData = {
           desc: "沿海边走 20 分钟看「五月的风」亮灯，情人坝灯塔下散步收尾，晚餐在奥帆中心商圈解决。",
         },
       ],
-      img: img("photo-1447752875215-b2761acb3c5d", 1200),
+      img: img("photo-1467269204594-9661b134dd2b", 1200),
       imgCaption: "八大关的梧桐道 · 上午阳光透过叶子碎一地",
       photoSpot: "居庸关路银杏道 · 小麦岛西侧礁石",
     },
@@ -189,7 +192,7 @@ export const qingdao: RouteData = {
           desc: "明天要开 3 小时车，晚餐吃得简单些，回酒店顺路加油、检查租车车况，早点休息。",
         },
       ],
-      img: img("photo-1519681393784-d120267933ba", 1200),
+      img: img("photo-1505228395891-9a51e7e86bf6", 1200),
       imgCaption: "崂山 · 山从海边拔地而起，渔村卧在湾里",
       photoSpot: "仰口山顶 · 海湾与渔村俯瞰",
     },
@@ -256,7 +259,7 @@ export const qingdao: RouteData = {
           desc: "高铁约 4.5–5.5h 返京，国庆返程票同样开售即抢；留 1 小时还车/进站余量，结束这条海岸线。",
         },
       ],
-      img: img("photo-1519046904884-53103b34b206", 1200),
+      img: img("photo-1502680390469-be75c86b636f", 1200),
       imgCaption: "那香海 · 秋日上午的沙滩很安静",
     },
   ],

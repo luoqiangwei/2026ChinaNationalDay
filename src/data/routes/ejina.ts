@@ -138,8 +138,12 @@ export const ejina: RouteData = {
           desc: "明天 8h 车程：备足水、自热锅和水果。G7 服务区间隔超 100km，别指望路上补给。",
         },
       ],
-      img: img("photo-1500382017468-9049fed747ef", 1200),
-      imgCaption: "西夏王陵 · 贺兰山下的夯土巨冢",
+      img: img("photo-1508614999368-9260051292e5", 1200),
+      imgCaption: "西夏王陵 · 贺兰山下的夯土巨冢（图为戈壁日落氛围参考）",
+      gallery: [
+        img("photo-1544025162-d76694265947", 800), // 银川烤全羊（图为烤肉氛围参考）
+        img("photo-1578911373434-0cb395d2cbfb", 800), // 贺兰山东麓葡萄酒庄（图为酒庄氛围参考）
+      ],
       photoSpot: "3 号陵前低机位 · 贺兰山剪影作背景",
     },
     {
@@ -174,8 +178,8 @@ export const ejina: RouteData = {
           desc: "驼乡蒙餐或从头到蹄羊肉馆：手把肉+沙葱炒鸡蛋，人均 ¥80，国庆饭点排队 1h 起，早去。",
         },
       ],
-      img: img("photo-1509316785289-025f5b846b35", 1200),
-      imgCaption: "怪树林 · 枯死胡杨的最后姿态",
+      img: img("photo-1465101046530-73398c7f28ca", 1200),
+      imgCaption: "怪树林 · 枯死胡杨的最后姿态（夜晚银河下的剪影氛围参考）",
       photoSpot: "怪树林逆光剪影 · 戈壁公路车窗照（停车带内）",
     },
     {
@@ -212,6 +216,9 @@ export const ejina: RouteData = {
       ],
       img: img("photo-1513836279014-a89f7a76ae86", 1200),
       imgCaption: "二道桥水岸 · 胡杨与倒影双倍金黄",
+      gallery: [
+        img("photo-1509514026798-53d40bf1aa09", 800), // 水岸浅滩（图为水岸氛围参考）
+      ],
       photoSpot: "二道桥倒影林（8:30 前）· 四道桥英雄林仰拍",
     },
     {
@@ -246,8 +253,11 @@ export const ejina: RouteData = {
           desc: "在额济纳的最后一晚，整理照片早点休息——明天还有 8h 返程路。",
         },
       ],
-      img: img("photo-1507608616759-54f48f0af0ee", 1200),
-      imgCaption: "居延海日出 · 沙漠尽头的一片海",
+      img: img("photo-1414609245224-afa02bfb3fda", 1200),
+      imgCaption: "居延海日出 · 沙漠尽头的一片海（图为海上日出氛围参考）",
+      gallery: [
+        img("photo-1488330890490-c291ecf62571", 800), // 晨雾（图为晨雾氛围参考）
+      ],
       photoSpot: "居延海 2 号码头日出 · 黑水城佛塔剪影",
     },
     {
@@ -277,8 +287,8 @@ export const ejina: RouteData = {
           desc: "订 17:00 之后的航班最稳妥；要是不想太赶，也可在银川多住一晚次日回。",
         },
       ],
-      img: img("photo-1469854523086-cc02fe5d8800", 1200),
-      imgCaption: "G7 京新高速 · 戈壁无人区里的直线",
+      img: "https://images.pexels.com/photos/25430752/pexels-photo-25430752.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "G7 京新高速 · 戈壁无人区里的直线（图为戈壁公路氛围参考）",
       photoSpot: "G7 沿线观景停车带 · 戈壁公路照（注意来车）",
     },
   ],

@@ -23,7 +23,7 @@ export const guilin: RouteData = {
     "10 月满城桂花香；龙脊梯田稻谷金黄，10 月中下旬陆续收割，国庆是最佳观赏窗口；偶有阵雨",
   clothing: "短袖+薄外套，遇龙河竹筏备凉鞋/防水袋",
   crowd: "★★★★☆",
-  hero: img("photo-1495954484750-af469f2f9be5"),
+  hero: "https://images.pexels.com/photos/24246270/pexels-photo-24246270.jpeg?auto=compress&cs=tinysrgb&w=1600",
   heroCaption: "喀斯特峰林 · 山水甲天下",
   drive: "桂林→阳朔约 1.5h；龙脊梯田距桂林 2h（盘山路多弯）；市区打车/电动车即可",
   costs: [
@@ -118,8 +118,11 @@ export const guilin: RouteData = {
           desc: "船票提前在官方公众号订，选天黑后的班次：日月双塔亮灯、榕湖古南门一网打尽，船上风大带薄外套。",
         },
       ],
-      img: img("photo-1504674900247-0877df9cc836", 1200),
-      imgCaption: "桂林街头 · 一碗 5 元的卤菜粉，本地人的早餐",
+      img: img("photo-1519692933481-e162a57d6721", 1200),
+      imgCaption: "桂林街头 · 一碗 5 元的卤菜粉，本地人的早餐（图为城市街头氛围参考）",
+      gallery: [
+        img("photo-1603133872878-684f208fb84b", 800), // 卤菜粉（图为米粉氛围参考）
+      ],
       photoSpot: "日月双塔 · 湖面倒影夜景",
     },
     {
@@ -159,8 +162,11 @@ export const guilin: RouteData = {
           desc: "桂林本地连锁，烧鹅+流沙包是招牌，饭点排队久，手机提前取号。",
         },
       ],
-      img: img("photo-1500382017468-9049fed747ef", 1200),
-      imgCaption: "龙脊金坑梯田 · 10 月中下旬开镰前最金黄",
+      img: img("photo-1513415756790-2ac1db1297d0", 1200),
+      imgCaption: "龙脊金坑梯田 · 10 月中下旬开镰前最金黄（图为梯田航拍氛围参考）",
+      gallery: [
+        img("photo-1555400038-63f5ba517a47", 800), // 雨雾中的梯田（图为梯田氛围参考）
+      ],
       photoSpot: "金佛顶 · 日落时梯田金色层次",
     },
     {
@@ -200,8 +206,8 @@ export const guilin: RouteData = {
           desc: "张艺谋导演的漓江山水实景演出，国庆场次紧张提前网购。露天江边看台，带驱蚊水和薄外套（江风凉）。",
         },
       ],
-      img: img("photo-1507608616759-54f48f0af0ee", 1200),
-      imgCaption: "遇龙河 · 竹筏划过峰林倒影",
+      img: "https://images.pexels.com/photos/24246271/pexels-photo-24246271.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "遇龙河 · 竹筏划过峰林倒影（图为漓江喀斯特实拍）",
       photoSpot: "水坝落差处 · 竹筏过坝抓拍",
     },
     {
@@ -241,8 +247,8 @@ export const guilin: RouteData = {
           desc: "晚班机约 3h 落地北京，四天看遍梯田、江雾与峰林，圆满收官。",
         },
       ],
-      img: img("photo-1470071459604-3b5ec3a7fe05", 1200),
-      imgCaption: "相公山 · 漓江大拐弯的云海日出",
+      img: "https://images.pexels.com/photos/36304652/pexels-photo-36304652.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      imgCaption: "相公山 · 漓江大拐弯的云海日出（图为漓江航拍实拍）",
       photoSpot: "相公山巅 · 漓江大拐弯；兴坪黄布倒影",
     },
   ],
