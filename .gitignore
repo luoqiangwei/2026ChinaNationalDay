@@ -18,3 +18,4 @@ npm-debug.log*
 # temp
 /tmp/
 *.tsbuildinfo
+.tmp_gallery_check/
