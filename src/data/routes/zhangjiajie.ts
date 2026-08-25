@@ -144,7 +144,7 @@ export const zhangjiajie: RouteData = {
       img: img("photo-1513415277900-a62401e19be4", 1200),
       imgCaption: "天门山 · 大索道穿过云层上山",
       gallery: [
-        img("photo-1508233620467-f79f1e317a05", 800), // 天门山盘山公路 99 道弯（航拍，图为盘山路氛围参考）
+        "images/c-1481517-0.jpg", // 天门山索道穿云海（携程实景）
         "images/p-39009844.jpg", // 天门山石峰（张家界实拍）
       ],
       photoSpot: "玻璃栈道俯拍峡谷 · 天门洞广场仰拍 999 级天梯",
@@ -189,7 +189,7 @@ export const zhangjiajie: RouteData = {
       img: "images/p-39014277.jpg",
       imgCaption: "袁家界峰林 · 云雾里的乾坤柱（张家界实拍）",
       gallery: [
-        img("photo-1501555088652-021faa106b9b", 800), // 峰林间徒步（图为徒步氛围参考）
+        "images/c-56867-0.jpg", // 峰林间徒步（携程实景）
       ],
       photoSpot: "迷魂台拍峰林矩阵 · 天下第一桥俯拍",
     },
@@ -230,10 +230,10 @@ export const zhangjiajie: RouteData = {
           desc: "溪布街唐师傅土菜馆或老灶台，人均 ¥70，今天步数 2 万+，好好吃一顿。",
         },
       ],
-      img: "images/p-34683494.jpg",
-      imgCaption: "金鞭溪 · 7.5km 溪谷栈道全是平路（图为峰林氛围参考）",
+      img: "images/c-2453-0.jpg",
+      imgCaption: "金鞭溪 · 7.5km 溪谷栈道全是平路",
       gallery: [
-        img("photo-1476231682828-37e571bc172f", 800), // 溪谷森林（图为森林氛围参考）
+        "images/c-2453-1.jpg", // 溪谷森林（携程实景）
       ],
       photoSpot: "金鞭岩下仰拍 · 玻璃桥中部官方拍照点俯拍谷底",
     },
@@ -313,7 +313,7 @@ export const zhangjiajie: RouteData = {
       img: "images/p-38733386.jpg",
       imgCaption: "清晨的沱江 · 雾里的万名塔（凤凰古城实拍）",
       gallery: [
-        img("photo-1483982258113-b72862e6cff6", 800), // 古城晨雾（图为林间晨雾氛围参考）
+        "images/c-17369-0.jpg", // 古城晨雾（携程实景）
       ],
       photoSpot: "北门码头拍晨雾跳岩（6:30–7:30 黄金半小时）",
     },

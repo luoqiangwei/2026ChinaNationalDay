@@ -160,7 +160,7 @@ export const sakura: RouteData = {
       img: img("photo-1554797589-7241bb691973", 1200),
       imgCaption: "札幌夜巷 · 灯笼亮了，春天还在路上",
       gallery: [
-        img("photo-1567696911980-2eed69a46042", 800), // 札幌啤酒的一杯（图为啤酒氛围参考）
+        "images/c-132159-0.jpg", // 札幌啤酒的一杯（携程实景）
         img("photo-1535958636474-b021ee887b13", 800), // 精酿小馆（图为酒吧氛围参考）
       ],
       photoSpot: "札幌电视塔展望台 · 大通公园夜景",
@@ -379,8 +379,8 @@ export const sakura: RouteData = {
       img: img("photo-1528164344705-47542687000d", 1200),
       imgCaption: "新仓山浅间公园 · 五重塔与富士山同框",
       gallery: [
-        img("photo-1589308078059-be1415eab4c3", 800), // 富士山（图为富士山氛围参考）
-        img("photo-1537884944318-390069bb8665", 800), // 河口湖远眺富士（图为富士山氛围参考）
+        "images/c-79207-0.jpg", // 富士山（携程实景）
+        "images/c-86740-0.jpg", // 河口湖远眺富士（携程实景）
       ],
       photoSpot: "新仓山浅间神社展望台 · 五重塔×富士山×樱花",
     },
@@ -421,10 +421,10 @@ export const sakura: RouteData = {
           desc: "21:13–23:13；JR 东海段 PASS 不含，SmartEX 提前购票约 8,000+ 日元/人。宿名古屋站前R&B酒店（名駅南1-19-19）。",
         },
       ],
-      img: img("photo-1559827260-dc66d52bef19", 1200),
-      imgCaption: "伊豆白滨 · 4 月的海已经亮了（图为海浪氛围参考）",
+      img: "images/c-1951206-0.jpg",
+      imgCaption: "伊豆白滨 · 4 月的海已经亮了",
       gallery: [
-        img("photo-1517699418036-fb5d179fef0c", 800), // 白滨海滩（图为海滩氛围参考）
+        "images/c-1951206-1.jpg", // 白滨海滩（携程实景）
         img("photo-1540541338287-41700207dee6", 800), // 温泉旅馆的泳池（图为度假氛围参考）
       ],
       photoSpot: "白滨神社 · 海岸鸟居与白色沙滩",
@@ -543,8 +543,8 @@ export const sakura: RouteData = {
           desc: "23:30（北京时间）落地，宿机场旁酒店；次日 G6712 正定机场站 06:46 → 北京丰台 08:14，回家直接上班。",
         },
       ],
-      img: img("photo-1516205651411-aef33a44f7c2", 1200),
-      imgCaption: "奈良公园 · 樱花树下的小鹿（图为樱花氛围参考）",
+      img: "images/c-123083-1.jpg",
+      imgCaption: "奈良公园 · 樱花树下的小鹿",
       photoSpot: "奈良公园 · 鹿群与樱花",
     },
   ],

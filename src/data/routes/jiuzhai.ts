@@ -163,7 +163,7 @@ export const jiuzhai: RouteData = {
       imgCaption: "熊猫基地竹林深处 · 滚滚就藏在绿意里",
       gallery: [
         "images/p-35446184.jpg", // 大熊猫吃竹子（实拍）
-        img("photo-1518495973542-4542c06a5843", 800), // 竹林深处的阳光（图为森林氛围参考）
+        "images/c-55356-0.jpg", // 竹林深处的阳光（携程实景）
       ],
       photoSpot: "幼年园别墅 · 熊猫爬树瞬间连拍",
     },
@@ -207,8 +207,8 @@ export const jiuzhai: RouteData = {
       img: img("photo-1493246507139-91e8fad9978e", 1200),
       imgCaption: "高山海子与彩林 · 五花海上午顺光时湖水最蓝",
       gallery: [
-        img("photo-1546587348-d12660c30c50", 800), // 雪山下的海子（图为湖泊氛围参考）
-        img("photo-1532443603613-61fa154742cd", 800), // 晨雾中的山丘彩林（图为氛围参考）
+        "images/c-55427-0.jpg", // 雪山下的海子（携程实景）
+        "images/c-55329-0.jpg", // 晨雾中的山丘彩林（携程实景）
       ],
       photoSpot: "五花海老虎嘴观景台俯瞰 · 珍珠滩瀑布栈道",
     },
@@ -252,7 +252,7 @@ export const jiuzhai: RouteData = {
       img: "images/p-38261902.jpg",
       imgCaption: "瀑布与溪流 · 诺日朗秋水正丰（图为九寨沟湖泊实拍）",
       gallery: [
-        img("photo-1499346030926-9a72daac6c63", 800), // 镜海晨雾（图为云海氛围参考）
+        "images/c-55313-0.jpg", // 镜海晨雾（携程实景）
       ],
       photoSpot: "五彩池正午直射时色彩最艳 · 树正群海栈道回眸",
     },
@@ -288,8 +288,8 @@ export const jiuzhai: RouteData = {
           desc: "回到成都吃顿火锅安抚高原胃，点鸳鸯锅——明天还要赶早班机，别挑战极限辣度。",
         },
       ],
-      img: img("photo-1504893524553-b855bce32c67", 1200),
-      imgCaption: "山间溪流 · 黄龙金色钙华滩流的氛围参考",
+      img: "images/c-2673-0.jpg",
+      imgCaption: "山间溪流 · 黄龙金色钙华滩流",
       gallery: [
         img("photo-1542296332-2e4473faf563", 800), // 返程机场日落（图为机场氛围参考）
       ],
@@ -322,8 +322,8 @@ export const jiuzhai: RouteData = {
           desc: "午后航班回京约 3h，把火锅味和彩林照片一起打包带走。",
         },
       ],
-      img: img("photo-1563822249366-3efb23b8e0c9", 1200),
-      imgCaption: "鹤鸣茶社 · 一碗盖碗茶收尾（图为盖碗茶氛围参考）",
+      img: "images/c-11693-1.jpg",
+      imgCaption: "鹤鸣茶社 · 一碗盖碗茶收尾",
       gallery: [
         img("photo-1553062407-98eeb64c6a62", 800), // 收拾行囊（图为返程氛围参考）
       ],

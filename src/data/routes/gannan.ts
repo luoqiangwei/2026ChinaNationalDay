@@ -17,8 +17,8 @@ export const gannan: RouteData = {
   seasonNote: "10 月草原已泛黄、天高云淡，晴天率高；扎尕那晨雾进入高发季，夜里低温可到 -2°C",
   clothing: "分层穿：长袖+抓绒+冲锋衣，看晨雾日出必须薄羽绒+手套；海拔 2,900–3,500m 紫外线强，墨镜防晒霜备上",
   crowd: "★★★☆☆",
-  hero: img("photo-1508739773434-c26b3d09e071"),
-  heroCaption: "扎尕那石峰下的藏寨黄昏（图为石城氛围参考）",
+  hero: "images/c-52045-0.jpg",
+  heroCaption: "扎尕那石峰下的藏寨黄昏",
   official: "G213 兰磨线 · 甘南藏地环线（洛克之路）核心段",
   drive: "兰州机场取车、同点还车走环线，全程约 1,100km；兰郎高速+G213 路况好，郎木寺—扎尕那段山路弯多、进村路窄，建议 SUV",
   costs: [
@@ -114,8 +114,8 @@ export const gannan: RouteData = {
           desc: "老马家牛奶鸡蛋醪糟 ¥10–15/碗排队也要喝，配烤肉和放哈甜醅子奶茶；人均 ¥50 吃到撑。",
         },
       ],
-      img: img("photo-1477959858617-67f85cf4f1df", 1200),
-      imgCaption: "入夜后的城市天际线（图为城市夜景氛围参考）",
+      img: "images/c-9487-0.jpg",
+      imgCaption: "入夜后的城市天际线",
       gallery: [
         img("photo-1617093727343-374698b1b08d", 800), // 兰州牛肉面（图为面食氛围参考）
         img("photo-1547592166-23ac45744acd", 800), // 正宁路牛奶鸡蛋醪糟（图为热汤氛围参考）
@@ -154,8 +154,8 @@ export const gannan: RouteData = {
           desc: "县城吃牦牛肉土火锅配青稞饼，人均 ¥60；今晚早点休息，给身体一晚适应海拔。",
         },
       ],
-      img: img("photo-1573398643956-2b9e6ade3456", 1200),
-      imgCaption: "山坡上的藏传佛寺（图为藏地寺院氛围参考）",
+      img: "images/c-15540-0.jpg",
+      imgCaption: "山坡上的藏传佛寺",
       gallery: [
         "images/p-8608907.jpg", // 僧人在壁画前祈祷（藏区人文实拍）
         "images/p-32110108.jpg", // 经幡特写（藏区实拍）
@@ -247,8 +247,8 @@ export const gannan: RouteData = {
       img: "images/p-37769788.jpg",
       imgCaption: "扎尕那 · 石峰下的藏寨、白塔与经幡（图为藏地村落实拍）",
       gallery: [
-        img("photo-1523741543316-beb7fc7023d8", 800), // 仙女滩田园（图为田园氛围参考）
-        img("photo-1426604966848-d7adac402bff", 800), // 石峰下的草甸（图为山谷草甸氛围参考）
+        "images/c-52045-1.jpg", // 仙女滩田园（携程实景）
+        "images/c-52045-2.jpg", // 石峰下的草甸（携程实景）
       ],
       photoSpot: "洛克观景台 · 石峰群与藏寨炊烟同框",
     },
@@ -284,11 +284,11 @@ export const gannan: RouteData = {
           desc: "甘南州府条件最好的一晚，吃蕨麻米饭配牦牛酸奶，人均 ¥50；今晚可以踏实洗个热水澡。",
         },
       ],
-      img: img("photo-1503614472-8c93d56e92ce", 1200),
-      imgCaption: "高原湖泊的雪山倒影（图为湖泊氛围参考）",
+      img: "images/c-15544-0.jpg",
+      imgCaption: "高原湖泊的雪山倒影",
       gallery: [
         img("photo-1501621965065-c6e1cf6b53e2", 800), // 合作市集的烟火气（图为市集氛围参考）
-        img("photo-1478827536114-da961b7f86d2", 800), // 尕海边露营（图为露营氛围参考）
+        "images/c-15544-1.jpg", // 尕海边露营（携程实景）
       ],
       photoSpot: "达日观景台 · 晨雾漫过东哇村（日出前 40 分钟占位）",
     },

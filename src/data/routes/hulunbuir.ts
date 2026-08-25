@@ -16,8 +16,8 @@ export const hulunbuir: RouteData = {
   seasonNote: "10月初是草原金秋尾巴、白桦林正黄；林区早晚零下，可能遇初雪，备羽绒服",
   clothing: "羽绒服+抓绒+保暖内衣+毛线帽手套；晨雾守日出加暖宝宝",
   crowd: "★★★☆☆",
-  hero: img("photo-1472214103451-9374bd1c798e"),
-  heroCaption: "草原公路 · 一路金黄向大兴安岭（图为氛围参考）",
+  hero: "images/c-16020-0.jpg",
+  heroCaption: "草原公路 · 一路金黄向大兴安岭",
   official: "呼伦贝尔—阿尔山金秋环线（内蒙古精品自驾线路）",
   drive: "海拉尔起止环线约 1,600km，SUV 最佳；秋季林区防火期，部分路段检查防火帽、禁明火",
   costs: [
@@ -113,8 +113,8 @@ export const hulunbuir: RouteData = {
           desc: "烤羊腿、锅茶、奶皮子；早晚已接近 0°C，羽绒服直接上身逛。",
         },
       ],
-      img: img("photo-1500382017468-9049fed747ef", 1200),
-      imgCaption: "草原秋日 · 落地海拉尔的第一眼金黄（图为氛围参考）",
+      img: "images/c-16020-1.jpg",
+      imgCaption: "草原秋日 · 落地海拉尔的第一眼金黄",
       gallery: [
         img("photo-1553284965-83fd3e82fa5a", 800), // 草原上的马（图为草原氛围参考）
         img("photo-1529193591184-b1d58069ecdd", 800), // 手把肉与烤羊腿（图为蒙餐氛围参考）
@@ -158,8 +158,8 @@ export const hulunbuir: RouteData = {
           desc: "市区酒店国庆 ¥300–500/晚；晚餐吃俄式西餐，红菜汤+罐焖牛肉暖身。",
         },
       ],
-      img: img("photo-1501854140801-50d01698950b", 1200),
-      imgCaption: "丘陵湿地 · 曲水与草场的金色层次（图为氛围参考）",
+      img: "images/c-1713053-0.jpg",
+      imgCaption: "丘陵湿地 · 曲水与草场的金色层次",
       gallery: [
         img("photo-1502472584811-0a2f2feb8968", 800), // 丘陵日出（图为草原氛围参考）
         img("photo-1500964757637-c85e8a162699", 800), // 层叠山峦日落（图为氛围参考）
@@ -203,11 +203,11 @@ export const hulunbuir: RouteData = {
           desc: "民宿国庆 ¥300–500/晚，房东家晚餐有葛得列克（牛肉饼）；夜里可能零下，确认房间有暖气。",
         },
       ],
-      img: img("photo-1502082553048-f009c37129b9", 1200),
-      imgCaption: "白桦林 · 阳光穿过金黄叶片（图为氛围参考）",
+      img: "images/c-1727588-2.jpg",
+      imgCaption: "白桦林 · 阳光穿过金黄叶片",
       gallery: [
         img("photo-1473448912268-2022ce9509d8", 800), // 林间河谷（图为林区氛围参考）
-        img("photo-1470509037663-253afd7f0f51", 800), // 恩和田园风光（图为田园氛围参考）
+        "images/c-132378-2.jpg", // 恩和田园风光（携程实景）
       ],
       photoSpot: "白桦林栈道 · 恩和村口木栅栏",
     },
@@ -288,11 +288,11 @@ export const hulunbuir: RouteData = {
           desc: "铁锅炖大鹅或冷水鱼，两人约 ¥180；早点休息，明晨 5 点半起床守晨雾。",
         },
       ],
-      img: img("photo-1500534314209-a25ddb2bd429", 1200),
-      imgCaption: "火山湖 · 林海环抱的高山天池（图为氛围参考）",
+      img: "images/c-52484-0.jpg",
+      imgCaption: "火山湖 · 林海环抱的高山天池",
       gallery: [
         img("photo-1434139240289-56c519f77cb0", 800), // 湖畔日落（图为湖泊氛围参考）
-        img("photo-1437482078695-73f5ca6c96e2", 800), // 三潭峡溪流（图为山涧氛围参考）
+        "images/c-52485-0.jpg", // 三潭峡溪流（携程实景）
       ],
       photoSpot: "驼峰岭天池观景台 · 不冻河晨雾机位",
     },
@@ -328,8 +328,8 @@ export const hulunbuir: RouteData = {
           desc: "10/7 整天留作机动：初雪封路或航班延误都可顺延，机票买可退改正是为此。",
         },
       ],
-      img: img("photo-1533240332313-0db49b459ad6", 1200),
-      imgCaption: "河谷晨雾 · 不冻河清晨的样子（图为氛围参考）",
+      img: "images/c-52497-0.jpg",
+      imgCaption: "河谷晨雾 · 不冻河清晨的样子",
       gallery: [
         img("photo-1502581827181-9cf3c3ee0106", 800), // 雪原星空（图为星空氛围参考）
         img("photo-1520437358207-323b43b50729", 800), // 返程候机（图为机场氛围参考）

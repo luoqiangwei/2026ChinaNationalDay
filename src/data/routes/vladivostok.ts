@@ -1,7 +1,5 @@
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
-
 export const vladivostok: RouteData = {
   id: "vladivostok",
   name: "海参崴 · 远东尽头看海",
@@ -17,8 +15,8 @@ export const vladivostok: RouteData = {
   seasonNote: "10 月初已是深秋，多晴但海风硬，早晚接近初冬体感",
   clothing: "防风外套+薄羽绒/抓绒；俄罗斯岛徒步备防滑鞋",
   crowd: "★★☆☆☆",
-  hero: img("photo-1576485375217-d6a95e34d043"),
-  heroCaption: "金角湾畔 · 远东港城的层叠屋顶（图为氛围参考）",
+  hero: "images/c-5073573-1.jpg",
+  heroCaption: "金角湾畔 · 远东港城的层叠屋顶",
   drive: "市区不大，打车+步行即可；去俄罗斯岛、玻璃海滩建议 Yandex Go 打车或包车",
   costs: [
     { label: "往返机票", amount: 4400, note: "国庆直飞往返 ¥1,800–2,800/人" },
@@ -129,8 +127,8 @@ export const vladivostok: RouteData = {
           desc: "本地人气餐厅，哈恰普里（奶酪饼）+烤串两人约 2,500–3,500 卢布；旺季排队，错峰或早去。",
         },
       ],
-      img: img("photo-1508189860359-777d945909ef", 1200),
-      imgCaption: "山城夜色 · 等金角湾大桥亮灯（图为海湾城市氛围参考）",
+      img: "images/c-5073573-0.jpg",
+      imgCaption: "山城夜色 · 等金角湾大桥亮灯",
       photoSpot: "鹫巢瞭望台 · 大桥与海湾同框夜景",
     },
     {
@@ -165,8 +163,8 @@ export const vladivostok: RouteData = {
           desc: "试试俄式自助食堂 Stolovaya 风格的平价晚餐，两人 1,000 卢布上下；早休息，明天进城逛馆。",
         },
       ],
-      img: img("photo-1505142468610-359e7d316be0", 1200),
-      imgCaption: "礁石海岸尽头的小白灯塔（图为氛围参考）",
+      img: "images/c-2022181-0.jpg",
+      imgCaption: "礁石海岸尽头的小白灯塔",
       photoSpot: "退潮沙洲上拍灯塔倒影 · 托比津纳海角崖边",
     },
     {
@@ -201,8 +199,8 @@ export const vladivostok: RouteData = {
           desc: "本地最出名的海鲜餐厅之一，堪察加帝王蟹按公斤计价，人均约 ¥200–400（以当日时价为准）；务必提前 1–2 天订位。",
         },
       ],
-      img: img("photo-1449824913935-59a10b8d2000", 1200),
-      imgCaption: "老城街道 · 电车轨与欧式立面（图为氛围参考）",
+      img: "images/c-1949474-0.jpg",
+      imgCaption: "老城街道 · 电车轨与欧式立面",
       gallery: [
         "images/p-11161343.jpg", // 帝王蟹腿大餐（实拍）
       ],
@@ -240,8 +238,8 @@ export const vladivostok: RouteData = {
           desc: "约 2.5h 落地北京，时差 -2h，假期还剩三天，正好休整。",
         },
       ],
-      img: img("photo-1500375592092-40eb2168fd21", 1200),
-      imgCaption: "乌苏里湾的海岸线（图为海岸氛围参考）",
+      img: "images/c-2489230-0.jpg",
+      imgCaption: "乌苏里湾的海岸线",
       photoSpot: "玻璃海滩低机位特写 · 彩色石滩与海浪",
     },
   ],

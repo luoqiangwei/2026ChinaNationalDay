@@ -201,8 +201,8 @@ export const jeju: RouteData = {
           desc: "橘子麻糬、黑猪肉卷必吃；柑橘巧克力、火山岩护手霜先尝后买，为明天的伴手礼探路。",
         },
       ],
-      img: "images/p-13835530.jpg",
-      imgCaption: "山君不离 · 10 月齐腰的紫芒草浪已泛金黄（图为秋日林道氛围参考）",
+      img: "images/c-63571-0.jpg",
+      imgCaption: "山君不离 · 10 月齐腰的紫芒草浪已泛金黄",
       photoSpot: "山君不离木栈道 · 紫芒拍人像（穿白/奶油色）",
     },
     {

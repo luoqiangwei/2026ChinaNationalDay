@@ -17,8 +17,8 @@ export const changbai: RouteData = {
   seasonNote: "10 月秋高气爽、晴天率高，天池可见概率较高；主峰风大体感严寒，山顶可能已有初雪",
   clothing: "冲锋衣+抓绒+薄羽绒的洋葱式穿法，备毛线帽和手套上主峰",
   crowd: "★★★★☆",
-  hero: img("photo-1519681393784-d120267933ba"),
-  heroCaption: "雪山之巅 · 天池初雪季的氛围参考",
+  hero: "images/c-9774-0.jpg",
+  heroCaption: "雪山之巅 · 天池初雪季",
   drive: "长白山机场→二道白河镇车程约 1.5h（80km）；二道白河→北坡山门约 30min，→西坡山门约 1.5h",
   costs: [
     { label: "往返大交通", amount: 3600, note: "北京⇌长白山往返国庆约 ¥1,500–1,800/人，直飞或长春转高铁" },
@@ -119,8 +119,8 @@ export const changbai: RouteData = {
           desc: "明早 6 点多就要出发赶北坡首班车，今晚别贪杯；把冲锋衣、抓绒和帽子手套放在床边。",
         },
       ],
-      img: img("photo-1523712999610-f77fbcfc3843", 1200),
-      imgCaption: "松林晨光 · 二道白河美人松林海的氛围参考",
+      img: "images/c-5708934-0.jpg",
+      imgCaption: "松林晨光 · 二道白河美人松林海",
       gallery: [
         img("photo-1498654896293-37aacf113fd9", 800), // 朝鲜族晚餐 · 石锅拌饭与泡菜小碟
         img("photo-1516214104703-d870798883c5", 800), // 美人松林间小径
@@ -164,11 +164,11 @@ export const changbai: RouteData = {
           desc: "火山喷发形成的谷底原始森林，栈道往返约 80min，全程下坡去上坡回，留好体力；17:00 前出山门回镇上吃铁锅炖。",
         },
       ],
-      img: img("photo-1517021897933-0e0319cfbc28", 1200),
-      imgCaption: "雪山环抱的高山湖 · 天池的氛围参考",
+      img: "images/c-9774-1.jpg",
+      imgCaption: "雪山环抱的高山湖 · 天池",
       gallery: [
-        img("photo-1600334129128-685c5582fd35", 800), // 聚龙泉温泉群（图为温泉氛围参考）
-        img("photo-1483664852095-d6cc6870702d", 800), // 地下森林雪原（图为雪原氛围参考）
+        "images/c-142077-0.jpg", // 聚龙泉温泉群（携程实景）
+        "images/c-98177731-0.jpg", // 地下森林雪原（携程实景）
       ],
       photoSpot: "天池主峰观景台 · 湖面与火山口壁同框",
     },
@@ -209,11 +209,11 @@ export const changbai: RouteData = {
           desc: "两天两坡通关，晚上吃延边风味烤肉犒劳自己，两人约 ¥150；明后两天节奏放慢。",
         },
       ],
-      img: img("photo-1516298773066-c48f8e9bd92b", 1200),
-      imgCaption: "峡谷与山峦 · 锦江大峡谷的氛围参考",
+      img: "images/c-140316-0.jpg",
+      imgCaption: "峡谷与山峦 · 锦江大峡谷",
       gallery: [
-        img("photo-1465146344425-f00d5f5c8f07", 800), // 高山花园花田（图为花田氛围参考）
-        img("photo-1465188162913-8fb5709d6d57", 800), // 西坡 1,442 级台阶（图为山脊氛围参考）
+        "images/c-136039-0.jpg", // 高山花园花田（携程实景）
+        "images/c-136039-1.jpg", // 西坡 1,442 级台阶（携程实景）
       ],
       photoSpot: "西坡天池观景台 · 1,442 级台阶尽头回望",
     },
@@ -249,8 +249,8 @@ export const changbai: RouteData = {
           desc: "度假区餐厅偏贵（两人 ¥200+），想省钱可打车回镇上吃；今晚早点休息，明天还要赶飞机。",
         },
       ],
-      img: img("photo-1544161515-4ab6ce6db874", 1200),
-      imgCaption: "温泉疗愈 · 度假慢日的氛围参考",
+      img: "images/c-143364-1.jpg",
+      imgCaption: "温泉疗愈 · 度假慢日",
       gallery: [
         img("photo-1571896349842-33c89424de2d", 800), // 度假区泳池夜色（图为度假村氛围参考）
         img("photo-1544787219-7f47ccb76574", 800), // 下午茶慢时光（图为氛围参考）
@@ -284,8 +284,8 @@ export const changbai: RouteData = {
           desc: "假期还剩两天收心缓冲；把天池照片设成壁纸，开始期待下一个假期。",
         },
       ],
-      img: img("photo-1553856622-d1b352e9a211", 1200),
-      imgCaption: "秋日湖面 · 告别长白山的氛围参考",
+      img: "images/c-1484415-2.jpg",
+      imgCaption: "秋日湖面 · 告别长白山",
       gallery: [
         img("photo-1532105956626-9569c03602f6", 800), // 站台返程（图为车站氛围参考）
         img("photo-1583417319070-4a69db38a482", 800), // 城市黄昏（图为城市氛围参考）

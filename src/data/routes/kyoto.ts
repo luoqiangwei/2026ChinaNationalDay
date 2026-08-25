@@ -180,8 +180,8 @@ export const kyoto: RouteData = {
           desc: "神社 24 小时开放，入夜后舞殿上百盏灯笼点亮，免费又出片；晚餐在祇园吃京豆腐料理收尾。",
         },
       ],
-      img: img("photo-1526481280693-3bfa7568e0f3", 1200),
-      imgCaption: "清水寺方向 · 晨雾未散的古寺（图为五重塔氛围参考）",
+      img: "images/c-13131-0.jpg",
+      imgCaption: "清水寺方向 · 晨雾未散的古寺",
       photoSpot: "清水舞台晨光 · 八坂塔（法观寺）巷口经典机位",
     },
     {
@@ -219,7 +219,7 @@ export const kyoto: RouteData = {
       img: img("photo-1528360983277-13d401cdc186", 1200),
       imgCaption: "千本鸟居 · 一路向上的橘红隧道",
       gallery: [
-        img("photo-1492571350019-22de08371fd3", 800), // 水中大鸟居（图为鸟居氛围参考）
+        "images/c-2255292-1.jpg", // 水中大鸟居（携程实景）
       ],
       photoSpot: "千本鸟居半山腰回廊 · 竹林小径仰拍",
     },
@@ -263,7 +263,7 @@ export const kyoto: RouteData = {
       img: img("photo-1522383225653-ed111181a951", 1200),
       imgCaption: "奈良公园 · 树荫下常有小鹿打盹",
       gallery: [
-        img("photo-1473603477862-9d352d4615e1", 800), // 奈良小鹿（图为小鹿氛围参考）
+        "images/c-123083-0.jpg", // 奈良小鹿（携程实景）
       ],
       photoSpot: "若草山顶 · 鹿群与奈良盆地全景",
     },
@@ -302,7 +302,7 @@ export const kyoto: RouteData = {
       img: img("photo-1590559899731-a382839e5549", 1200),
       imgCaption: "道顿堀 · 霓虹与烟火气",
       gallery: [
-        img("photo-1540959733332-eab4deabeeaf", 800), // 都市霓虹夜（图为夜景氛围参考）
+        "images/c-49194-0.jpg", // 都市霓虹夜（携程实景）
         img("photo-1559742811-822873691df8", 800), // 蟹道乐的海鲜（图为海鲜氛围参考）
       ],
       photoSpot: "戎桥 · 格力高跑男霓虹",
@@ -334,8 +334,8 @@ export const kyoto: RouteData = {
           desc: "机场免税店补白色恋人和薯条三兄弟，伴手礼一站购齐。关西双城 6 天，秋天该来第二次。",
         },
       ],
-      img: img("photo-1514565131-fce0801e5785", 1200),
-      imgCaption: "大阪城 · 护城河绕天守（图为城市夜景氛围参考）",
+      img: "images/c-46387-0.jpg",
+      imgCaption: "大阪城 · 护城河绕天守",
     },
   ],
   highlights: ["清水舞台晨光", "千本鸟居", "岚山竹径", "奈良小鹿", "道顿堀夜色"],

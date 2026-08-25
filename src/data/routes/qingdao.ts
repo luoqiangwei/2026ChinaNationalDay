@@ -114,7 +114,7 @@ export const qingdao: RouteData = {
       img: img("photo-1563409236302-8442b5e644df", 1200),
       imgCaption: "信号山俯瞰 · 红瓦绿树的老城一直铺到海边",
       gallery: [
-        img("photo-1571613316887-6f8d5cbf7ef7", 800), // 青岛啤酒的泡沫（图为啤酒氛围参考）
+        "images/c-55144-0.jpg", // 青岛啤酒的泡沫（携程实景）
       ],
       photoSpot: "信号山旋转观景台 · 老城全景与基督教堂同框",
     },

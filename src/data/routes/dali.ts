@@ -105,8 +105,8 @@ export const dali: RouteData = {
           desc: "10 月是菌季尾声，认准古城内正规店（如洱月楼），见手青必须煮满 20 分钟再吃，别贪快。",
         },
       ],
-      img: img("photo-1519501025264-65ba15a82390", 1200),
-      imgCaption: "入夜后的大理古城灯火（图为氛围参考）",
+      img: "images/c-12192-0.jpg",
+      imgCaption: "入夜后的大理古城灯火",
       photoSpot: "五华楼顶层 · 古城青瓦与苍山同框",
     },
     {
@@ -182,8 +182,8 @@ export const dali: RouteData = {
           desc: "回古城吃白族石板烧（人民路老店居多），配一壶梅子酒；明天包车环海东，早点回民宿休息。",
         },
       ],
-      img: img("photo-1470071459604-3b5ec3a7fe05", 1200),
-      imgCaption: "苍山云雾 · 午后常起“玉带云”（图为山岳氛围参考）",
+      img: "images/c-3039-0.jpg",
+      imgCaption: "苍山云雾 · 午后常起“玉带云”",
       photoSpot: "寂照庵多肉庭院 · 逆光拍苍山云海",
     },
     {
@@ -226,7 +226,7 @@ export const dali: RouteData = {
       img: img("photo-1471922694854-ff1b63b20054", 1200),
       imgCaption: "双廊方向的洱海日落，湖面被染成金色",
       gallery: [
-        img("photo-1623855244183-52fd8d3ce2f7", 800), // 理想邦白色建筑群（图为白色建筑群氛围参考）
+        "images/c-5708581-0.jpg", // 理想邦白色建筑群（携程实景）
         img("photo-1584132967334-10e028bd69f7", 800), // 海景民宿露台（图为海景度假氛围参考）
       ],
       photoSpot: "双廊玉几岛栈道 · 日落剪影；理想邦白色阶梯",

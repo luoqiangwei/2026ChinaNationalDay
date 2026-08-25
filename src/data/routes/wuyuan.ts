@@ -4,8 +4,6 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
-
 export const wuyuan: RouteData = {
   id: "wuyuan",
   name: "婺源 · 篁岭晒秋与瓷都",
@@ -22,8 +20,8 @@ export const wuyuan: RouteData = {
     "10 月婺源秋高气爽，篁岭晒秋正盛、皇菊初开；山区早晚温差大，偶有秋雨",
   clothing: "长袖+薄外套，山上早晚加件抓绒；古巷石板路穿防滑鞋",
   crowd: "★★★★☆",
-  hero: img("photo-1507371341162-763b5e419408"),
-  heroCaption: "晒秋时节层林尽染（图为秋日氛围参考）",
+  hero: "images/c-141512-0.jpg",
+  heroCaption: "晒秋时节层林尽染",
   drive:
     "婺源站→篁岭约 50min；篁岭→景德镇约 1.5h；景德镇市内打车便宜，高铁接驳顺畅",
   costs: [
@@ -110,8 +108,8 @@ export const wuyuan: RouteData = {
           desc: "荷包红鲤鱼、糊豆腐是婺源招牌，县城老店人均 ¥50–80，比景区门口实在；饭后早点休息，明天赶早进山。",
         },
       ],
-      img: img("photo-1517309230475-6736d926b979", 1200),
-      imgCaption: "徽派古村 · 粉墙黛瓦映灯笼（图为古镇氛围参考）",
+      img: "images/c-17010-0.jpg",
+      imgCaption: "徽派古村 · 粉墙黛瓦映灯笼",
       photoSpot: "李坑 · 小溪石桥与马头墙同框",
     },
     {
@@ -151,8 +149,8 @@ export const wuyuan: RouteData = {
           desc: "夜宿篁岭山上民宿（国庆 ¥500–900/晚），入夜后古村灯火点点；住山上可走二次进山通道，免重复排队索道。",
         },
       ],
-      img: img("photo-1526346698789-22fd84314424", 1200),
-      imgCaption: "晒匾上的红辣椒 · 晒秋最正的一抹红（图为晒秋作物氛围参考）",
+      img: "images/c-141512-1.jpg",
+      imgCaption: "晒匾上的红辣椒 · 晒秋最正的一抹红",
       photoSpot: "晒秋工坊观景台 · 晒匾与徽派屋顶同框",
     },
     {
@@ -187,10 +185,10 @@ export const wuyuan: RouteData = {
           desc: "老瓷厂改造的文创街区，周末夜市摊位最多。小件瓷器大胆砍价，从开价 6–7 折聊起，看中的杯子别犹豫。",
         },
       ],
-      img: img("photo-1493106641515-6b5631de4bb9", 1200),
-      imgCaption: "拉坯的手 · 千年瓷都的日常（图为陶艺氛围参考）",
+      img: "images/c-61145-2.jpg",
+      imgCaption: "拉坯的手 · 千年瓷都的日常",
       gallery: [
-        img("photo-1610701596007-11502861dcfa", 800), // 陶器器物（图为陶瓷氛围参考）
+        "images/c-61145-1.jpg", // 陶器器物（携程实景）
       ],
       photoSpot: "陶阳里 · 御窑博物馆红砖拱廊",
     },
@@ -221,8 +219,8 @@ export const wuyuan: RouteData = {
           desc: "高铁直达约 7–8h，二等座约 ¥650–750/人（以 12306 实价为准）；直达车次少，可在上饶/南昌西中转。",
         },
       ],
-      img: img("photo-1597696929736-6d13bed8e6a8", 1200),
-      imgCaption: "淘一只合眼缘的带回家（图为陶瓷器物氛围参考）",
+      img: "images/c-148430854-0.jpg",
+      imgCaption: "淘一只合眼缘的带回家",
       photoSpot: "陶瓷博物馆 · 沉思罗汉展厅",
     },
   ],

@@ -129,7 +129,7 @@ export const daocheng: RouteData = {
       img: img("photo-1483728642387-6c3bdd6c93e5", 1200),
       imgCaption: "折多山垭口 · 经幡与云海，10 月或遇初雪",
       gallery: [
-        img("photo-1482784160316-6eb046863ece", 800), // 垭口雪山（图为雪山氛围参考）
+        "images/c-145001-0.jpg", // 垭口雪山（携程实景）
         img("photo-1531804055935-76f44d7c3621", 800), // 雪山脚下的公路（图为公路氛围参考）
       ],
       photoSpot: "新都桥贡嘎观景台 · 日落金山",
@@ -174,7 +174,7 @@ export const daocheng: RouteData = {
       img: img("photo-1444703686981-a3abbc4d4fe3", 1200),
       imgCaption: "理塘（4,014m）的夜空 · 高原星斗低垂",
       gallery: [
-        img("photo-1547471080-7cc2caa01a7e", 800), // 理塘草原（图为草原氛围参考）
+        "images/c-76748-0.jpg", // 理塘草原（携程实景）
         img("photo-1484557985045-edf25e08da73", 800), // 牧场羊群（图为牧场氛围参考）
       ],
       photoSpot: "天路十八弯观景台 · 理塘东城门",
@@ -219,8 +219,8 @@ export const daocheng: RouteData = {
       img: img("photo-1491002052546-bf38f186af56", 1200),
       imgCaption: "珍珠海 · 仙乃日雪峰的完美倒影",
       gallery: [
-        img("photo-1516132006923-6cf348e5dee2", 800), // 高山湖泊倒影（图为湖泊氛围参考）
-        img("photo-1490750967868-88aa4486c946", 800), // 杜鹃花季的山野（图为花海氛围参考）
+        "images/c-11875-0.jpg", // 高山湖泊倒影（携程实景）
+        "images/c-11875-1.jpg", // 杜鹃花季的山野（携程实景）
       ],
       photoSpot: "珍珠海 · 无风时拍倒影",
     },
@@ -261,11 +261,11 @@ export const daocheng: RouteData = {
           desc: "注意电瓶车与观光车末班时间（旺季约 17:00–18:00 收车），预留 2h 下撤。晚上热水泡脚，庆祝全程最高光的一天。",
         },
       ],
-      img: img("photo-1494548162494-384bba4ab999", 1200),
-      imgCaption: "牛奶海 · 雪山环抱的绿松石（图为高原湖泊氛围参考）",
+      img: "images/c-43890-0.jpg",
+      imgCaption: "牛奶海 · 雪山环抱的绿松石",
       gallery: [
         img("photo-1510343513665-4527e381af08", 800), // 车窗外的雪山（图为公路旅行氛围参考）
-        img("photo-1464207687429-7505649dae38", 800), // 湖畔日落（图为湖泊氛围参考）
+        "images/c-62745-0.jpg", // 湖畔日落（携程实景）
       ],
       photoSpot: "洛绒牛场 · 央迈勇正面；牛奶海垭口俯瞰",
     },
@@ -306,11 +306,11 @@ export const daocheng: RouteData = {
           desc: "回到 3,460m 反而觉得轻松。连日高海拔，今晚好好睡一觉，明天是相对低强度的一天。",
         },
       ],
-      img: img("photo-1495107334309-fcf20504a5ab", 1200),
-      imgCaption: "桑堆红草地 · 一年只红两周，远处杨林金黄（图为高原田园氛围参考）",
+      img: "images/c-50831-0.jpg",
+      imgCaption: "桑堆红草地 · 一年只红两周，远处杨林金黄",
       gallery: [
         img("photo-1507783548227-544c3b8fc065", 800), // 牦牛汤锅炭火（图为美食氛围参考）
-        img("photo-1465101162946-4377e57745c3", 800), // 新都桥的星空（图为星空氛围参考）
+        "images/c-43874-0.jpg", // 新都桥的星空（携程实景）
       ],
       photoSpot: "红草+杨树+雪山三色同框",
     },
@@ -351,8 +351,8 @@ export const daocheng: RouteData = {
           desc: "经康定再翻折多山一路下撤，约 3h 到泸定（1,300m+）。海拔骤降后耳朵可能闷胀，嚼口香糖缓解。",
         },
       ],
-      img: img("photo-1501554728187-ce583db33af7", 1200),
-      imgCaption: "塔公草原 · 木雅金塔与雅拉雪山为伴（图为草原徒步氛围参考）",
+      img: "images/c-14836-0.jpg",
+      imgCaption: "塔公草原 · 木雅金塔与雅拉雪山为伴",
       gallery: [
         img("photo-1525755662778-989d0524087e", 800), // 川味晚餐（图为美食氛围参考）
         img("photo-1490645935967-10de6ba17061", 800), // 藏家餐桌（图为氛围参考）
@@ -399,7 +399,7 @@ export const daocheng: RouteData = {
       img: img("photo-1414235077428-338989a2e8c0", 1200),
       imgCaption: "回成都 · 一顿火锅给旅程收尾",
       gallery: [
-        img("photo-1564349683136-77e08dba1ef7", 800), // 成都大熊猫（图为成都氛围参考）
+        "images/c-4229-0.jpg", // 成都大熊猫（携程实景）
         img("photo-1504754524776-8f4f37790ca0", 800), // 成都早茶的丰盛一桌（图为美食氛围参考）
       ],
     },

@@ -196,8 +196,8 @@ export const turkey: RouteData = {
           desc: "海峡对岸的文艺老区，海鲜小馆人均 ¥120–150；饭后沿加拉塔桥走回老城消食。",
         },
       ],
-      img: img("photo-1527838832700-5059252407fa", 1200),
-      imgCaption: "伊斯坦布尔 · 穹顶与宣礼塔的晚霞（图为氛围参考）",
+      img: "images/c-18562-0.jpg",
+      imgCaption: "伊斯坦布尔 · 穹顶与宣礼塔的晚霞",
       gallery: [
         "images/p-38210077.jpg", // 加拉塔桥与海鸥（伊斯坦布尔实拍）
         img("photo-1535140728325-a4d3707eee61", 800), // 土耳其早餐（图为早餐氛围参考）
@@ -236,11 +236,11 @@ export const turkey: RouteData = {
           desc: "Testi Kebab 上桌当面敲罐，Old Cappadocia 等老店人均 ¥100–150，一罐够两人分。",
         },
       ],
-      img: img("photo-1500530855697-b586d89ba3ee", 1200),
-      imgCaption: "红线途中 · 赭红色岩谷公路（图为氛围参考）",
+      img: "images/c-1485229-0.jpg",
+      imgCaption: "红线途中 · 赭红色岩谷公路",
       gallery: [
         "images/p-19228322.jpg", // 仙人烟囱与热气球（卡帕多奇亚实拍）
-        img("photo-1580654712603-eb43273aff33", 800), // 红线徒步（图为山野徒步氛围参考）
+        "images/c-1485229-1.jpg", // 红线徒步（携程实景）
       ],
       photoSpot: "Sunset Point · 玫瑰谷全景",
     },
@@ -281,11 +281,11 @@ export const turkey: RouteData = {
           desc: "回酒店天台看河谷灯火，明天一早转场，早点休息。",
         },
       ],
-      img: img("photo-1530789253388-582c481c54b0", 1200),
-      imgCaption: "格雷梅 · 热气球日出与仙人烟囱（图为氛围参考）",
+      img: "images/c-1700461-3.jpg",
+      imgCaption: "格雷梅 · 热气球日出与仙人烟囱",
       gallery: [
         "images/p-5320383.jpg", // 格雷梅热气球群（卡帕多奇亚实拍）
-        img("photo-1502086223501-7ea6ecd79368", 800), // 热气球掠过原野（图为热气球氛围参考）
+        "images/c-110564-1.jpg", // 热气球掠过原野（携程实景）
       ],
       photoSpot: "热气球篮内 · 日出逆光剪影",
     },
@@ -369,7 +369,7 @@ export const turkey: RouteData = {
       imgCaption: "绿松石色的海岸线 · 费特希耶蓝礁湖（航拍实拍）",
       gallery: [
         "images/p-35520161.jpg", // 滑翔伞掠过蓝礁湖（实拍）
-        img("photo-1506953823976-52e1fdc0149a", 800), // 海滩椰影（图为海滩氛围参考）
+        "images/c-1697878-0.jpg", // 海滩椰影（携程实景）
       ],
       photoSpot: "滑翔伞上 · 俯瞰蓝湖弧线",
     },
@@ -409,7 +409,7 @@ export const turkey: RouteData = {
       imgCaption: "加拉塔塔 · 金角湾上空的海鸥",
       gallery: [
         "images/p-37395604.jpg", // 加拉塔塔与博斯普鲁斯（伊斯坦布尔实拍）
-        img("photo-1515825838458-f2a94b20105a", 800), // 独立大街夜色（图为城市夜景氛围参考）
+        "images/c-107509-0.jpg", // 独立大街夜色（携程实景）
       ],
       photoSpot: "加拉塔塔巷口仰拍 · 塔尖与鸽群",
     },

@@ -17,8 +17,8 @@ export const nanjiang: RouteData = {
   seasonNote: "10 月初南疆秋高气爽、瓜果正甜；帕米尔已入冬前模式，塔县夜里可跌破 0°C，雪山能见度全年最佳",
   clothing: "喀什白天长袖+薄外套；塔县抓绒+冲锋衣+薄羽绒，防晒帽墨镜润唇膏必备",
   crowd: "★★★☆☆",
-  hero: img("photo-1470770903676-69b98201ea1c"),
-  heroCaption: "帕米尔高原 · 雪山下的湖泊与栈道（图为氛围参考）",
+  hero: "images/c-129672-0.jpg",
+  heroCaption: "帕米尔高原 · 雪山下的湖泊与栈道",
   official: "丝路秘境（G314 中巴友谊公路）辐射 · 帕米尔风情环线辐射",
   drive: "喀什→塔县必须走 G314 国道（中巴友谊公路），建议包车含司机；盘龙古道弯急海拔高，不建议新手自驾",
   costs: [
@@ -116,10 +116,10 @@ export const nanjiang: RouteData = {
           desc: "古城对面汗巴扎吃烤蛋、酸奶粽子、烤鸽子，人均 ¥50 吃到撑；清真餐厅禁酒，别自带酒水。",
         },
       ],
-      img: img("photo-1512632578888-169bbbc64f33", 1200),
-      imgCaption: "老城巷弄与集市的灯火（图为氛围参考）",
+      img: "images/c-129662-0.jpg",
+      imgCaption: "老城巷弄与集市的灯火",
       gallery: [
-        img("photo-1564769625905-50e93615e769", 800), // 清真寺门扉与人群（图为西域人文氛围参考）
+        "images/c-4697-0.jpg", // 清真寺门扉与人群（携程实景）
         img("photo-1569718212165-3a8278d5f624", 800), // 古城里的热汤面（图为美食氛围参考）
       ],
       photoSpot: "古城东门开城仪式 · 阿热亚路花门巷",
@@ -161,10 +161,10 @@ export const nanjiang: RouteData = {
           desc: "夜里古城亮灯后更有味道，吃缸子肉+烤包子；明天上高原，早点休息、别喝酒。",
         },
       ],
-      img: img("photo-1519817650390-64a93db51149", 1200),
-      imgCaption: "清真寺穹顶与宣礼塔（图为氛围参考）",
+      img: "images/c-4697-1.jpg",
+      imgCaption: "清真寺穹顶与宣礼塔",
       gallery: [
-        img("photo-1533900298318-6b8da08a523e", 800), // 巴扎市集（图为市集氛围参考）
+        "images/c-67606962-3.jpg", // 巴扎市集（携程实景）
         img("photo-1585032226651-759b368d7246", 800), // 新疆炒面（图为美食氛围参考）
       ],
       photoSpot: "艾提尕尔广场晨景 · 百年老茶馆二楼阳台",
@@ -206,8 +206,8 @@ export const nanjiang: RouteData = {
           desc: "塔县吃塔吉克风味牦牛肉火锅，人均 ¥80 暖身；饭后抬头就是银河，县城光污染极少。",
         },
       ],
-      img: img("photo-1520962922320-2038eebab146", 1200),
-      imgCaption: "帕米尔高原的雪山与森林（图为氛围参考）",
+      img: "images/c-43961-0.jpg",
+      imgCaption: "帕米尔高原的雪山与森林",
       gallery: [
         img("photo-1547235001-d703406d3f17", 800), // G314 戈壁滩（图为戈壁氛围参考）
         img("photo-1518098268026-4e89f1a2cd8e", 800), // 高原公路日落（图为公路氛围参考）
@@ -250,7 +250,7 @@ export const nanjiang: RouteData = {
       imgCaption: "盘龙古道 · 今日走过了所有的弯路（航拍）",
       gallery: [
         "images/p-28293280.jpg", // 山谷里的发卡弯（航拍）
-        img("photo-1445112098124-3e76dd67983c", 800), // 班迪尔蓝湖 · 山谷湖泊（图为氛围参考）
+        "images/c-143181843-0.jpg", // 班迪尔蓝湖 · 山谷湖泊（携程实景）
       ],
       photoSpot: "盘龙古道路牌观景台 · 金草滩日落栈道",
     },
@@ -286,8 +286,8 @@ export const nanjiang: RouteData = {
           desc: "补吃第一天没吃到的烤全羊切片和石榴汁，10 月正是石榴季，现榨一杯约 ¥15。",
         },
       ],
-      img: img("photo-1605649487212-47bdab064df7", 1200),
-      imgCaption: "帕米尔群山 · 返程路上的山与林（图为氛围参考）",
+      img: "images/c-43961-1.jpg",
+      imgCaption: "帕米尔群山 · 返程路上的山与林",
       gallery: [
         img("photo-1498855926480-d98e83099315", 800), // 山溪与森林（图为氛围参考）
         img("photo-1491555103944-7c647fd857e6", 800), // 远眺雪山（图为氛围参考）
@@ -326,8 +326,8 @@ export const nanjiang: RouteData = {
           desc: "傍晚动车返程，到喀什正好晚饭点；夜市收尾来一碗酸奶刨冰。",
         },
       ],
-      img: img("photo-1524492412937-b28074a5d7da", 1200),
-      imgCaption: "伊斯兰宫殿式建筑（图为氛围参考）",
+      img: "images/c-4704-0.jpg",
+      imgCaption: "伊斯兰宫殿式建筑",
       gallery: [
         "images/p-5910196.jpg", // 去莎车的山岭公路
         img("photo-1512058564366-18510be2db19", 800), // 手抓饭（图为美食氛围参考）
@@ -366,8 +366,8 @@ export const nanjiang: RouteData = {
           desc: "最后一晚吃架子肉+烤南瓜，配卡瓦斯；收拾行李，明天早班机回北京。",
         },
       ],
-      img: img("photo-1473625247510-8ceb1760943f", 1200),
-      imgCaption: "古城旅拍 · 把西域的光穿在身上（图为旅拍氛围参考）",
+      img: "images/c-129662-1.jpg",
+      imgCaption: "古城旅拍 · 把西域的光穿在身上",
       gallery: [
         img("photo-1522708323590-d24dbb6b0267", 800), // 古城民宿（图为民宿氛围参考）
         img("photo-1555126634-323283e090fa", 800), // 夜市拌面（图为美食氛围参考）

@@ -123,8 +123,8 @@ export const qinggan: RouteData = {
       img: img("photo-1476610182048-b716b8518aae", 1200),
       imgCaption: "青海湖 · 10 月草甸金黄、湖面湛蓝",
       gallery: [
-        img("photo-1518837695005-2083093ee35b", 800), // 湖浪拍岸（图为湖岸氛围参考）
-        img("photo-1548032885-b5e38734688a", 800), // 湖面俯拍（图为湖面氛围参考）
+        "images/c-11709-0.jpg", // 湖浪拍岸（携程实景）
+        "images/c-11709-2.jpg", // 湖面俯拍（携程实景）
       ],
       photoSpot: "环湖西路 · 以湖为背景的公路照",
     },
@@ -163,8 +163,8 @@ export const qinggan: RouteData = {
       img: img("photo-1476514525535-07fb3b4ae5f1", 1200),
       imgCaption: "茶卡盐湖 · 傍晚无风时湖面如镜",
       gallery: [
-        img("photo-1471115853179-bb1d604434e0", 800), // 湛蓝湖面（图为盐湖氛围参考）
-        img("photo-1495954484750-af469f2f9be5", 800), // 湖边栈道（图为栈道氛围参考）
+        "images/c-11762-0.jpg", // 湛蓝湖面（携程实景）
+        "images/c-11762-1.jpg", // 湖边栈道（携程实景）
       ],
       photoSpot: "铁轨尽头 · 低机位拍倒影对称",
     },
@@ -195,8 +195,8 @@ export const qinggan: RouteData = {
           desc: "海拔约 3,200m，夜间寒冷，订房确认暖气；镇上川菜馆和炕锅都不少，好好吃一顿。",
         },
       ],
-      img: img("photo-1547234935-80c7145ec969", 1200),
-      imgCaption: "柴达木盆地 · 阳光洒满戈壁（图为雅丹氛围参考）",
+      img: "images/c-4317342-0.jpg",
+      imgCaption: "柴达木盆地 · 阳光洒满戈壁",
       gallery: [
         img("photo-1519003722824-194d4455a60c", 800), // 戈壁公路（图为公路氛围参考）
       ],
@@ -237,8 +237,8 @@ export const qinggan: RouteData = {
       img: "images/p-18779056.jpg",
       imgCaption: "G315 · 直通天际的戈壁公路（航拍）",
       gallery: [
-        img("photo-1516690561799-46d8f74f9abf", 800), // 水上雅丹的绿松石水面（图为水上雅丹氛围参考）
-        img("photo-1518623489648-a173ef7824f3", 800), // 戈壁中的湖泊（图为航拍湖泊氛围参考）
+        "images/c-4317342-1.jpg", // 水上雅丹的绿松石水面（携程实景）
+        "images/c-4331367-0.jpg", // 戈壁中的湖泊（携程实景）
       ],
       photoSpot: "780 号路碑附近 · 长焦压缩公路曲线",
     },
@@ -274,8 +274,8 @@ export const qinggan: RouteData = {
           desc: "天黑透后银河清晰可见，躺在还温热的沙子上看星星；出园打车回市区约 10min。",
         },
       ],
-      img: img("photo-1542401886-65d6c61db217", 1200),
-      imgCaption: "鸣沙山 · 日落前 1 小时光影最佳（图为沙漠氛围参考）",
+      img: "images/c-1563-0.jpg",
+      imgCaption: "鸣沙山 · 日落前 1 小时光影最佳",
       gallery: [
         "images/p-33412586.jpg", // 月牙泉与鸣沙山（敦煌实拍）
       ],
@@ -316,7 +316,7 @@ export const qinggan: RouteData = {
       img: "images/p-38762889.jpg",
       imgCaption: "七彩丹霞 · 日落时像打翻的调色盘（张掖实拍）",
       gallery: [
-        img("photo-1502224562085-639556652f33", 800), // 黑河湿地日落（图为湿地氛围参考）
+        "images/c-1412271-0.jpg", // 黑河湿地日落（携程实景）
         img("photo-1476820865390-c52aeebb9891", 800), // 秋日公路（图为公路氛围参考）
       ],
       photoSpot: "4 号观景台 · 日落顺光拍彩色丘陵",

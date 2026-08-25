@@ -23,8 +23,8 @@ export const nepal: RouteData = {
   clothing:
     "分层穿：速干衣+抓绒+冲锋衣，Poon Hill 等日出要羽绒服；登山鞋提前磨合，登山杖、头灯、睡袋内胆必备",
   crowd: "★★★☆☆",
-  hero: img("photo-1544644181-1484b3fdfc62"),
-  heroCaption: "安娜普尔纳群峰 · 布恩山观景台日出（图为雪山氛围参考）",
+  hero: "images/c-1410412-0.jpg",
+  heroCaption: "安娜普尔纳群峰 · 布恩山观景台日出",
   drive:
     "加都⇌博卡拉选旅游大巴 7h 或佛祖航空等小飞机 25min；徒步起点 Nayapul 从博卡拉包车 1.5h，山上全程步行",
   costs: [
@@ -141,8 +141,8 @@ export const nepal: RouteData = {
           desc: "泰米尔找家尼餐老店吃 Dal Bhat（扁豆饭套餐，约 ¥30/人），徒步者的标准燃料；早点休息，明天进山方向。",
         },
       ],
-      img: img("photo-1544735716-392fe2489ffa", 1200),
-      imgCaption: "加德满都的佛塔与经幡（图为氛围参考）",
+      img: "images/c-19848-0.jpg",
+      imgCaption: "加德满都的佛塔与经幡",
       photoSpot: "泰米尔街区黄昏 · 经幡与店铺灯火",
     },
     {
@@ -177,8 +177,8 @@ export const nepal: RouteData = {
           desc: "Lakeside 主街西餐尼餐都有，人均 ¥50；明早 8 点出发，今晚把登山杖调好、头灯试亮。",
         },
       ],
-      img: "images/p-37496141.jpg",
-      imgCaption: "湖面泛舟 · 费瓦湖的午后就是这个节奏（图为湖泊氛围参考）",
+      img: "images/c-137594-0.jpg",
+      imgCaption: "湖面泛舟 · 费瓦湖的午后就是这个节奏",
       photoSpot: "费瓦湖南岸 · 鱼尾峰湖面倒影",
     },
     {
@@ -213,8 +213,8 @@ export const nepal: RouteData = {
           desc: "Ulleri（2,050m）客栈 ¥50–150/晚，房费极便宜、靠餐饮消费；天晴时村口就能看到安娜普尔纳南峰，第一天的小奖励。",
         },
       ],
-      img: img("photo-1551632811-561732d1e306", 1200),
-      imgCaption: "山径上的徒步者（图为徒步氛围参考）",
+      img: "images/c-1410412-1.jpg",
+      imgCaption: "山径上的徒步者",
       photoSpot: "Ulleri 石阶中段回望 · 梯田与河谷",
     },
     {
@@ -285,8 +285,8 @@ export const nepal: RouteData = {
           desc: "Tadapani（2,630m）意为「远水」，客栈正对鱼尾峰；膝盖今天辛苦，下山杖调长一档、护膝戴上。",
         },
       ],
-      img: img("photo-1558799401-1dcba79834c2", 1200),
-      imgCaption: "雪山群峰的日出时刻（图为雪山氛围参考）",
+      img: "images/c-1410412-2.jpg",
+      imgCaption: "雪山群峰的日出时刻",
       photoSpot: "Poon Hill 观景台 · 道拉吉里与安娜普尔纳全景（日出前 40 分钟占位）",
     },
     {
@@ -321,8 +321,8 @@ export const nepal: RouteData = {
           desc: "回到湖滨区吃一顿牛排或烤鸡庆祝走完全程，人均 ¥60–80；腿很酸，但值得。",
         },
       ],
-      img: img("photo-1454496522488-7a8e488e8606", 1200),
-      imgCaption: "云雾里的山间村寨（图为山村氛围参考）",
+      img: "images/c-1410412-5.jpg",
+      imgCaption: "云雾里的山间村寨",
       photoSpot: "Ghandruk 村寨高处 · 石板屋顶与鱼尾峰同框",
     },
     {
@@ -357,8 +357,8 @@ export const nepal: RouteData = {
           desc: "沿湖走到北岸看日落，最后一晚在博卡拉；挑些手工纸、颂钵做伴手礼，记得留足卢比现金给明天。",
         },
       ],
-      img: img("photo-1533130061792-64b345e4a833", 1200),
-      imgCaption: "滑翔伞掠过山湖上空（图为滑翔伞氛围参考）",
+      img: "images/c-137116746-0.jpg",
+      imgCaption: "滑翔伞掠过山湖上空",
       photoSpot: "Sarangkot 起飞场 · 滑翔伞与费瓦湖全景",
     },
     {
@@ -388,8 +388,8 @@ export const nepal: RouteData = {
           desc: "经成都/昆明中转约 8–11h 抵京；起飞后右侧舷窗有机会再看一眼喜马拉雅，算雪山的告别礼。",
         },
       ],
-      img: img("photo-1526772662000-3f88f10405ff", 1200),
-      imgCaption: "回望来路 · 雪山还在那里（图为徒步氛围参考）",
+      img: "images/c-136678-0.jpg",
+      imgCaption: "回望来路 · 雪山还在那里",
       photoSpot: "加都机场起飞 · 右侧舷窗远眺喜马拉雅",
     },
   ],
