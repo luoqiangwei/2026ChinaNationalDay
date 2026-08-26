@@ -120,7 +120,7 @@ export const nanjiang: RouteData = {
       imgCaption: "老城巷弄与集市的灯火",
       gallery: [
         "images/c-4697-0.jpg", // 清真寺门扉与人群（携程实景）
-        img("photo-1569718212165-3a8278d5f624", 800), // 古城里的热汤面（图为美食氛围参考）
+        "images/c-129662-6.jpg", // 古城夜色（携程实景）
       ],
       photoSpot: "古城东门开城仪式 · 阿热亚路花门巷",
     },
@@ -165,7 +165,7 @@ export const nanjiang: RouteData = {
       imgCaption: "清真寺穹顶与宣礼塔",
       gallery: [
         "images/c-67606962-3.jpg", // 巴扎市集（携程实景）
-        img("photo-1585032226651-759b368d7246", 800), // 新疆炒面（图为美食氛围参考）
+        "images/c-129662-1.jpg", // 古城街巷（携程实景）
       ],
       photoSpot: "艾提尕尔广场晨景 · 百年老茶馆二楼阳台",
     },
@@ -209,8 +209,8 @@ export const nanjiang: RouteData = {
       img: "images/c-43961-0.jpg",
       imgCaption: "帕米尔高原的雪山与森林",
       gallery: [
-        img("photo-1547235001-d703406d3f17", 800), // G314 戈壁滩（图为戈壁氛围参考）
-        img("photo-1518098268026-4e89f1a2cd8e", 800), // 高原公路日落（图为公路氛围参考）
+        "images/c-43961-4.jpg", // G314 公路与湖（携程实景）
+        "images/c-43961-6.jpg", // 盘龙古道（携程实景）
       ],
       photoSpot: "喀拉库勒湖畔 · 慕士塔格倒影；白沙湖观景台",
     },
@@ -289,8 +289,8 @@ export const nanjiang: RouteData = {
       img: "images/c-43961-1.jpg",
       imgCaption: "帕米尔群山 · 返程路上的山与林",
       gallery: [
-        img("photo-1498855926480-d98e83099315", 800), // 山溪与森林（图为氛围参考）
-        img("photo-1491555103944-7c647fd857e6", 800), // 远眺雪山（图为氛围参考）
+        "images/c-4470472-1.jpg", // 白沙湖（携程实景）
+        "images/c-5405-0.jpg", // 慕士塔格峰与喀拉库勒湖（携程实景）
       ],
       photoSpot: "盖孜峡谷副驾机位 · 白沙湖晨景顺光",
     },
@@ -330,7 +330,7 @@ export const nanjiang: RouteData = {
       imgCaption: "伊斯兰宫殿式建筑",
       gallery: [
         "images/p-5910196.jpg", // 去莎车的山岭公路
-        img("photo-1512058564366-18510be2db19", 800), // 手抓饭（图为美食氛围参考）
+        "images/c-134715649-0.jpg", // 莎车府（携程实景）
       ],
       photoSpot: "叶尔羌汗王宫蓝金穹顶 · 莎车老街巷口",
     },
@@ -369,8 +369,8 @@ export const nanjiang: RouteData = {
       img: "images/c-129662-1.jpg",
       imgCaption: "古城旅拍 · 把西域的光穿在身上",
       gallery: [
-        img("photo-1522708323590-d24dbb6b0267", 800), // 古城民宿（图为民宿氛围参考）
-        img("photo-1555126634-323283e090fa", 800), // 夜市拌面（图为美食氛围参考）
+        "images/c-129662-2.jpg", // 古城民居（携程实景）
+        "images/c-129662-0.jpg", // 喀什古城全景（携程实景）
       ],
       photoSpot: "古城花帽巷旅拍 · 职人巴扎铜器铺",
     },
@@ -400,7 +400,7 @@ export const nanjiang: RouteData = {
       imgCaption: "喀什机场返程（图为机场氛围参考）",
       gallery: [
         img("photo-1485470733090-0aae1788d5af", 800), // 舷窗外的群山（图为氛围参考）
-        img("photo-1438786657495-640937046d18", 800), // 南疆绿洲山谷（图为氛围参考）
+        "images/c-43961-0.jpg", // 帕米尔冰湖（携程实景）
       ],
       photoSpot: "机舱右侧靠窗 · 天山与戈壁航拍",
     },

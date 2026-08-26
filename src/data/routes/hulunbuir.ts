@@ -116,8 +116,8 @@ export const hulunbuir: RouteData = {
       img: "images/c-16020-1.jpg",
       imgCaption: "草原秋日 · 落地海拉尔的第一眼金黄",
       gallery: [
-        img("photo-1553284965-83fd3e82fa5a", 800), // 草原上的马（图为草原氛围参考）
-        img("photo-1529193591184-b1d58069ecdd", 800), // 手把肉与烤羊腿（图为蒙餐氛围参考）
+        "images/c-1815327-0.jpg", // 呼伦贝尔古城（携程实景）
+        "images/c-1815327-1.jpg", // 古城夜市（携程实景）
       ],
       photoSpot: "成吉思汗广场 · 夕阳下的城市剪影",
     },
@@ -161,8 +161,8 @@ export const hulunbuir: RouteData = {
       img: "images/c-1713053-0.jpg",
       imgCaption: "丘陵湿地 · 曲水与草场的金色层次",
       gallery: [
-        img("photo-1502472584811-0a2f2feb8968", 800), // 丘陵日出（图为草原氛围参考）
-        img("photo-1500964757637-c85e8a162699", 800), // 层叠山峦日落（图为氛围参考）
+        "images/c-140919-3.jpg", // 额尔古纳湿地秋色（携程实景）
+        "images/c-140919-2.jpg", // 湿地日落（携程实景）
       ],
       photoSpot: "湿地观景台 · 根河 S 弯日落",
     },
@@ -206,7 +206,7 @@ export const hulunbuir: RouteData = {
       img: "images/c-1727588-2.jpg",
       imgCaption: "白桦林 · 阳光穿过金黄叶片",
       gallery: [
-        img("photo-1473448912268-2022ce9509d8", 800), // 林间河谷（图为林区氛围参考）
+        "images/c-132378-2.jpg", // 恩和河谷（携程实景）
         "images/c-132378-2.jpg", // 恩和田园风光（携程实景）
       ],
       photoSpot: "白桦林栈道 · 恩和村口木栅栏",
@@ -243,11 +243,11 @@ export const hulunbuir: RouteData = {
           desc: "温泉酒店国庆 ¥500–700/晚；晚餐后泡温泉解乏，小城夜景是欧式小楼+星空。",
         },
       ],
-      img: img("photo-1516692935701-4f35bff8b9f6", 1200),
-      imgCaption: "林区公路 · 穿越大兴安岭的金色隧道（图为氛围参考）",
+      img: "images/c-70703-7.jpg",
+      imgCaption: "林区公路 · 穿越大兴安岭（携程实景）",
       gallery: [
-        img("photo-1501594907352-04cda38ebc29", 800), // 林区初雪（图为雪原氛围参考）
-        img("photo-1516687401797-25297ff1462c", 800), // 兴安岭山谷（图为山谷氛围参考）
+        "images/c-70703-0.jpg", // 莫尔道嘎森林小火车（携程实景）
+        "images/c-70703-4.jpg", // 兴安岭山谷（携程实景）
       ],
       photoSpot: "林区观景台 · 落叶松与远山层叠",
     },
@@ -291,7 +291,7 @@ export const hulunbuir: RouteData = {
       img: "images/c-52484-0.jpg",
       imgCaption: "火山湖 · 林海环抱的高山天池",
       gallery: [
-        img("photo-1434139240289-56c519f77cb0", 800), // 湖畔日落（图为湖泊氛围参考）
+        "images/c-52423-0.jpg", // 阿尔山天池粉霞（携程实景）
         "images/c-52485-0.jpg", // 三潭峡溪流（携程实景）
       ],
       photoSpot: "驼峰岭天池观景台 · 不冻河晨雾机位",

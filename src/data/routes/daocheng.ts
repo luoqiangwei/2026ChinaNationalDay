@@ -130,7 +130,7 @@ export const daocheng: RouteData = {
       imgCaption: "折多山垭口 · 经幡与云海，10 月或遇初雪",
       gallery: [
         "images/c-145001-0.jpg", // 垭口雪山（携程实景）
-        img("photo-1531804055935-76f44d7c3621", 800), // 雪山脚下的公路（图为公路氛围参考）
+        "images/c-43874-2.jpg", // 新都桥雪山下的小镇（携程实景）
       ],
       photoSpot: "新都桥贡嘎观景台 · 日落金山",
     },
@@ -175,7 +175,7 @@ export const daocheng: RouteData = {
       imgCaption: "理塘（4,014m）的夜空 · 高原星斗低垂",
       gallery: [
         "images/c-76748-0.jpg", // 理塘草原（携程实景）
-        img("photo-1484557985045-edf25e08da73", 800), // 牧场羊群（图为牧场氛围参考）
+        "images/c-76748-0.jpg", // 毛垭草原牧场（携程实景）
       ],
       photoSpot: "天路十八弯观景台 · 理塘东城门",
     },
@@ -264,7 +264,7 @@ export const daocheng: RouteData = {
       img: "images/c-43890-0.jpg",
       imgCaption: "牛奶海 · 雪山环抱的绿松石",
       gallery: [
-        img("photo-1510343513665-4527e381af08", 800), // 车窗外的雪山（图为公路旅行氛围参考）
+        "images/c-62715-0.jpg", // 仙乃日雪山（携程实景）
         "images/c-62745-0.jpg", // 湖畔日落（携程实景）
       ],
       photoSpot: "洛绒牛场 · 央迈勇正面；牛奶海垭口俯瞰",
@@ -309,7 +309,7 @@ export const daocheng: RouteData = {
       img: "images/c-50831-0.jpg",
       imgCaption: "桑堆红草地 · 一年只红两周，远处杨林金黄",
       gallery: [
-        img("photo-1507783548227-544c3b8fc065", 800), // 牦牛汤锅炭火（图为美食氛围参考）
+        "images/c-43874-1.jpg", // 新都桥河谷藏居（携程实景）
         "images/c-43874-0.jpg", // 新都桥的星空（携程实景）
       ],
       photoSpot: "红草+杨树+雪山三色同框",
@@ -354,8 +354,8 @@ export const daocheng: RouteData = {
       img: "images/c-14836-0.jpg",
       imgCaption: "塔公草原 · 木雅金塔与雅拉雪山为伴",
       gallery: [
-        img("photo-1525755662778-989d0524087e", 800), // 川味晚餐（图为美食氛围参考）
-        img("photo-1490645935967-10de6ba17061", 800), // 藏家餐桌（图为氛围参考）
+        "images/c-1416437-2.jpg", // 墨石公园石林（携程实景）
+        "images/c-14836-0.jpg", // 塔公草原（携程实景）
       ],
       photoSpot: "塔公寺转经筒长廊 · 墨石公园火星地表",
     },
@@ -400,7 +400,7 @@ export const daocheng: RouteData = {
       imgCaption: "回成都 · 一顿火锅给旅程收尾",
       gallery: [
         "images/c-4229-0.jpg", // 成都大熊猫（携程实景）
-        img("photo-1504754524776-8f4f37790ca0", 800), // 成都早茶的丰盛一桌（图为美食氛围参考）
+        "images/c-14925-0.jpg", // 泸定桥（携程实景）
       ],
     },
   ],

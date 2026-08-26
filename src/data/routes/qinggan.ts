@@ -198,7 +198,7 @@ export const qinggan: RouteData = {
       img: "images/c-4317342-0.jpg",
       imgCaption: "柴达木盆地 · 阳光洒满戈壁",
       gallery: [
-        img("photo-1519003722824-194d4455a60c", 800), // 戈壁公路（图为公路氛围参考）
+        "images/c-4331367-3.jpg", // 翡翠湖边的戈壁公路（携程实景）
       ],
       photoSpot: "翡翠湖心栈道 · 俯拍盐池色块",
     },
@@ -317,7 +317,7 @@ export const qinggan: RouteData = {
       imgCaption: "七彩丹霞 · 日落时像打翻的调色盘（张掖实拍）",
       gallery: [
         "images/c-1412271-0.jpg", // 黑河湿地日落（携程实景）
-        img("photo-1476820865390-c52aeebb9891", 800), // 秋日公路（图为公路氛围参考）
+        "images/c-51858-1.jpg", // 七彩丹霞日落（携程实景）
       ],
       photoSpot: "4 号观景台 · 日落顺光拍彩色丘陵",
     },
@@ -361,7 +361,7 @@ export const qinggan: RouteData = {
       img: img("photo-1508672019048-805c876b67e2", 1200),
       imgCaption: "祁连草原 · 雪山下的金色牧场",
       gallery: [
-        img("photo-1444090542259-0af8fa96557e", 800), // 云海日落（图为高原氛围参考）
+        "images/c-147838-3.jpg", // 卓尔山云雾（携程实景）
       ],
     },
   ],

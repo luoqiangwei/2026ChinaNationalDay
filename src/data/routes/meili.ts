@@ -206,7 +206,7 @@ export const meili: RouteData = {
       imgCaption: "金沙江切开群山 · 虎跳峡的激流",
       gallery: [
         "images/c-69342535-1.jpg", // 峡谷徒步道（携程实景）
-        img("photo-1533850595620-7b1711221751", 800), // 抵达高原 · 远眺雪山（图为氛围参考）
+        "images/c-128415-1.jpg", // 龟山公园大转经筒（携程实景）
       ],
       photoSpot: "上虎跳栈道 · 金沙江激流与玉龙雪山对岸",
     },
@@ -341,7 +341,7 @@ export const meili: RouteData = {
       imgCaption: "属都湖畔 · 湖面倒影与湖边木屋",
       gallery: [
         "images/c-56571-0.jpg", // 普达措层林尽染（携程实景）
-        img("photo-1464226184884-fa280b87c399", 800), // 市集买手信（图为市集氛围参考）
+        "images/c-77032-2.jpg", // 独克宗古城街巷（携程实景）
       ],
       photoSpot: "属都湖栈道 · 湖面倒影与秋色层林",
     },

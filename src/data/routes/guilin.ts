@@ -4,8 +4,6 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
-
 export const guilin: RouteData = {
   id: "guilin",
   name: "桂林 · 阳朔龙脊梯田",
@@ -120,7 +118,7 @@ export const guilin: RouteData = {
       img: "images/c-1932650-0.jpg",
       imgCaption: "桂林街头 · 一碗 5 元的卤菜粉，本地人的早餐",
       gallery: [
-        img("photo-1603133872878-684f208fb84b", 800), // 卤菜粉（图为米粉氛围参考）
+        "images/c-1932650-0.jpg", // 东西巷夜色（携程实景）
       ],
       photoSpot: "日月双塔 · 湖面倒影夜景",
     },

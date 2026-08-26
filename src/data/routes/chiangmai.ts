@@ -125,7 +125,7 @@ export const chiangmai: RouteData = {
       imgCaption: "古城黄昏 · 寺塔剪影映着雨季尾声的云",
       gallery: [
         "images/c-8142-0.jpg", // 鎏金佛塔群（携程实景）
-        img("photo-1559847844-5315695dadae", 800), // 泰式餐食（图为泰餐氛围参考）
+        "images/c-110373-3.jpg", // 清迈古城夜景（携程实景）
       ],
       photoSpot: "塔佩门红砖墙 · 鸽群起飞连拍",
     },

@@ -117,8 +117,8 @@ export const gannan: RouteData = {
       img: "images/c-9487-0.jpg",
       imgCaption: "入夜后的城市天际线",
       gallery: [
-        img("photo-1617093727343-374698b1b08d", 800), // 兰州牛肉面（图为面食氛围参考）
-        img("photo-1547592166-23ac45744acd", 800), // 正宁路牛奶鸡蛋醪糟（图为热汤氛围参考）
+        "images/c-90499179-1.jpg", // 正宁路小吃夜市（携程实景）
+        "images/c-90499179-0.jpg", // 南关民族风味一条街（携程实景）
       ],
       photoSpot: "白塔山公园 · 黄河铁桥与城市灯火同框",
     },
@@ -203,7 +203,7 @@ export const gannan: RouteData = {
       imgCaption: "桑科草原 · 牦牛与高原湖泊（图为藏地草原实拍）",
       gallery: [
         "images/p-38875044.jpg", // 山顶经幡阵（藏区实拍）
-        img("photo-1493962853295-0fd70327578a", 800), // 牧场牦牛（图为高原牧场氛围参考）
+        "images/c-15548-3.jpg", // 桑科草原牧场（携程实景）
       ],
       photoSpot: "赛赤寺后山 · 郎木寺镇全景与红石崖",
     },
@@ -287,7 +287,7 @@ export const gannan: RouteData = {
       img: "images/c-15544-0.jpg",
       imgCaption: "高原湖泊的雪山倒影",
       gallery: [
-        img("photo-1501621965065-c6e1cf6b53e2", 800), // 合作市集的烟火气（图为市集氛围参考）
+        "images/c-51989-0.jpg", // 米拉日巴佛阁（携程实景）
         "images/c-15544-1.jpg", // 尕海边露营（携程实景）
       ],
       photoSpot: "达日观景台 · 晨雾漫过东哇村（日出前 40 分钟占位）",

@@ -159,8 +159,8 @@ export const turkey: RouteData = {
       img: img("photo-1541432901042-2d8bd64b4a9b", 1200),
       imgCaption: "蓝色清真寺 · 六座宣礼塔的老城地标",
       gallery: [
-        img("photo-1565895405138-6c3a1555da6a", 800), // 土耳其餐食（图为美食氛围参考）
-        img("photo-1519098901909-b1553a1190af", 800), // 土耳其咖啡（图为咖啡氛围参考）
+        "images/c-18562-0.jpg", // 蓝色清真寺（携程实景）
+        "images/c-110120-1.jpg", // 大巴扎香料摊位（携程实景）
       ],
       photoSpot: "苏丹艾哈迈德广场 · 两寺同框中轴线",
     },
@@ -200,7 +200,7 @@ export const turkey: RouteData = {
       imgCaption: "伊斯坦布尔 · 穹顶与宣礼塔的晚霞",
       gallery: [
         "images/p-38210077.jpg", // 加拉塔桥与海鸥（伊斯坦布尔实拍）
-        img("photo-1535140728325-a4d3707eee61", 800), // 土耳其早餐（图为早餐氛围参考）
+        "images/c-18568-3.jpg", // 加拉达石塔夜色（携程实景）
       ],
       photoSpot: "游船左舷 · 少女塔与欧洲岸同框",
     },

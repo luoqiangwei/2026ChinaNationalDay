@@ -129,8 +129,8 @@ export const guizhou: RouteData = {
       img: "images/c-18081-0.jpg",
       imgCaption: "水边楼阁 · 甲秀楼的神韵",
       gallery: [
-        img("photo-1480714378408-67cf0d13bc1b", 800), // 贵阳城市黄昏（图为城市氛围参考）
-        img("photo-1495521821757-a1efb6729352", 800), // 肠旺面（图为面食氛围参考）
+        "images/c-18081-2.jpg", // 甲秀楼黄昏（携程实景）
+        "images/c-5719392-0.jpg", // 青云市集夜市（携程实景）
       ],
       photoSpot: "甲秀楼前桥畔 · 楼阁倒影夜景",
     },
@@ -215,7 +215,7 @@ export const guizhou: RouteData = {
       imgCaption: "峡谷幽绿 · 大七孔的喀斯特河谷",
       gallery: [
         "images/c-148569270-1.jpg", // 山间湖泊云雾（携程实景）
-        img("photo-1601918774946-25832a4be0d6", 800), // 荔波森林木屋民宿（图为森林氛围参考）
+        "images/c-1834250-0.jpg", // 荔波卧龙潭（携程实景）
       ],
       photoSpot: "天生桥洞下 · 仰拍桥拱与峡谷",
     },

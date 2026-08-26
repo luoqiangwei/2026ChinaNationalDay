@@ -143,8 +143,8 @@ export const kyoto: RouteData = {
       img: img("photo-1493976040374-85c8e12f0c0e", 1200),
       imgCaption: "京都老街 · 石板路与町屋的灯次第亮起",
       gallery: [
-        img("photo-1514933651103-005eec06c04b", 800), // 居酒屋小酌（图为居酒屋氛围参考）
-        img("photo-1567620905732-2d1ec7ab7445", 800), // 町屋咖啡馆的下午茶（图为氛围参考）
+        "images/c-60775-3.jpg", // 祇园夜色（携程实景）
+        "images/c-122822-1.jpg", // 花见小路町屋（携程实景）
       ],
       photoSpot: "鸭川四条段 · 纳凉床灯火倒映",
     },
@@ -303,7 +303,7 @@ export const kyoto: RouteData = {
       imgCaption: "道顿堀 · 霓虹与烟火气",
       gallery: [
         "images/c-49194-0.jpg", // 都市霓虹夜（携程实景）
-        img("photo-1559742811-822873691df8", 800), // 蟹道乐的海鲜（图为海鲜氛围参考）
+        "images/c-49194-1.jpg", // 道顿堀（携程实景）
       ],
       photoSpot: "戎桥 · 格力高跑男霓虹",
     },

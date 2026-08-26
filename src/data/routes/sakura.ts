@@ -161,7 +161,7 @@ export const sakura: RouteData = {
       imgCaption: "札幌夜巷 · 灯笼亮了，春天还在路上",
       gallery: [
         "images/c-132159-0.jpg", // 札幌啤酒的一杯（携程实景）
-        img("photo-1535958636474-b021ee887b13", 800), // 精酿小馆（图为酒吧氛围参考）
+        "images/c-107463-12.jpg", // 狸小路商店街夜晚（携程实景）
       ],
       photoSpot: "札幌电视塔展望台 · 大通公园夜景",
     },
@@ -246,11 +246,11 @@ export const sakura: RouteData = {
           desc: "天然温泉中通こまちの湯解乏；Dormy Inn 招牌免费夜鸣拉面别错过，连赶三天车正好回血。",
         },
       ],
-      img: img("photo-1557409518-691ebcd96038", 1200),
+      img: "images/c-141103733-5.jpg",
       imgCaption: "弘前公园 · 护城河樱花季（满开要等 4 月下旬）",
       gallery: [
-        img("photo-1522748906645-95d8adfd52c7", 800), // 樱花枝（图为樱花氛围参考）
-        img("photo-1542931287-023b922fa89b", 800), // 樱花季的小镇街道（图为日本街巷氛围参考）
+        "images/c-141103733-0.jpg", // 弘前公园护城河樱花（携程实景）
+        "images/c-141103733-1.jpg", // 弘前公园红桥（携程实景）
       ],
       photoSpot: "弘前城天守 × 护城河樱花",
     },
@@ -425,7 +425,7 @@ export const sakura: RouteData = {
       imgCaption: "伊豆白滨 · 4 月的海已经亮了",
       gallery: [
         "images/c-1951206-1.jpg", // 白滨海滩（携程实景）
-        img("photo-1540541338287-41700207dee6", 800), // 温泉旅馆的泳池（图为度假氛围参考）
+        "images/c-1951206-6.jpg", // 伊豆白滨海岸（携程实景）
       ],
       photoSpot: "白滨神社 · 海岸鸟居与白色沙滩",
     },

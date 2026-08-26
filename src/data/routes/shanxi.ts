@@ -146,7 +146,7 @@ export const shanxi: RouteData = {
       img: "images/p-8508726.jpg",
       imgCaption: "云冈第 20 窟露天大佛 · 北魏的微笑（图为石窟大佛实拍）",
       gallery: [
-        img("photo-1526318896980-cf78c088247c", 800), // 大同刀削面（图为面食氛围参考）
+        "images/c-11508-1.jpg", // 大同鼓楼黄昏（携程实景）
         "images/c-136052074-0.jpg", // 大同古城街市（携程实景）
       ],
       photoSpot: "第 20 窟大佛正前方低机位 · 上午顺光更柔和",
@@ -187,7 +187,7 @@ export const shanxi: RouteData = {
       imgCaption: "悬空寺 · 挂在恒山金龙峡峭壁上的三教合一寺（实拍）",
       gallery: [
         "images/c-15960-0.jpg", // 恒山步道林荫（携程实景）
-        img("photo-1521017432531-fbd92d768814", 800), // 下山后的茶馆歇脚（图为氛围参考）
+        "images/c-17724-0.jpg", // 悬空寺（携程实景）
       ],
       photoSpot: "悬空寺对岸观景台拍全貌 · 木塔一层仰拍斗拱",
     },
@@ -227,7 +227,7 @@ export const shanxi: RouteData = {
       imgCaption: "晋祠圣母殿 · 北宋木构与鱼沼飞梁",
       gallery: [
         "images/c-5621374-1.jpg", // 晋祠古柏林荫（携程实景）
-        img("photo-1585320806297-9794b3e4eeae", 800), // 园林小径（图为园林氛围参考）
+        "images/c-50464-1.jpg", // 晋祠银杏古建（携程实景）
       ],
       photoSpot: "鱼沼飞梁十字桥上拍圣母殿 · 难老泉亭",
     },
@@ -267,7 +267,7 @@ export const shanxi: RouteData = {
       imgCaption: "平遥明清街 · 灯笼亮起时最像穿越",
       gallery: [
         "images/c-132746-1.jpg", // 古城夜巷（携程实景）
-        img("photo-1519671482749-fd09be7ccebf", 800), // 古城晚餐小酌（图为晚餐氛围参考）
+        "images/c-132746-0.jpg", // 平遥市楼夜色（携程实景）
       ],
       photoSpot: "南大街市楼夜景 · 日昇昌票号庭院",
     },
@@ -302,7 +302,7 @@ export const shanxi: RouteData = {
       imgCaption: "平遥古城墙 · 一圈走完是 6.4km 的明清",
       gallery: [
         img("photo-1474487548417-781cb71495f3", 800), // 火车返程（图为火车氛围参考）
-        img("photo-1502134249126-9f3755a50d78", 800), // 古城上空的星（图为星空氛围参考）
+        "images/c-132746-5.jpg", // 平遥城门（携程实景）
       ],
       photoSpot: "城墙东南角楼俯拍全城 · 市楼仰拍",
     },

@@ -252,8 +252,8 @@ export const changbai: RouteData = {
       img: "images/c-143364-1.jpg",
       imgCaption: "温泉疗愈 · 度假慢日",
       gallery: [
-        img("photo-1571896349842-33c89424de2d", 800), // 度假区泳池夜色（图为度假村氛围参考）
-        img("photo-1544787219-7f47ccb76574", 800), // 下午茶慢时光（图为氛围参考）
+        "images/c-5706212-1.jpg", // 度假区温泉泳池（携程实景）
+        "images/c-5706212-0.jpg", // 长白山万达度假区全景（携程实景）
       ],
       photoSpot: "露天温泉池边 · 热气与秋林同框",
     },

@@ -227,7 +227,7 @@ export const dali: RouteData = {
       imgCaption: "双廊方向的洱海日落，湖面被染成金色",
       gallery: [
         "images/c-5708581-0.jpg", // 理想邦白色建筑群（携程实景）
-        img("photo-1584132967334-10e028bd69f7", 800), // 海景民宿露台（图为海景度假氛围参考）
+        "images/c-4365-1.jpg", // 双廊洱海边（携程实景）
       ],
       photoSpot: "双廊玉几岛栈道 · 日落剪影；理想邦白色阶梯",
     },

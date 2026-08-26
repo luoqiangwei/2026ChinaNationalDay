@@ -122,8 +122,8 @@ export const jiuzhai: RouteData = {
       img: "images/p-30836778.jpg",
       imgCaption: "成都街头 · 慢下来的第一天（图为成都廊桥实拍）",
       gallery: [
-        img("photo-1476224203421-9ac39bcb3327", 800), // 川味餐桌（图为美食氛围参考）
-        img("photo-1555396273-367ea4eb4db5", 800), // 街边馆子（图为餐厅氛围参考）
+        "images/c-1713566-0.jpg", // 九眼桥夜色（携程实景）
+        "images/c-1713566-6.jpg", // 廊桥与游船（携程实景）
       ],
       photoSpot: "安顺廊桥夜景 · 合江亭倒影",
     },

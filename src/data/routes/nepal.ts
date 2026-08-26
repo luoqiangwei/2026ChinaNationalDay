@@ -4,8 +4,6 @@
 
 import type { RouteData } from "../types";
 
-const img = (id: string, w = 1600) => `images/u-${id}-${w}.jpg`;
-
 export const nepal: RouteData = {
   id: "nepal",
   name: "尼泊尔 · 布恩山雪山徒步",
@@ -249,8 +247,8 @@ export const nepal: RouteData = {
           desc: "围炉吃饭，和各国徒步者交换路况；明早 4:30 起床，头灯放枕边，今晚 8 点前睡。",
         },
       ],
-      img: img("photo-1542273917363-3b1817f69a2d", 1200),
-      imgCaption: "林间光斑 · 杜鹃林段的清晨（图为森林氛围参考）",
+      img: "images/c-30035-2.jpg",
+      imgCaption: "林间溪流 · 杜鹃林段（携程实景）",
       photoSpot: "Ghorepani 村口 · 雪山与客栈屋顶同框",
     },
     {

@@ -140,8 +140,8 @@ export const ejina: RouteData = {
       img: "images/c-8831-0.jpg",
       imgCaption: "西夏王陵 · 贺兰山下的夯土巨冢",
       gallery: [
-        img("photo-1544025162-d76694265947", 800), // 银川烤全羊（图为烤肉氛围参考）
-        img("photo-1578911373434-0cb395d2cbfb", 800), // 贺兰山东麓葡萄酒庄（图为酒庄氛围参考）
+        "images/c-8831-0.jpg", // 西夏陵（携程实景）
+        "images/c-155091980-0.jpg", // 贺兰山东麓酒庄（携程实景）
       ],
       photoSpot: "3 号陵前低机位 · 贺兰山剪影作背景",
     },
@@ -255,7 +255,7 @@ export const ejina: RouteData = {
       img: "images/c-144737-3.jpg",
       imgCaption: "居延海日出 · 沙漠尽头的一片海",
       gallery: [
-        img("photo-1488330890490-c291ecf62571", 800), // 晨雾（图为晨雾氛围参考）
+        "images/c-144737-4.jpg", // 居延海（携程实景）
       ],
       photoSpot: "居延海 2 号码头日出 · 黑水城佛塔剪影",
     },

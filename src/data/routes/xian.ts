@@ -154,7 +154,7 @@ export const xian: RouteData = {
       img: "images/p-28844763.jpg",
       imgCaption: "两千年前的军阵 · 一号坑（兵马俑实拍）",
       gallery: [
-        img("photo-1512003867696-6d5ce6835040", 800), // 临潼砂锅晚餐（图为美食氛围参考）
+        "images/c-1443-0.jpg", // 华清宫芙蓉湖（携程实景）
         "images/c-136558-0.jpg", // 长恨歌实景演出（携程实景）
       ],
       photoSpot: "1 号坑东端长廊 · 低角度拍军阵纵深",
@@ -229,7 +229,7 @@ export const xian: RouteData = {
       img: "images/c-52727-0.jpg",
       imgCaption: "书院门 · 淘一张手写书签带走",
       gallery: [
-        img("photo-1517248135467-4c7edcad34c4", 800), // 水盆羊肉老店（图为餐馆氛围参考）
+        "images/c-52727-0.jpg", // 书院门关中书院（携程实景）
       ],
       photoSpot: "书院门牌坊 · 碑林石台孝经拓片特写",
     },
