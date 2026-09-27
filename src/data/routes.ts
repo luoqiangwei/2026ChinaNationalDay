@@ -1,5 +1,5 @@
 // ============================================================
-// 路线数据聚合入口（30 条 · 2026 国庆情侣攻略 + 清明樱花季 + 乌兰察布周末自驾）
+// 路线数据聚合入口（31 条 · 2026 国庆情侣攻略 + 清明樱花季 + 乌兰察布周末自驾 + 法瑞意阿尔卑线）
 // 每条路线的完整数据见 ./routes/<id>.ts
 // ============================================================
 
@@ -34,6 +34,7 @@ import { nepal } from "./routes/nepal";
 import { vladivostok } from "./routes/vladivostok";
 import { turkey } from "./routes/turkey";
 import { wulanchabu } from "./routes/wulanchabu";
+import { alps } from "./routes/alps";
 
 export type { RouteData, RouteStop, RouteLeg, DayPlan, DayEvent } from "./types";
 
@@ -68,6 +69,7 @@ export const routes: RouteData[] = [
   vladivostok,
   turkey,
   wulanchabu,
+  alps,
 ];
 
 export const getRoute = (id: string) => routes.find((r) => r.id === id);
